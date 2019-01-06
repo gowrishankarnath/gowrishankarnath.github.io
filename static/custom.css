@@ -1,0 +1,106 @@
+#banner {
+    padding: 45px 0;
+}
+
+#tipue_search_input {
+    padding: 9px 12px 9px 40px;
+    background-position: 15px 13px;
+}
+
+body {
+    font-family: "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.628571;
+    color: black;
+    
+}
+
+.social a {
+	border-bottom: none;
+}
+
+.social .list-group-item {
+	background-color: inherit;
+}
+
+.social i {
+	margin-right: 3px;
+}
+
+
+.highlight pre  { background: #202020; color: #444444; }
+.highlight pre .esc { color: #444444; } /* Escape */
+.highlight pre .g { color: #444444; } /* Generic */
+.highlight pre .l { color: #444444; } /* Literal */
+.highlight pre .n { color: #444444; } /* Name */
+.highlight pre .o { color: #444444; } /* Operator */
+.highlight pre .x { color: #444444; } /* Other */
+.highlight pre .p { color: #444444; } /* Punctuation */
+.highlight pre .ge { color: #444444;;
+font-style: italic } /* Generic.Emph */
+.highlight pre .gs { color: #444444;;
+font-weight: bold } /* Generic.Strong */
+.highlight pre .ld { color: #444444; } /* Literal.Date */
+.highlight pre .ni { color: #444444; } /* Name.Entity */
+.highlight pre .nl { color: #444444; } /* Name.Label */
+.highlight pre .nx { color: #444444; } /* Name.Other */
+.highlight pre .py { color: #444444; } /* Name.Property */
+
+#sidebar a {
+    color: olive;
+}
+
+
+#banner {
+    margin: -46px 0 20px;
+}
+
+
+#banner h1 {
+    color: #ed9d13;
+}
+
+
+#banner .intro {
+    color: #35e617;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #ec250f;
+}
+
+
+code {
+	overflow: auto;
+	/* This uses `white-space: pre-wrap` to get elements within <pre> tags to wrap. Python, for code chunks within three backticks (```), doesn't wordwrap code lines by default, because they're within <pre> tags, which don't wrap by default. See https://github.com/github/markup/issues/168 , which is specifically about this parsing issue, even though that link's discussion is talking about GitHub. */
+	white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* Following http://bililite.com/blog/2012/08/05/line-numbering-in-pre-elements/, use CSS to add line numbers to all spans that have the class 'code-line' */
+
+.highlight pre {
+    counter-reset: linecounter;
+    padding-left: 2em;
+}
+.highlight pre span.code-line {
+	counter-increment: linecounter;
+    padding-left: 1em;
+	text-indent: -1em;
+	display: inline-block;
+}
+.highlight pre span.code-line:before {
+    content: counter(linecounter);
+    padding-right: 1em;
+    display: inline-block;
+    color: black;
+    text-align: right;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist</title><link href="https://gowrishankarnath.github.io/" rel="alternate"></link><link href="https://gowrishankarnath.github.io/feeds/all.atom.xml" rel="self"></link><id>https://gowrishankarnath.github.io/</id><updated>2019-01-02T21:00:00+05:30</updated><subtitle>My Thoughts, My Learnings</subtitle><entry><title>Copy the Contents of Multiple Files into Single File or Merge Multiple Files into Single File</title><link href="https://gowrishankarnath.github.io/Copy-the-Contents-of-Multiple-Files-into-Single-File-or-Merge-Multiple-Files-into-Single-File.html" rel="alternate"></link><published>2019-01-02T21:00:00+05:30</published><updated>2019-01-02T21:00:00+05:30</updated><author><name>Gowrishankar S</name></author><id>tag:gowrishankarnath.github.io,2019-01-02:/Copy-the-Contents-of-Multiple-Files-into-Single-File-or-Merge-Multiple-Files-into-Single-File.html</id><summary type="html">&lt;p&gt;This is about copying files in bulk&lt;/p&gt;</summary><content type="html">&lt;p&gt;Problem:
+I was facing a situation wherein I had hundreds of files lying around and had to take printout of all the files. Having to take printout of each and every file proved to be nightmare.&lt;/p&gt;
+&lt;p&gt;Solution:
+The solution was to merge all the files into a single file or copy the contents of multiple files into single file.&lt;/p&gt;
+&lt;p&gt;Before issuing these commands at the command prompt change to the directory where all the files are present.The code shown below copies the contents from all the files ending with py extension into a new file called mergedFile.doc. The reason I created a word doc file is it’ll be easier to take printout and had no reason to think otherwise.&lt;/p&gt;
+&lt;p&gt;1
+copy /b *.py mergedFile.doc
+If I want to merge multiple text files into a single document file&lt;/p&gt;
+&lt;p&gt;1
+copy /b *.txt mergedFile.doc
+If I want to merge multiple text files into a single text file&lt;/p&gt;
+&lt;p&gt;1
+copy /b *.txt mergedFile.txt
+If I want to merge multiple java files into a single document file&lt;/p&gt;
+&lt;p&gt;1
+copy /b *.java mergedFile.doc
+Code shown here is tested on Windows 7/8/10 machine.&lt;/p&gt;</content><category term="Copy"></category></entry><entry><title>First Post</title><link href="https://gowrishankarnath.github.io/first-post.html" rel="alternate"></link><published>2019-01-02T20:00:00+05:30</published><updated>2019-01-02T20:00:00+05:30</updated><author><name>Gowrishankar S</name></author><id>tag:gowrishankarnath.github.io,2019-01-02:/first-post.html</id><summary type="html">&lt;p&gt;My first post, read it to find out.&lt;/p&gt;</summary><content type="html">&lt;p&gt;***This is how it is done&lt;/p&gt;</content><category term="python"></category><category term="mysql"></category></entry></feed>
