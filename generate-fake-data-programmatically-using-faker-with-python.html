@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Generate Fake Data Programmatically Using Faker With Python - Software Artist</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/generate-fake-data-programmatically-using-faker-with-python.html">
+
+        <meta name="author" content="Gowrishankar S." />
+        <meta name="keywords" content="Python,Faker" />
+        <meta name="description" content="This article is about generating fake data using FAKER" />
+
+        <meta property="og:site_name" content="Software Artist" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Generate Fake Data Programmatically Using Faker With Python"/>
+        <meta property="og:url" content="/generate-fake-data-programmatically-using-faker-with-python.html"/>
+        <meta property="og:description" content="This article is about generating fake data using FAKER"/>
+        <meta property="article:published_time" content="2015-11-23" />
+            <meta property="article:section" content="Articles" />
+            <meta property="article:tag" content="Python" />
+            <meta property="article:tag" content="Faker" />
+            <meta property="article:author" content="Gowrishankar S." />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/custom.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="/images/logo.jpg" width=""/> Software Artist            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/about.html">
+                             About
+                          </a></li>
+                         <li><a href="/contact.html">
+                             Contact
+                          </a></li>
+                         <li><a href="/disclaimer.html">
+                             Disclaimer
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("/images/banner.jpg");
+	}
+</style>
+
+<div id="banner">
+	<div class="container-fluid">
+		<div class="copy">
+			<h1>Software Artist</h1>
+				<p class="intro">My Thoughts, My Learnings</p>
+		</div>
+	</div>
+</div><!-- End Banner -->
+
+<!-- Content Container -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/generate-fake-data-programmatically-using-faker-with-python.html"
+                       rel="bookmark"
+                       title="Permalink to Generate Fake Data Programmatically Using Faker With Python">
+                        Generate Fake Data Programmatically Using Faker With&nbsp;Python
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-11-23T23:30:00+05:30"> Mon 23 November 2015</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/python.html">Python</a>
+        /
+	<a href="/tag/faker.html">Faker</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>Introduction</h3>
+<p>Recently, I had a requirement to fill the database with some data. Filling the tables manually proved to be very tedious enough. So, I was looking for some software that could do the heavy lifting for me and also that could be used with Python natively. Voila!! After a bit of search came across this awesome&nbsp;software.  </p>
+<p align="center">
+<b><span class="caps">FAKER</span></b>
+</p>
+
+<p>Faker can be used to generate fake data which resembles the real world values rather than some gibberish&nbsp;values.  </p>
+<h3>Using <span class="caps">FAKER</span> With&nbsp;Python</h3>
+<p>The following code has been tested using Python 3.5 on a Windows 10&nbsp;machine.  </p>
+<p>Type the below command in the Command Prompt to install Faker&nbsp;module  </p>
+<p><img alt="Installing Faker" src="../images/article_2_image_1.png">   </p>
+<p>Let’s start with a very simple&nbsp;example.  </p>
+<p>Import the faker module and make use of the Factory Class. Use create() method to create an object called fake. Say, if you want to print a name then use the object fake along with name() method as shown&nbsp;below.  </p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
+<span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">()</span></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">name</span><span class="p">())</span></span>
+</pre></div>
+
+
+<p><strong><em>Output</em></strong><br>
+<code>Mrs. Kenley Farrell</code>  </p>
+<p>You can even localize the names according to your preferences. For e.g, if you want to display name in Hindi (India), then pass the string argument “hi_IN” to create()&nbsp;method.   </p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
+<span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;hi_IN&quot;</span><span class="p">)</span></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">name</span><span class="p">())</span></span>
+</pre></div>
+
+
+<p><strong><em>Ouput</em></strong>  </p>
+<p><code>रचना बाबू</code>  </p>
+<p>If you want to display 10 random&nbsp;currencies</p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
+<span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">()</span></span>
+<span class="code-line"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span></span>
+<span class="code-line">    <span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">currency_code</span><span class="p">())</span></span>
+</pre></div>
+
+
+<p><strong><em>Output</em></strong><br>
+<code>MWK
+MRO
+KES
+TOP
+IQD
+MYR
+PGK
+MDL
+NIO
+MNT</code>  </p>
+<p>You can randomly generate addresses using address() method. Below code is localized for&nbsp;“en_US”.  </p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
+<span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;en_US&quot;</span><span class="p">)</span></span>
+<span class="code-line"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span></span>
+<span class="code-line">    <span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">address</span><span class="p">())</span></span>
+</pre></div>
+
+
+<p><strong><em>Output</em></strong><br>
+<code>PSC 7452, Box 9044
+APO AA 06906-4518
+65264 Vince Points Suite 897
+North Pearlene, PA 66031
+63876 Daijah Pass
+New Rickiland, NM 82820
+59116 Mueller Port
+South Rosanne, IN 07663
+486 Jerde Forest
+New Keyshawnfort, GA 59913-5859
+360 Orie Forge
+Lake Izayah, NY 83459-8476
+1840 O’Connell Field Apt. 566
+Port Zakaryton, HI 66433-8319
+PSC 2512, Box 6095
+APO AP 37389
+89957 Williamson Burg Apt. 255
+Shelliview, WY 06711-9241
+78580 Vanessa Square Apt. 095
+West Sherie, CT 67665</code>    </p>
+<p>You can generate various information about a person using different methods as shown&nbsp;below.  </p>
+<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
+<span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;en_US&quot;</span><span class="p">)</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">last_name_male</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">name_female</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">prefix_male</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">prefix</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">name</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">suffix_female</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">name_male</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">first_name</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">suffix_male</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">suffix</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">first_name_male</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">first_name_female</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">last_name_female</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">last_name</span><span class="p">())</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="k">print</span><span class="p">(</span><span class="n">fake</span><span class="o">.</span><span class="n">prefix_female</span><span class="p">())</span></span>
+</pre></div>
+
+
+<p><strong><em>Output</em></strong><br>
+<code>Morar
+Dr. Mckinley Halvorson
+Dr.
+Mrs.
+Kadeem Parker
+MD
+Mr. Elliott Padberg
+Elvira
+III
+IV
+Arley
+Mariam
+Turner
+Huel
+Ms.</code>  </p>
+<p>You can read various methods available in Faker Module in detail&nbsp;@  </p>
+<p><a href="https://faker.readthedocs.io/en/master/#">https://faker.readthedocs.io/en/master/#</a></p>
+<p>You can find the above code&nbsp;@  </p>
+<p><a href="https://github.com/gowrishankarnath/FakerPythonExamples">https://github.com/gowrishankarnath/FakerPythonExamples</a>   </p>
+            </div>
+            <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'https-gowrishankarnath-github-io-2'; // required: replace example with your forum shortname
+
+            var disqus_config = function () {
+                this.language = "english";
+
+                        this.page.identifier = '2015-11-23-generate-fake-data-programmatically-using-faker-with-python';
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="http://twitter.com/g_s_nath"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="http://www.linkedin.com/in/gowrishankarnath"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
+    <li class="list-group-item"><a href="http://github.com/gowrishankarnath"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Recent Posts -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+  <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="/introduction-to-python-programming.html">Introduction to Python&nbsp;Programming</a></li>
+    <li class="list-group-item"><a href="/python-application-programming-course-material-vtu-belagavi.html">Python Application Programming Course Material <span class="caps">VTU</span>,&nbsp;Belagavi</a></li>
+    <li class="list-group-item"><a href="/remote-programming-of-raspberry-pi-using-pycharm.html">Remote Programming of Raspberry Pi using&nbsp;PyCharm</a></li>
+    <li class="list-group-item"><a href="/nomenclature-for-naming-published-research-papers.html">Nomenclature for Naming Published Research&nbsp;Papers</a></li>
+    <li class="list-group-item"><a href="/generate-fake-data-programmatically-using-faker-with-python.html">Generate Fake Data Programmatically Using Faker With&nbsp;Python</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Recent Posts -->
+
+<!-- Sidebar/Categories -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4>
+  <ul class="list-group" id="categories">
+    <li class="list-group-item">
+      <a href="/category/articles.html"><i class="fa fa-folder-open fa-lg"></i>Articles</a>
+    </li>
+    <li class="list-group-item">
+      <a href="/category/book.html"><i class="fa fa-folder-open fa-lg"></i>Book</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Categories -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group list-inline tagcloud" id="tags">
+    <li class="list-group-item tag-4">
+      <a href="/tag/book.html">Book</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/crc-press.html">CRC Press</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/faker.html">Faker</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/papers.html">Papers</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/pycharm.html">PyCharm</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="/tag/python.html">Python</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/raspberry-pi.html">Raspberry Pi</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/research.html">Research</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/vtu.html">VTU</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
+
+<!-- Sidebar/Images -->
+<li class="list-group-item">
+  <ul class="list-group" id="links">
+    <img width="100%" class="img-thumbnail" src="/images/Front_Image.jpg"/>
+  </ul>
+</li>
+<!-- End Sidebar/Images -->
+
+<!-- Sidebar/Archive -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Archive</span></h4>
+  <ul class="list-group" id="archive">
+        <li class="list-group-item">
+          <a href="/2019/Jan/index.html"><i class="fa fa-calendar fa-lg"></i>January 2019 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2018/Feb/index.html"><i class="fa fa-calendar fa-lg"></i>February 2018 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2016/Dec/index.html"><i class="fa fa-calendar fa-lg"></i>December 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2016/Jul/index.html"><i class="fa fa-calendar fa-lg"></i>July 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2015/Nov/index.html"><i class="fa fa-calendar fa-lg"></i>November 2015 (1)
+          </a>
+        </li>
+  </ul>
+</li>
+<!-- End Sidebar/Archive -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container-fluid">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2019 Gowrishankar S
+            &middot; Powered by
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+    <script src="/theme/js/bodypadding.js"></script>
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'https-gowrishankarnath-github-io-2'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-131471615-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+
+</body>
+</html>
