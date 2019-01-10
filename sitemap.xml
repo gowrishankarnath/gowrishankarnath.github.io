@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-01-10T20:11:26-00:00</lastmod>
+<lastmod>2019-01-10T22:14:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-01-10T20:11:26-00:00</lastmod>
+<lastmod>2019-01-10T22:14:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-01-10T20:11:26-00:00</lastmod>
+<lastmod>2019-01-10T22:14:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-01-10T20:11:26-00:00</lastmod>
+<lastmod>2019-01-10T22:14:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,6 +95,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/using-pytest-testing-tool-to-test-python-code-by-configuring-pycharm-ide.html</loc>
+<lastmod>2019-01-08T23:12:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/category/articles.html</loc>
 <lastmod>2019-01-10T20:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
@@ -145,7 +152,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/pycharm.html</loc>
-<lastmod>2019-01-08T14:23:00+05:53</lastmod>
+<lastmod>2019-01-08T23:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -181,6 +188,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/tag/faker.html</loc>
 <lastmod>2019-01-08T10:30:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/pytest.html</loc>
+<lastmod>2019-01-08T23:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/testing.html</loc>
+<lastmod>2019-01-08T23:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
