@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Designing Database Schema Using MySQL Workbench - Software Artist</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/designing-database-schema-using-mysql-workbench.html">
+
+        <meta name="author" content="Gowrishankar S." />
+        <meta name="keywords" content="MySQL,MySQL Workbench,Database" />
+        <meta name="description" content="This article is about designing Database schema using MySQL Workbench" />
+
+        <meta property="og:site_name" content="Software Artist" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Designing Database Schema Using MySQL Workbench"/>
+        <meta property="og:url" content="/designing-database-schema-using-mysql-workbench.html"/>
+        <meta property="og:description" content="This article is about designing Database schema using MySQL Workbench"/>
+        <meta property="article:published_time" content="2015-11-25" />
+            <meta property="article:section" content="Articles" />
+            <meta property="article:tag" content="MySQL" />
+            <meta property="article:tag" content="MySQL Workbench" />
+            <meta property="article:tag" content="Database" />
+            <meta property="article:author" content="Gowrishankar S." />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/custom.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="/images/logo.jpg" width=""/> Software Artist            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/about.html">
+                             About
+                          </a></li>
+                         <li><a href="/contact.html">
+                             Contact
+                          </a></li>
+                         <li><a href="/disclaimer.html">
+                             Disclaimer
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("/images/banner.jpg");
+	}
+</style>
+
+<div id="banner">
+	<div class="container-fluid">
+		<div class="copy">
+			<h1>Software Artist</h1>
+				<p class="intro">My Thoughts, My Learning</p>
+		</div>
+	</div>
+</div><!-- End Banner -->
+
+<!-- Content Container -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/designing-database-schema-using-mysql-workbench.html"
+                       rel="bookmark"
+                       title="Permalink to Designing Database Schema Using MySQL Workbench">
+                        Designing Database Schema Using MySQL&nbsp;Workbench
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-11-25T11:34:00+05:30"> Wed 25 November 2015</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/mysql.html">MySQL</a>
+        /
+	<a href="/tag/mysql-workbench.html">MySQL Workbench</a>
+        /
+	<a href="/tag/database.html">Database</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>Introduction</h3>
+<p>This article is about designing Database schema using MySQL Workbench. MySQL Workbench helps us to create visual data model which can be translated into a physical database on the MySQL Database Server. For demonstration purpose we’ll be designing an Contact Manager Application Database. This <span class="caps">DB</span> has four tables namely ContactPerson, Address, EmailAddress and&nbsp;PhoneNumber.</p>
+<p>I’ll not be discussing various <span class="caps">DB</span> issues like Normalization, Entity-Relationship(<span class="caps">ER</span>)/Enhanced Entity-Relationship(<span class="caps">EER</span>) models or <span class="caps">SQL</span> programming. Please refer to the various fine materials available. Below are few recommended&nbsp;textbooks:</p>
+<ol>
+<li>
+<p>Database Design for Mere Mortals: A Hands-On Guide to Relational Database&nbsp;Design  </p>
+</li>
+<li>
+<p>Beginning Database Design: From Novice to&nbsp;Professional  </p>
+</li>
+<li>
+<p><span class="caps">SQL</span> in 10 Minutes, Sams Teach&nbsp;Yourself  </p>
+</li>
+<li>
+<p>Learning <span class="caps">SQL</span>  </p>
+</li>
+<li>
+<p>Head First <span class="caps">SQL</span>: Your Brain on <span class="caps">SQL</span> — A Learner’s&nbsp;Guide  </p>
+</li>
+</ol>
+<p>Download the latest version of MySQL Database from <a href="https://www.mysql.com/downloads/">https://www.mysql.com/downloads/</a>.  Make sure that you have downloaded the community edition of&nbsp;MySQL.  </p>
+<p><strong>Steps Involved In Designing Database&nbsp;Schema</strong>  </p>
+<p>I presume that you already have a working copy of MySQL installed in your&nbsp;system.  </p>
+<p><strong>Step&nbsp;1:</strong></p>
+<p>Invoke MySQL workbench. That should look like the below screen. The top Window Pane displays MySQL Connections. There can be any number of MySQL instances. Here we have one instance of MySQL connection with root user. The bottom pane shows the Models that you have created. The right window pane shows shortcuts to various MySQL&nbsp;tools.  </p>
+<p>We’ll create Visual Data Models and then it’ll be converted to the actual physical database schema on the MySQL database  server. Remember, creation of Data Models doesn’t mean that you have already created actual physical database&nbsp;schema.  </p>
+<p>In the Models window pane click on the +&nbsp;sign.</p>
+<p><img alt="Image_1" src="../images/article_8_image_1.png"></p>
+<p><strong>Step&nbsp;2:</strong>  </p>
+<p>You will see a screen as shown below. By default the <span class="caps">DB</span> schema is named as mydb. Let’s change this. Double click on mydb in the Physical Schemas window&nbsp;pane.  </p>
+<p><img alt="Image_2" src="../images/article_8_image_2.png">  </p>
+<p>In the bottom window pane change the name from mydb to&nbsp;ContactManagerApplication.  </p>
+<p><img alt="Image_3" src="../images/article_8_image_3.png">  </p>
+<p>In the Refactor Schema windows click on <span class="caps">OK</span>&nbsp;button.   </p>
+<p><img alt="Image_4" src="../images/article_8_image_4.png">  </p>
+<p><strong>Step&nbsp;3:</strong>  </p>
+<p>Double click on Add&nbsp;Table.  </p>
+<p><img alt="Image_5" src="../images/article_8_image_5.png">  </p>
+<p><strong>Step&nbsp;4:</strong>  </p>
+<p>You will see the below&nbsp;screen.  </p>
+<p><img alt="Image_6" src="../images/article_8_image_6.png">  </p>
+<p><strong>Step&nbsp;5:</strong>  </p>
+<p>Change the table name to ContactPerson. Also, fill the Column Name or attributes with various values with appropriate data types as shown in the below&nbsp;screen.  </p>
+<p><img alt="Image_7" src="../images/article_8_image_7.png">  </p>
+<p><strong>Step&nbsp;6:</strong>  </p>
+<p>Add another table called Address and fill the Column Name with various values with appropriate data types as shown in the below&nbsp;screen.  </p>
+<p><img alt="Image_8" src="../images/article_8_image_8.png">  </p>
+<p><strong>Step&nbsp;7:</strong></p>
+<p>Add another table called EmailAddress and fill the Column Name with various values with appropriate data types as shown in the below&nbsp;screen.  </p>
+<p><img alt="Image_9" src="../images/article_8_image_9.png">  </p>
+<p><strong>Step&nbsp;8:</strong></p>
+<p>Add another table called PhoneNumber and fill the Column Name with various values with appropriate data types as shown in the below&nbsp;screen.  </p>
+<p><img alt="Image_10" src="../images/article_8_image_10.png">  </p>
+<p><strong>Step&nbsp;9:</strong></p>
+<p>Click on Save button in the Menu bar. Save the data model as ContactManagerApplication in some folder. At this stage we have created all the tables for our schema and have saved the model. We have still not converted this model to actual physical database on MySQL database server. Lets’ migrate these models to connect to MySQL&nbsp;Database.  </p>
+<p><img alt="Image_11" src="../images/article_8_image_11.png">  </p>
+<p><strong>Step&nbsp;10:</strong>  </p>
+<p>Go to the menu bar and click on Database and select Forward&nbsp;Engineer.  </p>
+<p><img alt="Image_12" src="../images/article_8_image_12.png">  </p>
+<p>In the Forward Engineer to Database window, various parameters have been set. This depends on your configuration while installing MySQL database. I’m using the Local Instance of MySQL and root user. Leave the Default Schema blank. This forward engineering generates all the <span class="caps">SQL</span> code to create a physical database on the target&nbsp;server.  </p>
+<p><img alt="Image_13" src="../images/article_8_image_13.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_14" src="../images/article_8_image_14.png">  </p>
+<p>Give the Password for the root User and click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p><img alt="Image_15" src="../images/article_8_image_15.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_16" src="../images/article_8_image_16.png">  </p>
+<p>In the window you can see the <span class="caps">SQL</span> script that has been generated by the MySQL workbench. You can review the script and save the script as a file and click on Next&nbsp;button.  </p>
+<p><img alt="Image_17" src="../images/article_8_image_17.png">  </p>
+<p>Again, give the Password for the root User and click on <span class="caps">OK</span>.  </p>
+<p><img alt="Image_18" src="../images/article_8_image_18.png">  </p>
+<p>Click on Close&nbsp;button.  </p>
+<p><img alt="Image_19" src="../images/article_8_image_19.png">  </p>
+<p><strong>Step&nbsp;11:</strong>  </p>
+<p>From the previous step(Forward Engineering) we have generated the <span class="caps">SQL</span> script for our models. We’ll use Reverse Engineering to connect the generated <span class="caps">SQL</span> script to the <span class="caps">SQL</span> Server database thereby creating the actual physical database on the <span class="caps">SQL</span> Server. Go to Database in the menu and click on Reverse&nbsp;Engineer.  </p>
+<p><img alt="Image_20" src="../images/article_8_image_20.png">  </p>
+<p>Again, you see the default parameters that are set and click on Next&nbsp;button.  </p>
+<p><img alt="Image_21" src="../images/article_8_image_21.png">  </p>
+<p>Give the Password for root User and click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p><img alt="Image_22" src="../images/article_8_image_22.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_23" src="../images/article_8_image_23.png">  </p>
+<p>Now at this stage you can see the available list of various Database schemas. Select the contactmanagerapplication checkbox and click on Next&nbsp;button.  </p>
+<p><img alt="Image_24" src="../images/article_8_image_24.png">  </p>
+<p>Give Password for the root User and click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p><img alt="Image_25" src="../images/article_8_image_25.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_26" src="../images/article_8_image_26.png">  </p>
+<p>Click on Execute&nbsp;button.  </p>
+<p><img alt="Image_27" src="../images/article_8_image_27.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_28" src="../images/article_8_image_28.png">  </p>
+<p>Click on Finish&nbsp;button.  </p>
+<p><img alt="Image_29" src="../images/article_8_image_29.png">  </p>
+<p><strong>Step&nbsp;12:</strong>  </p>
+<p>An <span class="caps">EER</span> diagram will be automatically generated by the MySQL workbench. It shows the data model which we have created. Let’s establish relation between various tables. Click on the highlighted button (which is an 1 to many relation) in the column&nbsp;bar.  </p>
+<p><img alt="Image_30" src="../images/article_8_image_30.png">  </p>
+<p>First click on the name on whose side the many relationship should come and then click on the name on whose side 1 relationship should come. For e.g., to establish 1 to many relationship between address table and contactperson table, first click on ContactPersonID in the address table and then click on ContactPersonID in the contactperson&nbsp;table.  </p>
+<p>Repeat the above process between other tables to establish a relationship as shown&nbsp;below.  </p>
+<p><img alt="Image_31" src="../images/article_8_image_31.png">  </p>
+<p><strong>Step&nbsp;13:</strong>  </p>
+<p>In the previous step, we have established the relationship between various tables as seen in the <span class="caps">EER</span> diagram. But this relationship is not reflected in the actual physical database schema which we have created. To do so, we have to synchronize between the actual physical database schema and the data model. Go to menu and click on Database and select Synchronize Model. When ever there is some changes done to the data model as seen in the <span class="caps">EER</span> diagram it won’t get reflected automatically in the Database Schema. We have to synchronize the changes done to the data model as displayed in <span class="caps">EER</span> diagram with the Database Schema to see the&nbsp;changes.  </p>
+<p><img alt="Image_32" src="../images/article_8_image_32.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_33" src="../images/article_8_image_33.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_34" src="../images/article_8_image_34.png">  </p>
+<p>Enter the Password for root User. Click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p><img alt="Image_35" src="../images/article_8_image_35.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_36" src="../images/article_8_image_36.png">  </p>
+<p>Select the checkbox and click on Next&nbsp;button.  </p>
+<p><img alt="Image_37" src="../images/article_8_image_37.png">  </p>
+<p>Click on Next&nbsp;button.  </p>
+<p><img alt="Image_38" src="../images/article_8_image_38.png">  </p>
+<p>The tool compares all aspects of the current data model with  the actual physical MySQL Database schema and lists out the difference between the current data model and the actual physical Database schema. Click on Next&nbsp;button.  </p>
+<p><img alt="Image_39" src="../images/article_8_image_39.png">  </p>
+<p>You’ll be able to see a sequence of <span class="caps">SQL</span> scripts. Click on execute&nbsp;button.  </p>
+<p><img alt="Image_40" src="../images/article_8_image_40.png">  </p>
+<p>Give the Password for root User and click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p>Click on close&nbsp;button.  </p>
+<p><img alt="Image_41" src="../images/article_8_image_41.png">  </p>
+<p><strong>Step&nbsp;14:</strong>  </p>
+<p>To see whether the data model has been migrated to the MySQL database, go to menu and click on Database and select Connect to&nbsp;Database.  </p>
+<p><img alt="Image_42" src="../images/article_8_image_42.png">  </p>
+<p>Click on <span class="caps">OK</span>&nbsp;button.  </p>
+<p><img alt="Image_43" src="../images/article_8_image_43.png">  </p>
+<p>On the left pane you can see the contactmanagerapplication database schema and expand it see the list of&nbsp;tables.  </p>
+<p><img alt="Image_44" src="../images/article_8_image_44.png">  </p>
+<h3>Conclusion</h3>
+<p>I have shown the various steps involved in creating an Database Schema using MySQL workbench <span class="caps">GUI</span> without any&nbsp;coding.  </p>
+<p>You can find MySQL Workbench file and <span class="caps">SQL</span> code for ContactManagerApplication Schema&nbsp;@  </p>
+<p><a href="https://github.com/gowrishankarnath/MySQL_Workbench">https://github.com/gowrishankarnath/MySQL_Workbench</a></p>
+            </div>
+            <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'https-gowrishankarnath-github-io-2'; // required: replace example with your forum shortname
+
+            var disqus_config = function () {
+                this.language = "english";
+
+                        this.page.identifier = '2015-11-25-designing-database-schema-using-mysql-workbench';
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="http://twitter.com/g_s_nath"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="http://www.linkedin.com/in/gowrishankarnath"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
+    <li class="list-group-item"><a href="http://github.com/gowrishankarnath"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Recent Posts -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+  <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="/introduction-to-python-programming.html">Introduction to Python&nbsp;Programming</a></li>
+    <li class="list-group-item"><a href="/python-application-programming-course-material-vtu-belagavi.html">Python Application Programming Course Material <span class="caps">VTU</span>,&nbsp;Belagavi</a></li>
+    <li class="list-group-item"><a href="/remote-programming-of-raspberry-pi-using-pycharm.html">Remote Programming of Raspberry Pi using&nbsp;PyCharm</a></li>
+    <li class="list-group-item"><a href="/nomenclature-for-naming-published-research-papers.html">Nomenclature for Naming Published Research&nbsp;Papers</a></li>
+    <li class="list-group-item"><a href="/traverse-and-rename-files-in-folder.html">Traverse and Rename files in&nbsp;folder</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Recent Posts -->
+
+<!-- Sidebar/Categories -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4>
+  <ul class="list-group" id="categories">
+    <li class="list-group-item">
+      <a href="/category/articles.html"><i class="fa fa-folder-open fa-lg"></i>Articles</a>
+    </li>
+    <li class="list-group-item">
+      <a href="/category/book.html"><i class="fa fa-folder-open fa-lg"></i>Book</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Categories -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group list-inline tagcloud" id="tags">
+    <li class="list-group-item tag-4">
+      <a href="/tag/book.html">Book</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/crc-press.html">CRC Press</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/database.html">Database</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/faker.html">Faker</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/files.html">Files</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/folders.html">Folders</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/mysql.html">MySQL</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/mysql-workbench.html">MySQL Workbench</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/papers.html">Papers</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="/tag/pycharm.html">PyCharm</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/pytest.html">pytest</a>
+    </li>
+    <li class="list-group-item tag-0">
+      <a href="/tag/python.html">Python</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/raspberry-pi.html">Raspberry Pi</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/research.html">Research</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/testing.html">Testing</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="/tag/vtu.html">VTU</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
+
+<!-- Sidebar/Images -->
+<li class="list-group-item">
+  <ul class="list-group" id="links">
+    <img width="100%" class="img-thumbnail" src="/images/Front_Image.jpg"/>
+  </ul>
+</li>
+<!-- End Sidebar/Images -->
+
+<!-- Sidebar/Archive -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Archive</span></h4>
+  <ul class="list-group" id="archive">
+        <li class="list-group-item">
+          <a href="/2019/Jan/index.html"><i class="fa fa-calendar fa-lg"></i>January 2019 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2018/Feb/index.html"><i class="fa fa-calendar fa-lg"></i>February 2018 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2016/Dec/index.html"><i class="fa fa-calendar fa-lg"></i>December 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2016/Jul/index.html"><i class="fa fa-calendar fa-lg"></i>July 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2016/May/index.html"><i class="fa fa-calendar fa-lg"></i>May 2016 (1)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2015/Nov/index.html"><i class="fa fa-calendar fa-lg"></i>November 2015 (2)
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="/2015/Oct/index.html"><i class="fa fa-calendar fa-lg"></i>October 2015 (1)
+          </a>
+        </li>
+  </ul>
+</li>
+<!-- End Sidebar/Archive -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container-fluid">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2019 Gowrishankar S
+            &middot; Powered by
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+    <script src="/theme/js/bodypadding.js"></script>
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'https-gowrishankarnath-github-io-2'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-131471615-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+
+</body>
+</html>
