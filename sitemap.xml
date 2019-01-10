@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-01-10T23:32:16-00:00</lastmod>
+<lastmod>2019-01-10T23:53:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-01-10T23:32:16-00:00</lastmod>
+<lastmod>2019-01-10T23:53:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-01-10T23:32:16-00:00</lastmod>
+<lastmod>2019-01-10T23:53:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-01-10T23:32:16-00:00</lastmod>
+<lastmod>2019-01-10T23:53:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -88,6 +88,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html</loc>
+<lastmod>2019-01-10T23:58:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/mysql-programming-with-python-using-mysql-python-connector.html</loc>
 <lastmod>2019-01-10T23:53:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
@@ -117,7 +124,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/articles.html</loc>
-<lastmod>2019-01-10T23:53:00+05:53</lastmod>
+<lastmod>2019-01-10T23:58:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -200,6 +207,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/coding-gems.html</loc>
+<lastmod>2019-01-10T23:58:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/mysql.html</loc>
 <lastmod>2019-01-10T23:53:00+05:53</lastmod>
 <changefreq>daily</changefreq>
@@ -243,7 +257,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/gowrishankar-s.html</loc>
-<lastmod>2019-01-10T23:53:00+05:53</lastmod>
+<lastmod>2019-01-10T23:58:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
