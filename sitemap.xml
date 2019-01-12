@@ -4,259 +4,259 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2019-01-12T17:16:56-00:00</lastmod>
+<loc>http://localhost:8000/</loc>
+<lastmod>2019-01-12T19:31:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2019-01-12T17:16:56-00:00</lastmod>
+<loc>http://localhost:8000/archives.html</loc>
+<lastmod>2019-01-12T19:31:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2019-01-12T17:16:56-00:00</lastmod>
+<loc>http://localhost:8000/tags.html</loc>
+<lastmod>2019-01-12T19:31:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2019-01-12T17:16:56-00:00</lastmod>
+<loc>http://localhost:8000/categories.html</loc>
+<lastmod>2019-01-12T19:31:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/about.html</loc>
+<loc>http://localhost:8000/about.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/contact.html</loc>
+<loc>http://localhost:8000/contact.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/disclaimer.html</loc>
+<loc>http://localhost:8000/disclaimer.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/introduction-to-python-programming.html</loc>
+<loc>http://localhost:8000/introduction-to-python-programming.html</loc>
 <lastmod>2019-01-07T02:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/python-application-programming-course-material-vtu-belagavi.html</loc>
+<loc>http://localhost:8000/python-application-programming-course-material-vtu-belagavi.html</loc>
 <lastmod>2019-01-10T17:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/remote-programming-of-raspberry-pi-using-pycharm.html</loc>
+<loc>http://localhost:8000/remote-programming-of-raspberry-pi-using-pycharm.html</loc>
 <lastmod>2019-01-08T14:23:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/nomenclature-for-naming-published-research-papers.html</loc>
+<loc>http://localhost:8000/nomenclature-for-naming-published-research-papers.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/traverse-and-rename-files-in-folder.html</loc>
+<loc>http://localhost:8000/traverse-and-rename-files-in-folder.html</loc>
 <lastmod>2019-01-10T20:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html</loc>
+<loc>http://localhost:8000/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html</loc>
 <lastmod>2019-01-10T23:58:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/mysql-programming-with-python-using-mysql-python-connector.html</loc>
+<loc>http://localhost:8000/mysql-programming-with-python-using-mysql-python-connector.html</loc>
 <lastmod>2019-01-10T23:53:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/designing-database-schema-using-mysql-workbench.html</loc>
+<loc>http://localhost:8000/designing-database-schema-using-mysql-workbench.html</loc>
 <lastmod>2019-01-10T23:38:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/generate-fake-data-programmatically-using-faker-with-python.html</loc>
+<loc>http://localhost:8000/generate-fake-data-programmatically-using-faker-with-python.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/using-pytest-testing-tool-to-test-python-code-by-configuring-pycharm-ide.html</loc>
+<loc>http://localhost:8000/using-pytest-testing-tool-to-test-python-code-by-configuring-pycharm-ide.html</loc>
 <lastmod>2019-01-08T23:12:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/articles.html</loc>
+<loc>http://localhost:8000/category/articles.html</loc>
 <lastmod>2019-01-10T23:58:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/book.html</loc>
+<loc>http://localhost:8000/category/book.html</loc>
 <lastmod>2019-01-07T02:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/python.html</loc>
+<loc>http://localhost:8000/tag/python.html</loc>
 <lastmod>2019-01-10T23:53:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/crc-press.html</loc>
+<loc>http://localhost:8000/tag/crc-press.html</loc>
 <lastmod>2019-01-07T02:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/book.html</loc>
+<loc>http://localhost:8000/tag/book.html</loc>
 <lastmod>2019-01-07T02:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/vtu.html</loc>
+<loc>http://localhost:8000/tag/vtu.html</loc>
 <lastmod>2019-01-10T17:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/raspberry-pi.html</loc>
+<loc>http://localhost:8000/tag/raspberry-pi.html</loc>
 <lastmod>2019-01-08T14:23:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pycharm.html</loc>
+<loc>http://localhost:8000/tag/pycharm.html</loc>
 <lastmod>2019-01-08T23:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/research.html</loc>
+<loc>http://localhost:8000/tag/research.html</loc>
 <lastmod>2019-01-08T10:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/papers.html</loc>
+<loc>http://localhost:8000/tag/papers.html</loc>
 <lastmod>2019-01-08T10:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/files.html</loc>
+<loc>http://localhost:8000/tag/files.html</loc>
 <lastmod>2019-01-10T20:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/folders.html</loc>
+<loc>http://localhost:8000/tag/folders.html</loc>
 <lastmod>2019-01-10T20:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/coding-gems.html</loc>
+<loc>http://localhost:8000/tag/coding-gems.html</loc>
 <lastmod>2019-01-10T23:58:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/mysql.html</loc>
+<loc>http://localhost:8000/tag/mysql.html</loc>
 <lastmod>2019-01-10T23:53:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/database.html</loc>
+<loc>http://localhost:8000/tag/database.html</loc>
 <lastmod>2019-01-10T23:53:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/mysql-workbench.html</loc>
+<loc>http://localhost:8000/tag/mysql-workbench.html</loc>
 <lastmod>2019-01-10T23:38:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/faker.html</loc>
+<loc>http://localhost:8000/tag/faker.html</loc>
 <lastmod>2019-01-08T10:30:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pytest.html</loc>
+<loc>http://localhost:8000/tag/pytest.html</loc>
 <lastmod>2019-01-08T23:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/testing.html</loc>
+<loc>http://localhost:8000/tag/testing.html</loc>
 <lastmod>2019-01-08T23:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/gowrishankar-s.html</loc>
+<loc>http://localhost:8000/author/gowrishankar-s.html</loc>
 <lastmod>2019-01-10T23:58:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
