@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Research</title><link href="/" rel="alternate"></link><link href="/tag/research/feeds/atom.xml" rel="self"></link><id>/</id><updated>2019-01-08T10:30:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Nomenclature for Naming Published Research Papers</title><link href="/nomenclature-for-naming-published-research-papers.html" rel="alternate"></link><published>2016-07-23T23:30:00+05:30</published><updated>2019-01-08T10:30:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2016-07-23:/nomenclature-for-naming-published-research-papers.html</id><summary type="html">&lt;p&gt;This article is about naming conventions for collecting and sorting the research&amp;nbsp;papers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently, I was asked to collect the research papers published by all the faculty member in our department. This made me to think, what might be the best way to collect and sort these&amp;nbsp;papers?  &lt;/p&gt;
+&lt;p&gt;I thought of coming up with a naming convention for these papers based on requirements as mentioned&amp;nbsp;below.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On any given day, I should be able to pick the exact paper belonging to a particular&amp;nbsp;faculty.  &lt;/li&gt;
+&lt;li&gt;Keep track of number of papers published by each&amp;nbsp;faculty.  &lt;/li&gt;
+&lt;li&gt;Whether the paper is published in Journal or&amp;nbsp;Conference.  &lt;/li&gt;
+&lt;li&gt;Ability to sort the papers year&amp;nbsp;wise.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Based on the above requirements I devised the following way to name each&amp;nbsp;file.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Paper name is divided into six components. Each of these components is separated by a&amp;nbsp;Hyphen.  &lt;/li&gt;
+&lt;li&gt;First component is the type of paper. If the paper is published in International Journal then use the Keyword &lt;strong&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;&lt;/strong&gt;, likewise for International Conference use &lt;strong&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;&lt;/strong&gt;, for National Journal use &lt;strong&gt;&lt;span class="caps"&gt;NJ&lt;/span&gt;&lt;/strong&gt; and for National Conference use &lt;strong&gt;&lt;span class="caps"&gt;NC&lt;/span&gt;&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;Second component is the name of the concerned faculty. Use the first three letters of the faculty name. For e.g., if the faculty name is Patrick.G.S then the second component will be &lt;span class="caps"&gt;PAT&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Third component is the initials of the concerned faculty. So w.r.t. the above name the third component will be &lt;span class="caps"&gt;GS&lt;/span&gt; (exclude&amp;nbsp;dots).  &lt;/li&gt;
+&lt;li&gt;Fourth component is the month in which the paper was published. For e.g., if the paper is published in the month of March then use the numeral 03. (prefix 0 for single&amp;nbsp;digits)  &lt;/li&gt;
+&lt;li&gt;Fifth component is the year in which the paper was published. For e.g., if the paper is published in the year 2016 then it’ll be the fifth&amp;nbsp;component.  &lt;/li&gt;
+&lt;li&gt;Sixth component is the count of the number of papers the faculty has published under a particular category of &lt;span class="caps"&gt;IJ&lt;/span&gt; or &lt;span class="caps"&gt;IC&lt;/span&gt; or &lt;span class="caps"&gt;NJ&lt;/span&gt; or &lt;span class="caps"&gt;NC&lt;/span&gt;.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Based on the requirements discussed, if for e.g., Prof. Patrick.G.S has published in 2 International Journals and in 2 International Conferences then the nomenclature for these papers will be as shown&amp;nbsp;below:  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For International&amp;nbsp;Journal&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-03-2016-1  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-05-2016-2  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For International&amp;nbsp;Conference&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-10-2016-1  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-11-2016-2  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Nomenclature" src="../images/article_4_image_1.png"&gt;   &lt;/p&gt;</content><category term="Research"></category><category term="Papers"></category></entry></feed>
