@@ -98,9 +98,38 @@ font-weight: bold } /* Generic.Strong */
 }
 
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h5, h6{
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.1;
-    color: #ec250f;
+    color: #e40d26;
+}
+
+h2{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #e40d26;
+}
+
+h3{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #6e0303;
+}
+
+h4{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #bd1025;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #e40d26;
 }
