@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Articles</title><link href="/" rel="alternate"></link><link href="/category/articles/feed/atom.xml" rel="self"></link><id>/</id><updated>2019-01-10T23:58:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Python Application Programming Course Material VTU, Belagavi</title><link href="/python-application-programming-course-material-vtu-belagavi.html" rel="alternate"></link><published>2018-02-04T23:30:00+05:30</published><updated>2019-01-10T17:00:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2018-02-04:/python-application-programming-course-material-vtu-belagavi.html</id><summary type="html">&lt;p&gt;Course material for Python Application Programming, &lt;span class="caps"&gt;VTU&lt;/span&gt;,&amp;nbsp;Belagavi.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have uploaded the course material for &lt;strong&gt;“Python Application Programming”,&lt;/strong&gt; as prescribed by Visvesvaraya Technological University, Belagavi popularly known as &lt;span class="caps"&gt;VTU&lt;/span&gt;.  &lt;/p&gt;
+&lt;p&gt;You will find slide deck (ppts) for all the units with programming examples &lt;a href="https://github.com/gowrishankarnath/Python-Application-Programming-Course-Material-VTU-Belagavi"&gt;here.  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also, few model question papers are provided for&amp;nbsp;reference.  &lt;/p&gt;</content><category term="Python"></category><category term="VTU"></category></entry><entry><title>Remote Programming of Raspberry Pi using PyCharm</title><link href="/remote-programming-of-raspberry-pi-using-pycharm.html" rel="alternate"></link><published>2016-12-19T23:00:00+05:30</published><updated>2019-01-08T14:23:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2016-12-19:/remote-programming-of-raspberry-pi-using-pycharm.html</id><summary type="html">&lt;p&gt;This tutorial is about using PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; on a Windows machine to remotely execute Python programs on Raspberry&amp;nbsp;Pi.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial is about using PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; on a Windows machine to remotely execute Python 2.7 programs on Raspberry Pi. Despite my best efforts, I could not find a step by step tutorial on how to remotely connect PyCharm to Raspberry Pi and use the Raspberry Pi python interpreter to execute the programs. So I’m listing out the steps here. This tutorial is tested on a Windows 10 machine and Raspberry Pi running Raspbian &lt;span class="caps"&gt;OS&lt;/span&gt;.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Ensure the Windows Machine and Raspberry Pi are part of the same&amp;nbsp;Network.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Install PyCharm Professional Edition on your Windows&amp;nbsp;machine.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; You need to get the &lt;span class="caps"&gt;IP&lt;/span&gt; Address of Raspberry Pi. To do so, open the Terminal window on raspberry pi and type the following command &lt;strong&gt;&lt;em&gt;ifconfig&lt;/em&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_3_image_1.png"&gt;   &lt;/p&gt;
+&lt;p&gt;As can be seen from the screenshot, Raspberry Pi is connected to the Wireless &lt;span class="caps"&gt;LAN&lt;/span&gt; and the address is 172.16.2.100. It may vary on your Raspberry Pi. Make a note of this&amp;nbsp;address.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Once you have obtained the Address, go to your home directory and create a folder as shown in the below screenshot. This folder is used to store the Python&amp;nbsp;programs.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_2" src="../images/article_3_image_2.png"&gt;   &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; Invoke your PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt;. Create a new Project. Go to File &amp;#8212;&amp;gt; New Project &amp;#8212;&amp;gt; Pure Python &amp;#8212;&amp;gt; Give a Project Name. In my case it is&amp;nbsp;RaspberryPiProject.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6:&lt;/strong&gt; Right Click on RaspberryPiProject and select New &amp;#8212;&amp;gt; Python File and give a name to python file. In my case it is&amp;nbsp;rasp.py  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 7:&lt;/strong&gt; Write the line &lt;strong&gt;print &amp;#8220;Hello RaspberryPi&amp;#8221;&lt;/strong&gt; in the&amp;nbsp;editor.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 8:&lt;/strong&gt; Now go to File  &amp;#8212;&amp;gt;&amp;nbsp;Settings  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_3" src="../images/article_3_image_3.png"&gt;   &lt;/p&gt;
+&lt;p&gt;On the left pane of the window you should see Project:RaspberryPiProject. (If you have given a different name then it may differ from what is displayed here) Expand it and Click on Project&amp;nbsp;Interpreter  &lt;/p&gt;
+&lt;p&gt;On the right pane of the window, click at the end of Project Interpreter and select Add Remote option as shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_4" src="../images/article_3_image_4.png"&gt;   &lt;/p&gt;
+&lt;p&gt;A Remote Python Interpreter window pops&amp;nbsp;up.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 9:&lt;/strong&gt; Configure the Remote Python Interpreter&amp;nbsp;window.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_5" src="../images/article_3_image_5.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Write the &lt;span class="caps"&gt;IP&lt;/span&gt; address of the Raspberry Pi you earlier made note of in the Host option. Give the user name and password. Specify the Python interpreter path on raspberry pi. Click &lt;span class="caps"&gt;OK&lt;/span&gt;. Now you should see the Python Interpreter found in Raspberry&amp;nbsp;Pi.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_6" src="../images/article_3_image_6.png"&gt;   &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 10:&lt;/strong&gt;  Now go to Tools &amp;#8212;&amp;gt; Deployment &amp;#8212;&amp;gt; Configuration and click on + sign on the left pane. You should see a&amp;nbsp;window.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_7" src="../images/article_3_image_7.png"&gt;   &lt;/p&gt;
+&lt;p&gt;At this stage Raspberry Pi will be treated as a Server machine. Give a name to your Raspberry Pi server (in my case it is GS_Research) and select the type as &lt;span class="caps"&gt;SFTP&lt;/span&gt; and click &lt;span class="caps"&gt;OK&lt;/span&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 11:&lt;/strong&gt; Click on the Connections tab and specify the &lt;span class="caps"&gt;IP&lt;/span&gt; address of the Raspberry Pi again in &lt;span class="caps"&gt;SFTP&lt;/span&gt;&amp;nbsp;host  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_8" src="../images/article_3_image_8.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Leave the port and Root path as it is. Specify the User Name and&amp;nbsp;Password  &lt;/p&gt;
+&lt;p&gt;Then click on Mappings&amp;nbsp;tab.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_9" src="../images/article_3_image_9.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Specify the local path where you have stored the python project in the Windows machine. Then specify the path which we had created to store the Python programs on raspberry pi i.e., &lt;strong&gt;/home/pi/pywork&lt;/strong&gt; and click &lt;span class="caps"&gt;OK&lt;/span&gt;.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 12:&lt;/strong&gt; Now we need to upload the Python file created on a Windows machine on to Raspberry Pi and compile the program using Raspberry Pi Python&amp;nbsp;Interpreter.  &lt;/p&gt;
+&lt;p&gt;Go to Tools &amp;#8212;&amp;gt; Deployment &amp;#8212;&amp;gt; Upload to&amp;nbsp;GS_Research.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_10" src="../images/article_3_image_10.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Remember, here GS_Research is the name given to the Raspberry Pi server. At the bottom pane, you can see that the file is successfully&amp;nbsp;uploaded.  &lt;/p&gt;
+&lt;p&gt;Now open the terminal window again on the Raspberry Pi and go to the path where you intended to store Python programs. If you have followed the instructions then the path is /home/pi/pywork. You should see the rasp.py file in&amp;nbsp;there.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 13:&lt;/strong&gt; You need to sync the Python code with Raspberry Pi as and when you write your code in PyCharm. To do that go to Tools &amp;#8212;&amp;gt; Deployment &amp;#8212;&amp;gt; Sync with Deployed to&amp;nbsp;GS_Research.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_11" src="../images/article_3_image_11.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Happy&amp;nbsp;Coding…  &lt;/p&gt;</content><category term="Python"></category><category term="Raspberry Pi"></category><category term="PyCharm"></category></entry><entry><title>Nomenclature for Naming Published Research Papers</title><link href="/nomenclature-for-naming-published-research-papers.html" rel="alternate"></link><published>2016-07-23T23:30:00+05:30</published><updated>2019-01-08T10:30:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2016-07-23:/nomenclature-for-naming-published-research-papers.html</id><summary type="html">&lt;p&gt;This article is about naming conventions for collecting and sorting the research&amp;nbsp;papers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently, I was asked to collect the research papers published by all the faculty member in our department. This made me to think, what might be the best way to collect and sort these&amp;nbsp;papers?  &lt;/p&gt;
+&lt;p&gt;I thought of coming up with a naming convention for these papers based on requirements as mentioned&amp;nbsp;below.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On any given day, I should be able to pick the exact paper belonging to a particular&amp;nbsp;faculty.  &lt;/li&gt;
+&lt;li&gt;Keep track of number of papers published by each&amp;nbsp;faculty.  &lt;/li&gt;
+&lt;li&gt;Whether the paper is published in Journal or&amp;nbsp;Conference.  &lt;/li&gt;
+&lt;li&gt;Ability to sort the papers year&amp;nbsp;wise.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Based on the above requirements I devised the following way to name each&amp;nbsp;file.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Paper name is divided into six components. Each of these components is separated by a&amp;nbsp;Hyphen.  &lt;/li&gt;
+&lt;li&gt;First component is the type of paper. If the paper is published in International Journal then use the Keyword &lt;strong&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;&lt;/strong&gt;, likewise for International Conference use &lt;strong&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;&lt;/strong&gt;, for National Journal use &lt;strong&gt;&lt;span class="caps"&gt;NJ&lt;/span&gt;&lt;/strong&gt; and for National Conference use &lt;strong&gt;&lt;span class="caps"&gt;NC&lt;/span&gt;&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;Second component is the name of the concerned faculty. Use the first three letters of the faculty name. For e.g., if the faculty name is Patrick.G.S then the second component will be &lt;span class="caps"&gt;PAT&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Third component is the initials of the concerned faculty. So w.r.t. the above name the third component will be &lt;span class="caps"&gt;GS&lt;/span&gt; (exclude&amp;nbsp;dots).  &lt;/li&gt;
+&lt;li&gt;Fourth component is the month in which the paper was published. For e.g., if the paper is published in the month of March then use the numeral 03. (prefix 0 for single&amp;nbsp;digits)  &lt;/li&gt;
+&lt;li&gt;Fifth component is the year in which the paper was published. For e.g., if the paper is published in the year 2016 then it’ll be the fifth&amp;nbsp;component.  &lt;/li&gt;
+&lt;li&gt;Sixth component is the count of the number of papers the faculty has published under a particular category of &lt;span class="caps"&gt;IJ&lt;/span&gt; or &lt;span class="caps"&gt;IC&lt;/span&gt; or &lt;span class="caps"&gt;NJ&lt;/span&gt; or &lt;span class="caps"&gt;NC&lt;/span&gt;.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Based on the requirements discussed, if for e.g., Prof. Patrick.G.S has published in 2 International Journals and in 2 International Conferences then the nomenclature for these papers will be as shown&amp;nbsp;below:  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For International&amp;nbsp;Journal&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-03-2016-1  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IJ&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-05-2016-2  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For International&amp;nbsp;Conference&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-10-2016-1  &lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IC&lt;/span&gt;-&lt;span class="caps"&gt;PAT&lt;/span&gt;-&lt;span class="caps"&gt;GS&lt;/span&gt;-11-2016-2  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Nomenclature" src="../images/article_4_image_1.png"&gt;   &lt;/p&gt;</content><category term="Research"></category><category term="Papers"></category></entry><entry><title>Traverse and Rename files in folder</title><link href="/traverse-and-rename-files-in-folder.html" rel="alternate"></link><published>2016-05-11T23:30:00+05:30</published><updated>2019-01-10T20:30:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2016-05-11:/traverse-and-rename-files-in-folder.html</id><summary type="html">&lt;p&gt;This article is about traversing and renaming of files in a&amp;nbsp;folder&lt;/p&gt;</summary><content type="html">&lt;p&gt;I recently encountered a problem wherein I had to traverse through all the files in a folder and rename each&amp;nbsp;file.    &lt;/p&gt;
+&lt;p&gt;The original files is as shown below having a set of characters and the number separated by an &amp;#8220;-&amp;#8221; (hyphen) with jpg&amp;nbsp;extension.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d6445cef9361a2bf-1.jpg&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d6445cef9361a2bf-2.jpg&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d6445cef9361a2bf-3.jpg and so&amp;nbsp;on.&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Here, the requirement was to remove the left part of the “-” (hyphen) and retain only the number and the&amp;nbsp;extension.  &lt;/p&gt;
+&lt;p&gt;So, here is my&amp;nbsp;approach.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;glob&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;glob&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;pathFromUser&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Enter the Path&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;files_list&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;glob&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pathFromUser&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;*.jpg&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;each_file&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;files_list&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;basename&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;each_file&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rename&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;each_file&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;.jpg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In line 4, we ask the user to enter the path for the folder which contains all the files. In line 5, a list of all the files in the folder is assigned to the list called &lt;em&gt;files_list&lt;/em&gt;. One should be aware that it’s not only the filename but a combination of both path and filename i.e., C:\foldername\d6445cef9361a2bf-1.jpg. In line 6, we loop through each file in the list. In line 7, the &lt;em&gt;basename()&lt;/em&gt; method is used to obtain the name of the file from the path and then we split the filename based on &amp;#8220;-&amp;#8221; (hyphen) and we again split the resultant value based on &amp;#8220;.&amp;#8221; (dot). This line results in a number present in the file and is assigned to the variable number. Then we use the method &lt;em&gt;rename()&lt;/em&gt; to rename each file to the value that is present in the&amp;nbsp;number.&lt;/p&gt;</content><category term="Python"></category><category term="Files"></category><category term="Folders"></category></entry><entry><title>Copy the Contents of Multiple Files into Single File or Merge Multiple Files into Single File</title><link href="/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html" rel="alternate"></link><published>2015-12-09T16:23:00+05:30</published><updated>2019-01-10T23:58:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2015-12-09:/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html</id><summary type="html">&lt;p&gt;This article is about copying the contents of multiple files into single file or to merge multiple files into single&amp;nbsp;file.&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Problem:&lt;/h3&gt;
+&lt;p&gt;I was facing a situation wherein I had hundreds of files lying around and had to take printout of all the files. Having to take printout of each and every file proved to be&amp;nbsp;nightmare.  &lt;/p&gt;
+&lt;h4&gt;Solution:&lt;/h4&gt;
+&lt;p&gt;The solution was to merge all the files into a single file or copy the contents of multiple files into single&amp;nbsp;file.  &lt;/p&gt;
+&lt;p&gt;Before issuing these commands at the command prompt change to the directory where all the files are present. The code shown below copies the contents from all the files ending with &lt;em&gt;.py&lt;/em&gt; extension into a new file called &lt;em&gt;mergedFile.doc&lt;/em&gt;. The reason I created a word doc file is, it’ll be easier to take printout and had no reason to think&amp;nbsp;otherwise.  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;copy /b *.py mergedFile.doc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To merge multiple text files into a single document file the command used is given&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;copy /b *.txt mergedFile.doc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To merge multiple text files into a single text file the command used is given&amp;nbsp;below.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;copy /b *.txt mergedFile.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To merge multiple java files into a single document file the command used is given&amp;nbsp;below.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;copy /b *.java mergedFile.doc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code shown here is tested on Windows 7/8/10&amp;nbsp;machine.&lt;/p&gt;</content><category term="Coding-Gems"></category></entry><entry><title>MySQL Programming with Python using MySQL Python Connector</title><link href="/mysql-programming-with-python-using-mysql-python-connector.html" rel="alternate"></link><published>2015-11-28T07:49:00+05:30</published><updated>2019-01-10T23:53:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2015-11-28:/mysql-programming-with-python-using-mysql-python-connector.html</id><summary type="html">&lt;p&gt;This article is about programming MySQL with Python using MySQL Python&amp;nbsp;Connector.&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;This article is about programming MySQL with Python using MySQL Python Connector. MySQL is a popular Open Source Database that finds its way in the software stack of almost all newer billion dollar companies. Let’s try to do some basic operations like  &lt;em&gt;Insert&lt;/em&gt;, &lt;em&gt;Read&lt;/em&gt;, &lt;em&gt;Update&lt;/em&gt; and &lt;em&gt;Delete&lt;/em&gt;. For creating the database schema we have used MySQL workbench, even though it is fully possible to do the same programmatically using Python and the MySQL Python&amp;nbsp;Connector.  &lt;/p&gt;
+&lt;p&gt;For our article I have considered this below database schema. You can read more about designing this schema &lt;a href="https://gowrishankarnath.github.io/designing-database-schema-using-mysql-workbench.html"&gt;here&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_9_image_1.png"&gt;  &lt;/p&gt;
+&lt;p&gt;The illustrated code has been tested on Python 3.5 with MySQL Python&amp;nbsp;Connector.  &lt;/p&gt;
+&lt;h3&gt;MySQL Programming With Python Using MySQL Python&amp;nbsp;Connector&lt;/h3&gt;
+&lt;p&gt;Install the latest version of MySQL Python Connector as shown&amp;nbsp;below  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_2" src="../images/article_9_image_2.png"&gt;  &lt;/p&gt;
+&lt;p&gt;In line 1, we import mysql.connector module. In line 2 we also import the errorcode class which can be used to various errors related to Database&amp;nbsp;query.  &lt;/p&gt;
+&lt;p&gt;In line 3-4 we import faker module and create fake object. The reason for using this awesome module is I wanted to have some real world values generated for me instead of writing the values manually. You can read more about &lt;strong&gt;faker&lt;/strong&gt; module &lt;a href="https://gowrishankarnath.github.io/generate-fake-data-programmatically-using-faker-with-python.html"&gt;here&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;You need to declare and provide values for &lt;em&gt;user&lt;/em&gt;, &lt;em&gt;password&lt;/em&gt;, &lt;em&gt;host&lt;/em&gt;, &lt;em&gt;database&lt;/em&gt; and &lt;em&gt;raise_on_warnings&lt;/em&gt;. Here, &lt;em&gt;config&lt;/em&gt; is declared as a dictionary. You need to pass this config dictionary to connect method as an argument (see &lt;strong&gt;**&lt;/strong&gt; in the connect method). In line 21 we create cursor object which can be used to execute the Database query. We write a query to insert a row to the &lt;em&gt;contactperson&lt;/em&gt; table. The query is stored in the variable &lt;em&gt;addContactPerson&lt;/em&gt; which is passed to the execute method as an argument.  In this program we will use an for loop to insert ten rows. Once we have performed our operation we need to close the &lt;em&gt;cnx&lt;/em&gt; and &lt;em&gt;cursor&lt;/em&gt;&amp;nbsp;objects.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;mysql123&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;database&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;contactmanagerapplication&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;raise_on_warnings&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="c1"&gt;#This is the most efficient way of toggling between the values&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;toggle&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;itertools&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cycle&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Male&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Female&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="c1"&gt;#next(toggle)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="c1"&gt;#Let&amp;#39;s insert ten rows to contactperson table&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;person&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;contactPersonID&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;person&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;firstName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first_name_male&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;#generate fake first name&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;lastName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;last_name_male&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;#generate fake middle name&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;middleName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;last_name_male&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;#generate fake last name&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;dateOfBirth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;#generate fake DOB&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;contactPersonType&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;toggle&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="c1"&gt;#In SQL statement the values need to be enclosed within double quotes&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="c1"&gt;#I&amp;#39;m providing the same by explicity specifying double quotes and removing it&amp;#39;s special meaning&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;addContactPerson&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;INSERT INTO contactmanagerapplication.contactperson(&amp;quot;&lt;/span&gt; \&lt;/span&gt;
+&lt;span class="code-line"&gt;                           &lt;span class="s2"&gt;&amp;quot;ContactPersonID, FirstName, MiddleName, LastName, DateOfBirth,&amp;quot;&lt;/span&gt; \&lt;/span&gt;
+&lt;span class="code-line"&gt;                           &lt;span class="s2"&gt;&amp;quot;ContactPersonType)VALUES({},&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;,&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;,&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;,&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;,&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;)&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;\&lt;/span&gt;
+&lt;span class="code-line"&gt;            &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;firstName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lastName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;middleName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;dateOfBirth&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;contactPersonType&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;execute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;addContactPerson&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;commit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_ACCESS_DENIED_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Something is wrong with your user name or password&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_BAD_DB_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Database does not exist&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the below code we select and display all the rows from the &lt;em&gt;contactperson&lt;/em&gt; table. Once we have composed and executed the select query, we have to use the cursor object along with for loop to display all the&amp;nbsp;rows.  &lt;/p&gt;
+&lt;p&gt;In line 19, we specify variable names that correspond to the attributes in the table &lt;em&gt;contactperson&lt;/em&gt;. We then use these variable names to display the&amp;nbsp;values.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;mysql123&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;database&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;contactmanagerapplication&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;raise_on_warnings&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="c1"&gt;#Let&amp;#39;s read all the rows in the table&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;readContactPerson&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;select * from contactmanagerapplication.contactperson&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;execute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;readContactPerson&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="c1"&gt;#specify the attributes that you want to display&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;firstName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lastName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;middleName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dateOfBirth&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;contactPersonType&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;{}, {}, {}, {}, {}, {}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;firstName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;middleName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lastName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;dateOfBirth&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;commit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_ACCESS_DENIED_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Something is wrong with your user name or password&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_BAD_DB_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Database does not exist&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="n"&gt;pre&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Below code asks the user to enter the &lt;em&gt;contactPersonID&lt;/em&gt; number which needs to be deleted. Based on the value that the user has entered the related row gets deleted in the&amp;nbsp;table.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;mysql123&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;database&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;contactmanagerapplication&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;raise_on_warnings&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;contactPersonID&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Enter the ContactPersonID to be deleted&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="c1"&gt;#Let&amp;#39;s remove a row in contactperson table by specifying the contactPersonID&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;deleteContactPerson&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DELETE FROM contactmanagerapplication.contactperson where ContactPersonID = {}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;execute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;deleteContactPerson&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;commit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_ACCESS_DENIED_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Something is wrong with your user name or password&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_BAD_DB_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Database does not exist&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Below code is used to update an attribute of a particular row based on user&amp;nbsp;input.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;mysql.connector&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;mysql123&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;database&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;contactmanagerapplication&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="s1"&gt;&amp;#39;raise_on_warnings&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;contactPersonID&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Enter the Contact Person ID whose records needs to be updated&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;firstName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first_name_male&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;#generate fake first name&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="c1"&gt;#Let&amp;#39;s update a row in contactperson table by specifying the contactPersonID&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;updateContactPerson&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;UPDATE contactmanagerapplication.contactperson SET FirstName = &lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt;{}&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s2"&gt; WHERE ContactPersonID = {}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;firstName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;contactPersonID&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;execute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;updateContactPerson&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;commit&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connector&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_ACCESS_DENIED_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Something is wrong with your user name or password&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;errno&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;errorcode&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ER_BAD_DB_ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Database does not exist&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="n"&gt;cnx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;As you can see with few lines of Python code we can perform various database&amp;nbsp;operations.  &lt;/p&gt;
+&lt;p&gt;You can find the source code for all the programs discussed&amp;nbsp;@  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/MySqlProgrammingWithPython"&gt;https://github.com/gowrishankarnath/MySqlProgrammingWithPython&lt;/a&gt;  &lt;/p&gt;</content><category term="MySQL"></category><category term="Python"></category><category term="Database"></category></entry><entry><title>Designing Database Schema Using MySQL Workbench</title><link href="/designing-database-schema-using-mysql-workbench.html" rel="alternate"></link><published>2015-11-25T11:34:00+05:30</published><updated>2019-01-10T23:38:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2015-11-25:/designing-database-schema-using-mysql-workbench.html</id><summary type="html">&lt;p&gt;This article is about designing Database schema using MySQL&amp;nbsp;Workbench&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;This article is about designing Database schema using MySQL Workbench. MySQL Workbench helps us to create visual data model which can be translated into a physical database on the MySQL Database Server. For demonstration purpose we’ll be designing an Contact Manager Application Database. This &lt;span class="caps"&gt;DB&lt;/span&gt; has four tables namely ContactPerson, Address, EmailAddress and&amp;nbsp;PhoneNumber.&lt;/p&gt;
+&lt;p&gt;I’ll not be discussing various &lt;span class="caps"&gt;DB&lt;/span&gt; issues like Normalization, Entity-Relationship(&lt;span class="caps"&gt;ER&lt;/span&gt;)/Enhanced Entity-Relationship(&lt;span class="caps"&gt;EER&lt;/span&gt;) models or &lt;span class="caps"&gt;SQL&lt;/span&gt; programming. Please refer to the various fine materials available. Below are few recommended&amp;nbsp;textbooks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Database Design for Mere Mortals: A Hands-On Guide to Relational Database&amp;nbsp;Design  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beginning Database Design: From Novice to&amp;nbsp;Professional  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="caps"&gt;SQL&lt;/span&gt; in 10 Minutes, Sams Teach&amp;nbsp;Yourself  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learning &lt;span class="caps"&gt;SQL&lt;/span&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Head First &lt;span class="caps"&gt;SQL&lt;/span&gt;: Your Brain on &lt;span class="caps"&gt;SQL&lt;/span&gt; — A Learner’s&amp;nbsp;Guide  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Download the latest version of MySQL Database from &lt;a href="https://www.mysql.com/downloads/"&gt;https://www.mysql.com/downloads/&lt;/a&gt;.  Make sure that you have downloaded the community edition of&amp;nbsp;MySQL.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Steps Involved In Designing Database&amp;nbsp;Schema&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;I presume that you already have a working copy of MySQL installed in your&amp;nbsp;system.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Invoke MySQL workbench. That should look like the below screen. The top Window Pane displays MySQL Connections. There can be any number of MySQL instances. Here we have one instance of MySQL connection with root user. The bottom pane shows the Models that you have created. The right window pane shows shortcuts to various MySQL&amp;nbsp;tools.  &lt;/p&gt;
+&lt;p&gt;We’ll create Visual Data Models and then it’ll be converted to the actual physical database schema on the MySQL database  server. Remember, creation of Data Models doesn’t mean that you have already created actual physical database&amp;nbsp;schema.  &lt;/p&gt;
+&lt;p&gt;In the Models window pane click on the +&amp;nbsp;sign.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_8_image_1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;2:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;You will see a screen as shown below. By default the &lt;span class="caps"&gt;DB&lt;/span&gt; schema is named as mydb. Let’s change this. Double click on mydb in the Physical Schemas window&amp;nbsp;pane.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_2" src="../images/article_8_image_2.png"&gt;  &lt;/p&gt;
+&lt;p&gt;In the bottom window pane change the name from mydb to&amp;nbsp;ContactManagerApplication.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_3" src="../images/article_8_image_3.png"&gt;  &lt;/p&gt;
+&lt;p&gt;In the Refactor Schema windows click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.   &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_4" src="../images/article_8_image_4.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;3:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Double click on Add&amp;nbsp;Table.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_5" src="../images/article_8_image_5.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;4:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;You will see the below&amp;nbsp;screen.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_6" src="../images/article_8_image_6.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;5:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Change the table name to ContactPerson. Also, fill the Column Name or attributes with various values with appropriate data types as shown in the below&amp;nbsp;screen.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_7" src="../images/article_8_image_7.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;6:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Add another table called Address and fill the Column Name with various values with appropriate data types as shown in the below&amp;nbsp;screen.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_8" src="../images/article_8_image_8.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;7:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Add another table called EmailAddress and fill the Column Name with various values with appropriate data types as shown in the below&amp;nbsp;screen.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_9" src="../images/article_8_image_9.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;8:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Add another table called PhoneNumber and fill the Column Name with various values with appropriate data types as shown in the below&amp;nbsp;screen.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_10" src="../images/article_8_image_10.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;9:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click on Save button in the Menu bar. Save the data model as ContactManagerApplication in some folder. At this stage we have created all the tables for our schema and have saved the model. We have still not converted this model to actual physical database on MySQL database server. Lets’ migrate these models to connect to MySQL&amp;nbsp;Database.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_11" src="../images/article_8_image_11.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;10:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Go to the menu bar and click on Database and select Forward&amp;nbsp;Engineer.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_12" src="../images/article_8_image_12.png"&gt;  &lt;/p&gt;
+&lt;p&gt;In the Forward Engineer to Database window, various parameters have been set. This depends on your configuration while installing MySQL database. I’m using the Local Instance of MySQL and root user. Leave the Default Schema blank. This forward engineering generates all the &lt;span class="caps"&gt;SQL&lt;/span&gt; code to create a physical database on the target&amp;nbsp;server.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_13" src="../images/article_8_image_13.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_14" src="../images/article_8_image_14.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Give the Password for the root User and click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_15" src="../images/article_8_image_15.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_16" src="../images/article_8_image_16.png"&gt;  &lt;/p&gt;
+&lt;p&gt;In the window you can see the &lt;span class="caps"&gt;SQL&lt;/span&gt; script that has been generated by the MySQL workbench. You can review the script and save the script as a file and click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_17" src="../images/article_8_image_17.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Again, give the Password for the root User and click on &lt;span class="caps"&gt;OK&lt;/span&gt;.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_18" src="../images/article_8_image_18.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Close&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_19" src="../images/article_8_image_19.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;11:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;From the previous step(Forward Engineering) we have generated the &lt;span class="caps"&gt;SQL&lt;/span&gt; script for our models. We’ll use Reverse Engineering to connect the generated &lt;span class="caps"&gt;SQL&lt;/span&gt; script to the &lt;span class="caps"&gt;SQL&lt;/span&gt; Server database thereby creating the actual physical database on the &lt;span class="caps"&gt;SQL&lt;/span&gt; Server. Go to Database in the menu and click on Reverse&amp;nbsp;Engineer.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_20" src="../images/article_8_image_20.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Again, you see the default parameters that are set and click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_21" src="../images/article_8_image_21.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Give the Password for root User and click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_22" src="../images/article_8_image_22.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_23" src="../images/article_8_image_23.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Now at this stage you can see the available list of various Database schemas. Select the contactmanagerapplication checkbox and click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_24" src="../images/article_8_image_24.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Give Password for the root User and click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_25" src="../images/article_8_image_25.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_26" src="../images/article_8_image_26.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Execute&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_27" src="../images/article_8_image_27.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_28" src="../images/article_8_image_28.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Finish&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_29" src="../images/article_8_image_29.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;12:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;An &lt;span class="caps"&gt;EER&lt;/span&gt; diagram will be automatically generated by the MySQL workbench. It shows the data model which we have created. Let’s establish relation between various tables. Click on the highlighted button (which is an 1 to many relation) in the column&amp;nbsp;bar.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_30" src="../images/article_8_image_30.png"&gt;  &lt;/p&gt;
+&lt;p&gt;First click on the name on whose side the many relationship should come and then click on the name on whose side 1 relationship should come. For e.g., to establish 1 to many relationship between address table and contactperson table, first click on ContactPersonID in the address table and then click on ContactPersonID in the contactperson&amp;nbsp;table.  &lt;/p&gt;
+&lt;p&gt;Repeat the above process between other tables to establish a relationship as shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_31" src="../images/article_8_image_31.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;13:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;In the previous step, we have established the relationship between various tables as seen in the &lt;span class="caps"&gt;EER&lt;/span&gt; diagram. But this relationship is not reflected in the actual physical database schema which we have created. To do so, we have to synchronize between the actual physical database schema and the data model. Go to menu and click on Database and select Synchronize Model. When ever there is some changes done to the data model as seen in the &lt;span class="caps"&gt;EER&lt;/span&gt; diagram it won’t get reflected automatically in the Database Schema. We have to synchronize the changes done to the data model as displayed in &lt;span class="caps"&gt;EER&lt;/span&gt; diagram with the Database Schema to see the&amp;nbsp;changes.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_32" src="../images/article_8_image_32.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_33" src="../images/article_8_image_33.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_34" src="../images/article_8_image_34.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Enter the Password for root User. Click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_35" src="../images/article_8_image_35.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_36" src="../images/article_8_image_36.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Select the checkbox and click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_37" src="../images/article_8_image_37.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_38" src="../images/article_8_image_38.png"&gt;  &lt;/p&gt;
+&lt;p&gt;The tool compares all aspects of the current data model with  the actual physical MySQL Database schema and lists out the difference between the current data model and the actual physical Database schema. Click on Next&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_39" src="../images/article_8_image_39.png"&gt;  &lt;/p&gt;
+&lt;p&gt;You’ll be able to see a sequence of &lt;span class="caps"&gt;SQL&lt;/span&gt; scripts. Click on execute&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_40" src="../images/article_8_image_40.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Give the Password for root User and click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;Click on close&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_41" src="../images/article_8_image_41.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step&amp;nbsp;14:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;To see whether the data model has been migrated to the MySQL database, go to menu and click on Database and select Connect to&amp;nbsp;Database.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_42" src="../images/article_8_image_42.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_43" src="../images/article_8_image_43.png"&gt;  &lt;/p&gt;
+&lt;p&gt;On the left pane you can see the contactmanagerapplication database schema and expand it see the list of&amp;nbsp;tables.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_44" src="../images/article_8_image_44.png"&gt;  &lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I have shown the various steps involved in creating an Database Schema using MySQL workbench &lt;span class="caps"&gt;GUI&lt;/span&gt; without any&amp;nbsp;coding.  &lt;/p&gt;
+&lt;p&gt;You can find MySQL Workbench file and &lt;span class="caps"&gt;SQL&lt;/span&gt; code for ContactManagerApplication Schema&amp;nbsp;@  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/MySQL_Workbench"&gt;https://github.com/gowrishankarnath/MySQL_Workbench&lt;/a&gt;&lt;/p&gt;</content><category term="MySQL"></category><category term="MySQL Workbench"></category><category term="Database"></category></entry><entry><title>Generate Fake Data Programmatically Using Faker With Python</title><link href="/generate-fake-data-programmatically-using-faker-with-python.html" rel="alternate"></link><published>2015-11-23T23:30:00+05:30</published><updated>2019-01-08T10:30:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2015-11-23:/generate-fake-data-programmatically-using-faker-with-python.html</id><summary type="html">&lt;p&gt;This article is about generating fake data using &lt;span class="caps"&gt;FAKER&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Recently, I had a requirement to fill the database with some data. Filling the tables manually proved to be very tedious enough. So, I was looking for some software that could do the heavy lifting for me and also that could be used with Python natively. Voila!! After a bit of search came across this awesome&amp;nbsp;software.  &lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;b&gt;&lt;span class="caps"&gt;FAKER&lt;/span&gt;&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Faker can be used to generate fake data which resembles the real world values rather than some gibberish&amp;nbsp;values.  &lt;/p&gt;
+&lt;h3&gt;Using &lt;span class="caps"&gt;FAKER&lt;/span&gt; With&amp;nbsp;Python&lt;/h3&gt;
+&lt;p&gt;The following code has been tested using Python 3.5 on a Windows 10&amp;nbsp;machine.  &lt;/p&gt;
+&lt;p&gt;Type the below command in the Command Prompt to install Faker&amp;nbsp;module  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Installing Faker" src="../images/article_2_image_1.png"&gt;   &lt;/p&gt;
+&lt;p&gt;Let’s start with a very simple&amp;nbsp;example.  &lt;/p&gt;
+&lt;p&gt;Import the faker module and make use of the Factory Class. Use create() method to create an object called fake. Say, if you want to print a name then use the object fake along with name() method as shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;Mrs. Kenley Farrell&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;You can even localize the names according to your preferences. For e.g, if you want to display name in Hindi (India), then pass the string argument “hi_IN” to create()&amp;nbsp;method.   &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;hi_IN&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ouput&lt;/em&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;रचना बाबू&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;If you want to display 10 random&amp;nbsp;currencies&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;currency_code&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;MWK
+MRO
+KES
+TOP
+IQD
+MYR
+PGK
+MDL
+NIO
+MNT&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;You can randomly generate addresses using address() method. Below code is localized for&amp;nbsp;“en_US”.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;en_US&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;address&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;PSC 7452, Box 9044
+APO AA 06906-4518
+65264 Vince Points Suite 897
+North Pearlene, PA 66031
+63876 Daijah Pass
+New Rickiland, NM 82820
+59116 Mueller Port
+South Rosanne, IN 07663
+486 Jerde Forest
+New Keyshawnfort, GA 59913-5859
+360 Orie Forge
+Lake Izayah, NY 83459-8476
+1840 O’Connell Field Apt. 566
+Port Zakaryton, HI 66433-8319
+PSC 2512, Box 6095
+APO AP 37389
+89957 Williamson Burg Apt. 255
+Shelliview, WY 06711-9241
+78580 Vanessa Square Apt. 095
+West Sherie, CT 67665&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;You can generate various information about a person using different methods as shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="n"&gt;fake&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;en_US&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;last_name_male&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name_female&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prefix_male&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;suffix_female&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name_male&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first_name&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;suffix_male&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;suffix&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first_name_male&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first_name_female&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;last_name_female&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;last_name&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;/span&gt;
+&lt;span class="code-line"&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fake&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prefix_female&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;Morar
+Dr. Mckinley Halvorson
+Dr.
+Mrs.
+Kadeem Parker
+MD
+Mr. Elliott Padberg
+Elvira
+III
+IV
+Arley
+Mariam
+Turner
+Huel
+Ms.&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;You can read various methods available in Faker Module in detail&amp;nbsp;@  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://faker.readthedocs.io/en/master/#"&gt;https://faker.readthedocs.io/en/master/#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can find the above code&amp;nbsp;@  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/FakerPythonExamples"&gt;https://github.com/gowrishankarnath/FakerPythonExamples&lt;/a&gt;   &lt;/p&gt;</content><category term="Python"></category><category term="Faker"></category></entry><entry><title>Using pytest Testing Tool to test Python Code by Configuring PyCharm IDE</title><link href="/using-pytest-testing-tool-to-test-python-code-by-configuring-pycharm-ide.html" rel="alternate"></link><published>2015-10-28T13:30:00+05:30</published><updated>2019-01-08T23:12:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:None,2015-10-28:/using-pytest-testing-tool-to-test-python-code-by-configuring-pycharm-ide.html</id><summary type="html">&lt;p&gt;This article is about testing Python code using pytest Testing tool by configuring the PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;The aim of this article is to bring all the related information of configuring the PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; with pytest Testing Tool in one place. Here, I’ll not dwell deep into how testing is done in Python. But I’ll discuss the proper way of configuring PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; with pytest testing tool to get the things up and running. This article is tested on a Windows 10 machine running PyCharm Professional Edition 4.5 with Python 2.7.9&amp;nbsp;interpreter.  &lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;PyCharm is a popular &lt;span class="caps"&gt;IDE&lt;/span&gt; for Python Programming. More information about PyCharm can be obtained at &lt;a href="https://www.jetbrains.com/pycharm/"&gt;https://www.jetbrains.com/pycharm/&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;As a rule, the code we develop should be thoroughly tested before its release. Testing is a very important topic and has been discussed in great detail in the fine material. More information about pytest testing tool can be obtained at &lt;a href="http://pytest.org/"&gt;http://pytest.org/&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;To gain more knowledge about testing techniques in general please refer to below&amp;nbsp;books.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clean Code: A Handbook of Agile Software&amp;nbsp;Craftsmanship  &lt;/li&gt;
+&lt;li&gt;Agile Testing: A Practical Guide for Testers and Agile&amp;nbsp;Teams  &lt;/li&gt;
+&lt;li&gt;Software Testing: A Craftsman’s Approach, Fourth&amp;nbsp;Edition  &lt;/li&gt;
+&lt;li&gt;Pragmatic Unit Testing in Java 8 with&amp;nbsp;JUnit  &lt;/li&gt;
+&lt;li&gt;Practical Unit Testing with JUnit and&amp;nbsp;Mockito  &lt;/li&gt;
+&lt;li&gt;Effective Unit Testing: A guide for Java&amp;nbsp;developers  &lt;/li&gt;
+&lt;li&gt;The Art of Unit Testing: with Examples in .&lt;span class="caps"&gt;NET&lt;/span&gt;  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Even though some of these books target other programming languages, still the knowledge that you gain from reading these books can be applied to Python Testing&amp;nbsp;also.  &lt;/p&gt;
+&lt;h3&gt;Steps Involved in Configuring PyCharm to work with pytest Testing&amp;nbsp;Tool&lt;/h3&gt;
+&lt;p&gt;Here I assume that you have already configured your PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; to run Python Interpreter. If not, you can download anaconda from &lt;a href="https://www.continuum.io/downloads"&gt;https://www.continuum.io/downloads&lt;/a&gt; and use it to configure the Python interpreter in PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt;.   &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; In order to follow this tutorial, create a folder called &lt;strong&gt;PyArticle&lt;/strong&gt; in C: drive. Install &lt;strong&gt;pytest&lt;/strong&gt; testing tool using &lt;strong&gt;pip&lt;/strong&gt; command as shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_1.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Invoke PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; and go to File -&amp;gt; New Project. Specify the path to the folder you created and also specify the name of the project. In our case the name of the project is TestExample. Press Create button. This takes you to the PyCharm&amp;nbsp;editor.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_2.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Right Click on TestExample folder on the left pane of the PyCharm editor. Select New -&amp;gt; Python&amp;nbsp;File  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_3.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Give the file name as&amp;nbsp;add_two_numbers  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_4.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; Write the below given code in add_two_numbers.py file. This is a very simple code that adds up two numbers and returns the&amp;nbsp;result.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_5.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6:&lt;/strong&gt; Now go to File -&amp;gt;&amp;nbsp;Settings  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_6.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 7:&lt;/strong&gt; In the Settings window, click on Python Integrated Tools in the right pane and select py.test as the Default test runner. Click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_7.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 8:&lt;/strong&gt; Now right click on TestExample directory and select New -&amp;gt;&amp;nbsp;Directory.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_8.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 9:&lt;/strong&gt; Enter the directory name as Tests. We will have all our test files in a separate directory which is a good&amp;nbsp;practice.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_9.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 10:&lt;/strong&gt; Right click on Tests directory and select New -&amp;gt; Python&amp;nbsp;File.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_10.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 11:&lt;/strong&gt; Give the file name as test_add_two_numbers and click &lt;span class="caps"&gt;OK&lt;/span&gt;.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_11.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 12:&lt;/strong&gt; Write the below code in test_add_two_numbers.py file. Notice that the word &lt;strong&gt;test_&lt;/strong&gt; has been prefixed for the test&amp;nbsp;method.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;All test methods should start with&amp;nbsp;test_.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a very important step in the configuration and if the test method doesn’t start with test_ then you won’t be able to get proper&amp;nbsp;output.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;assert&lt;/strong&gt; is used to check whether the condition is True or&amp;nbsp;False.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_12.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 13:&lt;/strong&gt; Go to Run -&amp;gt; Edit&amp;nbsp;Configurations.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_13.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 14:&lt;/strong&gt; In the Run/Debug Configurations window click on the &lt;strong&gt;+&lt;/strong&gt; button found on the upper left corner. Go to Python tests and select py.test. Click &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_14.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 15:&lt;/strong&gt; On the left pane you can see Python tests is created. In the right pane for the &lt;strong&gt;Name&lt;/strong&gt; text box give the value as &lt;strong&gt;py.test in test_add_two_numbers.py&lt;/strong&gt; You should always prefix the Python test file name with the words py.test&amp;nbsp;in.  &lt;/p&gt;
+&lt;p&gt;For the Target text box specify the path to the Python test&amp;nbsp;file.  &lt;/p&gt;
+&lt;p&gt;For the Working directory text box specify the path to the directory which has the Python test&amp;nbsp;files.  &lt;/p&gt;
+&lt;p&gt;Click on &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_15.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 16:&lt;/strong&gt; Right click on the Python test file and select Run. As you can see in the Test Results the green color indicates that the test has successfully&amp;nbsp;passed.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_16.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 17:&lt;/strong&gt; What if you want to specify more than one test method? Lets find out the process to achieve the same. Create another python file called multiply_two_numbers and fill it up with the code shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_17.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Create another Python test file called&amp;nbsp;test_queue_example.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_18.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Fill it up with the code shown&amp;nbsp;below.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_19.png"&gt;  &lt;/p&gt;
+&lt;p&gt;While configuring the Python test file as shown in &lt;strong&gt;Step 13 – 15&lt;/strong&gt; check the &lt;strong&gt;Options&lt;/strong&gt; check box and give the value as &lt;strong&gt;-q&lt;/strong&gt;. Here &lt;strong&gt;q&lt;/strong&gt; stands for&amp;nbsp;queue.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_20.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Click on &lt;span class="caps"&gt;OK&lt;/span&gt; button after all the configurations are&amp;nbsp;done.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_21.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Now right click on the latest test file and run. As you can see one test got passed while the other got&amp;nbsp;failed.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_22.png"&gt;  &lt;/p&gt;
+&lt;p&gt;Change the code in test_queue_example as shown below and run the test program again. You can see that both the tests have&amp;nbsp;passed.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image_1" src="../images/article_7_image_23.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Happy&amp;nbsp;Coding!!!  &lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Points of&amp;nbsp;Interest&lt;/h3&gt;
+&lt;p&gt;Testing our code is a very important aspect of software development. Using testing tools like pytest along with PyCharm &lt;span class="caps"&gt;IDE&lt;/span&gt; goes in a long way in developing quality&amp;nbsp;code.  &lt;/p&gt;</content><category term="PyCharm"></category><category term="pytest"></category><category term="Python"></category><category term="Testing"></category></entry></feed>
