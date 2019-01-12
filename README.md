@@ -1,1 +1,2 @@
-##This blog contains the thoughts and learning of Gowrishankar S.
+## This repository contains the code for https://www.gowrishankarnath.com website
+
