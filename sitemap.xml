@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/</loc>
-<lastmod>2019-01-15T18:47:31-00:00</lastmod>
+<lastmod>2019-05-11T15:27:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/archives.html</loc>
-<lastmod>2019-01-15T18:47:31-00:00</lastmod>
+<lastmod>2019-05-11T15:27:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tags.html</loc>
-<lastmod>2019-01-15T18:47:31-00:00</lastmod>
+<lastmod>2019-05-11T15:27:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/categories.html</loc>
-<lastmod>2019-01-15T18:47:31-00:00</lastmod>
+<lastmod>2019-05-11T15:27:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -48,6 +48,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/disclaimer.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tips-for-passing-the-courses-offered-by-nptel.html</loc>
+<lastmod>2019-05-11T13:05:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/category/articles.html</loc>
-<lastmod>2019-01-10T23:58:00+05:53</lastmod>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -132,6 +139,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/category/book.html</loc>
 <lastmod>2019-01-07T02:30:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/nptel.html</loc>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/certification.html</loc>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/aicte.html</loc>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/swayam.html</loc>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/iot.html</loc>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -174,6 +216,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/tag/pycharm.html</loc>
 <lastmod>2019-01-08T23:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/remote-programming.html</loc>
+<lastmod>2019-01-08T14:23:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -257,7 +306,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/author/gowrishankar-s.html</loc>
-<lastmod>2019-01-10T23:58:00+05:53</lastmod>
+<lastmod>2019-05-11T13:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

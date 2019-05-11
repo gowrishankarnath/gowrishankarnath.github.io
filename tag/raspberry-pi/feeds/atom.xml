@@ -36,4 +36,4 @@
 &lt;p&gt;Now open the terminal window again on the Raspberry Pi and go to the path where you intended to store Python programs. If you have followed the instructions then the path is /home/pi/pywork. You should see the rasp.py file in&amp;nbsp;there.  &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 13:&lt;/strong&gt; You need to sync the Python code with Raspberry Pi as and when you write your code in PyCharm. To do that go to Tools &amp;#8212;&amp;gt; Deployment &amp;#8212;&amp;gt; Sync with Deployed to&amp;nbsp;GS_Research.  &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Image_11" src="../images/article_3_image_11.png"&gt;   &lt;/p&gt;
-&lt;p&gt;Happy&amp;nbsp;Coding…  &lt;/p&gt;</content><category term="Python"></category><category term="Raspberry Pi"></category><category term="PyCharm"></category></entry></feed>
+&lt;p&gt;Happy&amp;nbsp;Coding…  &lt;/p&gt;</content><category term="Python"></category><category term="Raspberry Pi"></category><category term="PyCharm"></category><category term="Remote Programming"></category></entry></feed>
