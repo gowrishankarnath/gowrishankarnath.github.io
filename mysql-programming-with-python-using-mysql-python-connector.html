@@ -143,14 +143,14 @@
                 </div>
                 <h3>Introduction</h3>
 <p>This article is about programming MySQL with Python using MySQL Python Connector. MySQL is a popular Open Source Database that finds its way in the software stack of almost all newer billion dollar companies. Let’s try to do some basic operations like  <em>Insert</em>, <em>Read</em>, <em>Update</em> and <em>Delete</em>. For creating the database schema we have used MySQL workbench, even though it is fully possible to do the same programmatically using Python and the MySQL Python&nbsp;Connector.  </p>
-<p>For our article I have considered this below database schema. You can read more about designing this schema <a href="https://gowrishankarnath.github.io/designing-database-schema-using-mysql-workbench.html">here</a>  </p>
+<p>For our article I have considered this below database schema. You can read more about designing this schema <a href="https://gowrishankarnath.github.io/designing-database-schema-using-mysql-workbench.html" target="_blank" style="color: rgb(6,69,173)"><font color="#0066CC">here</font></a>.  </p>
 <p><img alt="Image_1" src="../images/article_9_image_1.png">  </p>
 <p>The illustrated code has been tested on Python 3.5 with MySQL Python&nbsp;Connector.  </p>
 <h3>MySQL Programming With Python Using MySQL Python&nbsp;Connector</h3>
 <p>Install the latest version of MySQL Python Connector as shown&nbsp;below  </p>
 <p><img alt="Image_2" src="../images/article_9_image_2.png">  </p>
 <p>In line 1, we import mysql.connector module. In line 2 we also import the errorcode class which can be used to various errors related to Database&nbsp;query.  </p>
-<p>In line 3-4 we import faker module and create fake object. The reason for using this awesome module is I wanted to have some real world values generated for me instead of writing the values manually. You can read more about <strong>faker</strong> module <a href="https://gowrishankarnath.github.io/generate-fake-data-programmatically-using-faker-with-python.html">here</a>  </p>
+<p>In line 3-4 we import faker module and create fake object. The reason for using this awesome module is I wanted to have some real world values generated for me instead of writing the values manually. You can read more about <strong>faker</strong> module <a href="https://gowrishankarnath.github.io/generate-fake-data-programmatically-using-faker-with-python.html" target="_blank" style="color: rgb(6,69,173)"><font color="#0066CC">here</font></a>.  </p>
 <p>You need to declare and provide values for <em>user</em>, <em>password</em>, <em>host</em>, <em>database</em> and <em>raise_on_warnings</em>. Here, <em>config</em> is declared as a dictionary. You need to pass this config dictionary to connect method as an argument (see <strong>**</strong> in the connect method). In line 21 we create cursor object which can be used to execute the Database query. We write a query to insert a row to the <em>contactperson</em> table. The query is stored in the variable <em>addContactPerson</em> which is passed to the execute method as an argument.  In this program we will use an for loop to insert ten rows. Once we have performed our operation we need to close the <em>cnx</em> and <em>cursor</em>&nbsp;objects.  </p>
 <div class="highlight"><pre><span class="code-line"><span></span><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
@@ -311,7 +311,7 @@
 <h3>Conclusion</h3>
 <p>As you can see with few lines of Python code we can perform various database&nbsp;operations.  </p>
 <p>You can find the source code for all the programs discussed&nbsp;@  </p>
-<p><a href="https://github.com/gowrishankarnath/MySqlProgrammingWithPython">https://github.com/gowrishankarnath/MySqlProgrammingWithPython</a>  </p>
+<p><a href="https://github.com/gowrishankarnath/MySqlProgrammingWithPython" target="_blank" style="color: rgb(6,69,173)"><font color="#0066CC">https://github.com/gowrishankarnath/MySqlProgrammingWithPython</font></a></p>
             </div>
             <!-- /.entry-content -->
     <hr/>

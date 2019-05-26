@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/</loc>
-<lastmod>2019-05-26T16:03:27-00:00</lastmod>
+<lastmod>2019-05-26T17:17:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/archives.html</loc>
-<lastmod>2019-05-26T16:03:27-00:00</lastmod>
+<lastmod>2019-05-26T17:17:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tags.html</loc>
-<lastmod>2019-05-26T16:03:27-00:00</lastmod>
+<lastmod>2019-05-26T17:17:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/categories.html</loc>
-<lastmod>2019-05-26T16:03:27-00:00</lastmod>
+<lastmod>2019-05-26T17:17:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/introduction-to-python-programming.html</loc>
-<lastmod>2019-01-07T02:30:00+05:30</lastmod>
+<lastmod>2019-05-26T16:49:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -131,21 +131,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/mysql-programming-with-python-using-mysql-python-connector.html</loc>
-<lastmod>2019-01-10T23:53:00+05:30</lastmod>
+<lastmod>2019-05-26T17:05:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/designing-database-schema-using-mysql-workbench.html</loc>
-<lastmod>2019-01-10T23:38:00+05:30</lastmod>
+<lastmod>2019-05-26T16:44:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/generate-fake-data-programmatically-using-faker-with-python.html</loc>
-<lastmod>2019-01-08T10:30:00+05:30</lastmod>
+<lastmod>2019-05-26T16:51:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -159,14 +159,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/category/articles.html</loc>
-<lastmod>2019-05-26T15:20:00+05:53</lastmod>
+<lastmod>2019-05-26T17:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/category/book.html</loc>
-<lastmod>2019-01-07T02:30:00+05:53</lastmod>
+<lastmod>2019-05-26T16:49:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -236,7 +236,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/python.html</loc>
-<lastmod>2019-05-20T18:38:00+05:53</lastmod>
+<lastmod>2019-05-26T17:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -313,14 +313,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/crc-press.html</loc>
-<lastmod>2019-01-07T02:30:00+05:53</lastmod>
+<lastmod>2019-05-26T16:49:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/book.html</loc>
-<lastmod>2019-01-07T02:30:00+05:53</lastmod>
+<lastmod>2019-05-26T16:49:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -390,28 +390,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/mysql.html</loc>
-<lastmod>2019-01-10T23:53:00+05:53</lastmod>
+<lastmod>2019-05-26T17:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/database.html</loc>
-<lastmod>2019-01-10T23:53:00+05:53</lastmod>
+<lastmod>2019-05-26T17:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/mysql-workbench.html</loc>
-<lastmod>2019-01-10T23:38:00+05:53</lastmod>
+<lastmod>2019-05-26T16:44:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/faker.html</loc>
-<lastmod>2019-01-08T10:30:00+05:53</lastmod>
+<lastmod>2019-05-26T16:51:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -432,7 +432,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/author/gowrishankar-s.html</loc>
-<lastmod>2019-05-26T15:20:00+05:53</lastmod>
+<lastmod>2019-05-26T17:05:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
