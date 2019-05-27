@@ -291,45 +291,44 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-39z9{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left;vertical-align:top}
-.tg .tg-2g82{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
-.tg .tg-a6b6{font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-l9i5{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-prof{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-fa8q{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-jlrw{font-size:16px;text-align:center}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+.tg .tg-9dqs{font-weight:bold;font-size:15px;text-align:center}
+.tg .tg-sogj{font-size:15px;text-align:left}
+.tg .tg-cbs6{font-size:15px;text-align:left;vertical-align:top}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-    &lt;th class="tg-a6b6" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - A&lt;/span&gt;&lt;/th&gt;
+    &lt;th class="tg-jlrw" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - A&lt;/span&gt;&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-l9i5"&gt;&lt;span style="font-weight:bold"&gt;Sl. No&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-l9i5"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-hgcj"&gt;&lt;span style="font-weight:bold"&gt;Sl. No&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-hgcj"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;1.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Write a Python program to print all Disarium numbers between 1 and 100.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;1.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to print all Disarium numbers between 1 and 100.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;2.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Write a Python program to encrypt the text using Caesar Cipher technique. Display the encrypted text. Prompt the user for input and the shift pattern.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;2.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to encrypt the text using Caesar Cipher technique. Display the encrypted text. Prompt the user for input and the shift pattern.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;3.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Write a Python program to simulate &lt;span class="caps"&gt;ATM&lt;/span&gt; transactions by including the following operations:&lt;br&gt;    a) Check for correctness of the &lt;span class="caps"&gt;ATM&lt;/span&gt; pin.&lt;br&gt;    b) Perform Balance, Withdraw and Deposit Operations.&lt;br&gt;The above operations should be menu-driven and display appropriate messages after performing each of these operations.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;3.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to simulate &lt;span class="caps"&gt;ATM&lt;/span&gt; transactions by including the following operations:&lt;br&gt;    a) Check for correctness of the &lt;span class="caps"&gt;ATM&lt;/span&gt; pin.&lt;br&gt;    b) Perform Balance, Withdraw and Deposit Operations.&lt;br&gt;The above operations should be menu-driven and display appropriate messages after performing each of these operations.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;4.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;The celebrity problem is the problem of finding the celebrity among n people. A celebrity is someone who does not know anyone (including themselves) but is&lt;br&gt;known by everyone. Write a Python program to solve the celebrity problem.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;4.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;The celebrity problem is the problem of finding the celebrity among n people. A celebrity is someone who does not know anyone (including themselves) but is known by everyone. Write a Python program to solve the celebrity problem.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;5.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Write a Python program to construct a linked list. Prompt the user for input. Remove any duplicate numbers from the linked list.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;5.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-cbs6"&gt;Write a Python program to construct a linked list. Prompt the user for input. Remove any duplicate numbers from the linked list.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-fa8q"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Perform the following file operations using Python&lt;br&gt;    a) Traverse a path and display all the files and subdirectories in each level till the deepest level for a given path. Also, display the total number of files and&lt;br&gt;subdirectories.&lt;br&gt;    b) Read a file content and copy only the contents at odd lines into a new file.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-cbs6"&gt;Perform the following file operations using Python&lt;br&gt;    a) Traverse a path and display all the files and subdirectories in each level till the deepest level for a given path. Also, display the total number of files and subdirectories.&lt;br&gt;    b) Read a file content and copy only the contents at odd lines into a new file.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -338,43 +337,42 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v08z{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-x928{font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-l9i5{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-htlq{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
+.tg .tg-qnmb{font-weight:bold;font-size:16px;text-align:center}
+.tg .tg-9dqs{font-weight:bold;font-size:15px;text-align:center}
+.tg .tg-sogj{font-size:15px;text-align:left}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-      &lt;th class="tg-l9i5" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - B&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-qnmb" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - B&lt;/span&gt;&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-htlq"&gt;&lt;span style="font-weight:bold"&gt;Sl. No.&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-htlq"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;Sl. No&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;1.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Design a Python program to implement the Rock-Paper-Scissor game.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;1.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Design a Python program to implement the Rock-Paper-Scissor game.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;2.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Create a menu drive Python program with a dictionary for words and their meanings. Write functions to add a new entry (word: meaning), search for a particular word and retrieve meaning, given meaning find words with the same meaning, remove an entry, display all words sorted alphabetically.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;2.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Create a menu drive Python program with a dictionary for words and their meanings. Write functions to add a new entry (word: meaning), search for a particular word &lt;br&gt;and retrieve meaning, given meaning find words with the same meaning, remove an entry, display all words sorted alphabetically.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;3.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Design a Python program to perform Jump Search for a given key and report success or failure. Prompt the user to enter the key and a list of numbers.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;3.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Design a Python program to perform Jump Search for a given key and report success or failure. Prompt the user to enter the key and a list of numbers.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;4.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Using Regular Expressions, develop a Python program to&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a) Identify a word with a sequence of one upper case letter followed by lower case letters.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;b)  Find all the patterns of “1(0+)1” in a given string.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;c)  Match a word containing ‘z’ followed by one or more o’s.&lt;br&gt;&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;4.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Using Regular Expressions, develop a Python program to&lt;br&gt;  a) Identify a word with a sequence of one upper case letter followed by lower case letters.&lt;br&gt;  b) Find all the patterns of “1(0+)1” in a given string.&lt;br&gt;  c) Match a word containing ‘z’ followed by one or more o’s.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;5.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Write a Python program to plot the Line chart in &lt;span class="caps"&gt;MS&lt;/span&gt; Excel Sheet using XlsxWriter module to display the annual net income of the companies mentioned below.&lt;br&gt;&lt;br&gt;&lt;a href="../images/article_14_image_1.jpg"&gt;&lt;span class="caps"&gt;MS&lt;/span&gt; Excel Data&lt;/a&gt;&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;5.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to plot the Line chart in &lt;span class="caps"&gt;MS&lt;/span&gt; Excel Sheet using XlsxWriter module to display the annual net income of the companies mentioned below.&lt;br&gt;&lt;br&gt;&lt;a href="../images/article_14_image_1.jpg"&gt;&lt;span class="caps"&gt;MS&lt;/span&gt; Excel Data&lt;/a&gt;&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-v08z"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-x928"&gt;Design a Python program to implement the Hangman Game.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+      &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Design a Python program to implement the Hangman Game.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -384,41 +382,41 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-7in8{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
-.tg .tg-2g82{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
-.tg .tg-prof{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tg .tg-dbbi{font-weight:bold;font-size:15px;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-gvzw{font-size:15px;border-color:inherit;text-align:left}
+.tg .tg-w6fb{font-weight:bold;font-size:15px;border-color:inherit;text-align:center}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-    &lt;th class="tg-7in8"&gt;COs&lt;/th&gt;
-    &lt;th class="tg-7in8"&gt;Statements&lt;/th&gt;
-    &lt;th class="tg-7in8"&gt;Blooms Level&lt;/th&gt;
+      &lt;th class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;Statements&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;Bloom&amp;#8217;s Level&lt;/span&gt;&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Describe the Python language syntax including control statements, loops and functions to write programs for a wide variety problem in mathematics, science, and games.&lt;/td&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Describe the Python language syntax including control statements, loops and functions to write programs for a wide variety problem in mathematics, science, and games.&lt;/td&gt;
+      &lt;td class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Examine the core data structures like lists, dictionaries, tuples and sets in Python to store, process and sort the data.&lt;/td&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Examine the core data structures like lists, dictionaries, tuples and sets in Python to store, process and sort the data.&lt;/td&gt;
+      &lt;td class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Interpret the concepts of Object-oriented programming as used in Python using encapsulation, polymorphism and inheritance.&lt;/td&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Interpret the concepts of Object-oriented programming as used in Python using encapsulation, polymorphism and inheritance.&lt;/td&gt;
+      &lt;td class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Discover the capabilities of Python regular expression for data verification and utilize matrices for building performance efficient Python programs.&lt;/td&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Discover the capabilities of Python regular expression for data verification and utilize matrices for building performance efficient Python programs.&lt;/td&gt;
+      &lt;td class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-2g82"&gt;Identify the external modules for creating and writing data to excel files and inspect the file operations to navigate the file systems.&lt;/td&gt;
-      &lt;td class="tg-prof"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Identify the external modules for creating and writing data to excel files and inspect the file operations to navigate the file systems.&lt;/td&gt;
+      &lt;td class="tg-dbbi"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -600,29 +598,29 @@ students to be served, the academic environment and primary focus of the curricu
     &lt;th class="tg-fcjq"&gt;No. of Hours&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fcjq"&gt;1&lt;/td&gt;
+      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;1&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Parts of Python Programming Language,&lt;/span&gt; Identifiers, Keywords, Statements and Expressions, Variables, Operators, Precedence and Associativity, Data Types, Indentation, Comments, Reading Input, Print Output, Type Conversions, The type() Function and Is Operator, Dynamic and Strongly Typed Language, &lt;span style="font-weight:bold"&gt;Control Flow Statements,&lt;/span&gt; The if&amp;nbsp;&amp;nbsp;Decision Control Flow Statement, The if…else Decision Control Flow Statement, The if…elif…else Decision Control Statement, Nested if Statement, The while Loop, The for Loop, The continue and break Statements, Catching Exceptions Using try and except Statement, &lt;span style="font-weight:bold"&gt;Functions,&lt;/span&gt; Built-In Functions, Commonly Used Modules, Function Definition and Calling the Function, The return Statement and void Function, Scope and Lifetime of Variables, Default Parameters, Keyword Arguments, *args and **kwargs, Command Line Arguments.&lt;/td&gt;
-    &lt;td class="tg-7in8"&gt;11&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;11&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fcjq"&gt;2&lt;/td&gt;
+      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;2&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Strings,&lt;/span&gt; Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number, String Slicing and Joining, String Methods, Formatting Strings, &lt;span style="font-weight:bold"&gt;Lists,&lt;/span&gt; Creating Lists, Basic List Operations, Indexing and Slicing in Lists, Built-In Functions Used on Lists, List Methods, The del Statement.&lt;/td&gt;
-    &lt;td class="tg-7in8"&gt;10&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;10&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fcjq"&gt;3&lt;/td&gt;
+      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;3&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Dictionaries,&lt;/span&gt; Creating Dictionary, Accessing and Modifying key:value Pairs in Dictionaries, Built-In Functions Used on Dictionaries, Dictionary Methods, The del Statement, &lt;span style="font-weight:bold"&gt;Tuples and Sets,&lt;/span&gt; Creating Tuples, Basic Tuple Operations, Indexing and Slicing in Tuples, Built-In Functions Used on Tuples, Relation between Tuples and Lists, Relation between Tuples and Dictionaries, Tuple Methods, Using zip() Function, Sets, Set Methods, Traversing of Sets, Frozenset.&lt;/td&gt;
-    &lt;td class="tg-7in8"&gt;10&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;10&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fcjq"&gt;4&lt;/td&gt;
+      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;4&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Files,&lt;/span&gt; Types of Files, Creating and Reading Text Data, File Methods to Read and Write Data, Reading and Writing Binary Files, The Pickle Module, Reading and Writing &lt;span class="caps"&gt;CSV&lt;/span&gt; Files, Python os and os.path Modules, &lt;span style="font-weight:bold"&gt;Regular Expression Operations,&lt;/span&gt; Using Special Characters, Regular Expression Methods, Named Groups in Python Regular Expressions, Regular Expression with glob Module.&lt;/td&gt;
-    &lt;td class="tg-7in8"&gt;10&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;10&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fcjq"&gt;5&lt;/td&gt;
+      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;5&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Object-Oriented Programming,&lt;/span&gt; Classes and Objects, Creating Classes in Python, Creating Objects in Python, The Constructor Method, Classes with Multiple Objects, Class Attributes versus Data Attributes, Encapsulation, Inheritance, The Polymorphism&lt;/td&gt;
-    &lt;td class="tg-7in8"&gt;11&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;11&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -632,41 +630,41 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-7in8{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
-.tg .tg-39z9{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left;vertical-align:top}
-.tg .tg-fa8q{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-1syg{font-weight:bold;font-size:16px;border-color:inherit;text-align:center}
+.tg .tg-gvzw{font-size:15px;border-color:inherit;text-align:left}
+.tg .tg-w6fb{font-weight:bold;font-size:15px;border-color:inherit;text-align:center}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-    &lt;th class="tg-7in8"&gt;COs&lt;/th&gt;
-    &lt;th class="tg-7in8"&gt;Statements&lt;/th&gt;
-    &lt;th class="tg-7in8"&gt;Blooms Level&lt;/th&gt;
+      &lt;th class="tg-1syg"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-1syg"&gt;&lt;span style="font-weight:bold"&gt;Statements&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-1syg"&gt;&lt;span style="font-weight:bold"&gt;Bloom&amp;#8217;s Level&lt;/span&gt;&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fa8q"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Interpret the fundamental Python syntax and semantics and be fluent in the use of Python control flow statements.&lt;/td&gt;
-    &lt;td class="tg-fa8q"&gt;L2&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Interpret the fundamental Python syntax and semantics and be fluent in the use of Python control flow statements.&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fa8q"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Express proficiency in the handling of strings and functions.&lt;/td&gt;
-    &lt;td class="tg-fa8q"&gt;L2&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Express proficiency in the handling of strings and functions.&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fa8q"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Determine the methods to create and manipulate Python programs by utilizing the data structures like lists, dictionaries, tuples and sets.&lt;/td&gt;
-    &lt;td class="tg-fa8q"&gt;L3&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Determine the methods to create and manipulate Python programs by utilizing the data structures like lists, dictionaries, tuples and sets.&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fa8q"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Identify the commonly used operations involving file systems and regular expressions.&lt;/td&gt;
-    &lt;td class="tg-fa8q"&gt;L2&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Identify the commonly used operations involving file systems and regular expressions.&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;L2&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-fa8q"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-39z9"&gt;Articulate the Object-Oriented Programming concepts such as encapsulation, inheritance and polymorphism as used in Python.&lt;/td&gt;
-    &lt;td class="tg-fa8q"&gt;L3&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-gvzw"&gt;Articulate the Object-Oriented Programming concepts such as encapsulation, inheritance and polymorphism as used in Python.&lt;/td&gt;
+      &lt;td class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;L3&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -684,49 +682,31 @@ students to be served, the academic environment and primary focus of the curricu
 
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-    &lt;th class="tg-bobw" rowspan="2"&gt;COs&lt;/th&gt;
-    &lt;th class="tg-amwm" colspan="12"&gt;POs&lt;/th&gt;
-    &lt;th class="tg-amwm" colspan="3"&gt;PSOs&lt;/th&gt;
+      &lt;th class="tg-bobw" rowspan="2"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-amwm" colspan="12"&gt;&lt;span style="font-weight:bold"&gt;POs&lt;/span&gt;&lt;/th&gt;
+      &lt;th class="tg-amwm" colspan="3"&gt;&lt;span style="font-weight:bold"&gt;PSOs&lt;/span&gt;&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO1&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO2&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO3&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO4&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO5&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO6&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO7&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO8&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO9&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO10&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO11&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PO12&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PSO1&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PSO2&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-amwm"&gt;&lt;span class="caps"&gt;PSO3&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO4&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO5&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO6&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO7&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO8&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO9&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO10&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO11&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PO12&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PSO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PSO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-amwm"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PSO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-1wig"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-1wig"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-1wig"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
-    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
@@ -742,7 +722,25 @@ students to be served, the academic environment and primary focus of the curricu
     &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-1wig"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-1wig"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
+    &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td class="tg-1wig"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
@@ -760,7 +758,7 @@ students to be served, the academic environment and primary focus of the curricu
     &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-1wig"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-1wig"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;1&lt;/td&gt;
@@ -778,7 +776,7 @@ students to be served, the academic environment and primary focus of the curricu
     &lt;td class="tg-baqh"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-1wig"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-1wig"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;3&lt;/td&gt;
     &lt;td class="tg-baqh"&gt;2&lt;/td&gt;
