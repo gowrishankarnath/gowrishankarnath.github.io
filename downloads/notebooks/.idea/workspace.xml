@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d53bdb-9379-4bb7-a780-674e3eeaba85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/notebooks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_1_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_1_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_2_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_2_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_3_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_3_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_4_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_4_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_5_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_5_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_6_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_6_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_7_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_7_Part_B.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_8_Part_A.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program_8_Part_B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../articles/syllabus-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../articles/syllabus-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/landmark-year-for-cloud-computing-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/plotting-swine-flu-death-in-india-using-altair-checkpoint.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="20d53bdb-9379-4bb7-a780-674e3eeaba85" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_8_Part_A.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program_1_Part_B.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
@@ -68,16 +37,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program_6_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_7_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_8_Part_B.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
@@ -133,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +103,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,16 +140,17 @@
       <workItem from="1558274125257" duration="208000" />
       <workItem from="1558274392692" duration="824000" />
       <workItem from="1558340688292" duration="716000" />
+      <workItem from="1558929319433" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1748000" />
+    <option name="totallyTimeSpent" value="2339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
