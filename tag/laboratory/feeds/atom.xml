@@ -1,3 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Laboratory</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/laboratory/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-05-20T18:38:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2019-05-20T18:38:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
-&lt;p&gt;&lt;a href="downloads/notebooks/Part_A_Program_1.ipynb"&gt;Solution&lt;/a&gt;&lt;/p&gt;</content><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Laboratory</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/laboratory/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-05-27T07:33:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2019-05-27T07:33:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Sub Title:&lt;/strong&gt;  &lt;strong&gt;Python Programming Laboratory&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sub Code: &lt;span class="caps"&gt;19CSL38&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Exam Duration: 3 Hours&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;No. of Credits: 1 = 0: 0: 1 (L: T: P)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;No. of Lecture Hours/Week: 2&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course&amp;nbsp;objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Interpret the use of procedural statements like assignments, conditional statements, loops and function&amp;nbsp;calls.&lt;/li&gt;
+&lt;li&gt;Infer the supported data structures like lists, dictionaries and tuples in&amp;nbsp;Python.&lt;/li&gt;
+&lt;li&gt;Illustrate the application of matrices and regular expressions in building the Python&amp;nbsp;programs.&lt;/li&gt;
+&lt;li&gt;Discover the use of external modules in creating excel files and navigating the file&amp;nbsp;systems.&lt;/li&gt;
+&lt;li&gt;Describe the need for Object-oriented programming concepts in&amp;nbsp;Python.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-jlrw{font-size:16px;text-align:center}
+.tg .tg-uwlg{font-size:15px;font-family:serif !important;;text-align:left}
+.tg .tg-t6oz{font-size:15px;font-family:serif !important;;text-align:left;vertical-align:top}
+.tg .tg-yykj{font-weight:bold;font-size:15px;font-family:serif !important;;text-align:center}
+.tg .tg-qnmb{font-weight:bold;font-size:16px;text-align:center}
+&lt;/style&gt;
+
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-jlrw" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - A&lt;/span&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+      &lt;td class="tg-qnmb"&gt;&lt;span style="font-weight:bold"&gt;Sl. No&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-qnmb"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;1.&lt;/td&gt;
+    &lt;td class="tg-uwlg"&gt;Write a Python program to print all Disarium numbers between 1 and 100.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;2.&lt;/td&gt;
+    &lt;td class="tg-uwlg"&gt;Write a Python program to encrypt the text using Caesar Cipher technique. Display the&lt;br&gt;encrypted text. Prompt the user for input and the shift pattern.&lt;br&gt;&lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;3.&lt;/td&gt;
+    &lt;td class="tg-t6oz"&gt;Write a Python program to simulate &lt;span class="caps"&gt;ATM&lt;/span&gt; transactions by including the following operations:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a) Check for correctness of the &lt;span class="caps"&gt;ATM&lt;/span&gt; pin.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;b) Perform Balance, Withdraw and Deposit Operations.&lt;br&gt;The above operations should be menu-driven and display appropriate messages after performing each of these operations.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;4.&lt;/td&gt;
+    &lt;td class="tg-t6oz"&gt;The celebrity problem is the problem of finding the celebrity among n people. A celebrity is someone who does not know anyone (including themselves) &lt;br&gt;but is known by everyone. Write a Python program to solve the celebrity problem.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;5.&lt;/td&gt;
+    &lt;td class="tg-t6oz"&gt;Write a Python program to construct a linked list. Prompt the user for input. Remove any duplicate numbers from the linked list.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yykj"&gt;6.&lt;/td&gt;
+    &lt;td class="tg-t6oz"&gt;Perform the following file operations using Python&lt;br&gt;    a) Traverse a path and display all the files and subdirectories in each level till the deepest level for a given path. Also, display the total number of files and&lt;br&gt;subdirectories.&lt;br&gt;    b) Read a file content and copy only the contents at odd lines into a new file.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+.tg .tg-s268{text-align:left}
+&lt;/style&gt;
+
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-s6z2" colspan="2"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;PART&lt;/span&gt; - B&lt;/span&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s6z2"&gt;&lt;span style="font-weight:bold"&gt;Sl. No&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-hgcj"&gt;&lt;span style="font-weight:bold"&gt;Programs&lt;/span&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;1.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Design a Python program to implement the Rock-Paper-Scissor game.&lt;br&gt;&lt;br&gt;&lt;a href="../downloads/notebooks/Program_1_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;2.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Create a menu drive Python program with a dictionary for words and their meanings. Write functions to add a &lt;br&gt;new entry (word: meaning), search for a particular word and retrieve meaning, given meaning find words with &lt;br&gt;the same meaning, remove an entry, display all words sorted alphabetically.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;3.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Design a Python program to perform Jump Search for a given key and report success or failure. Prompt the &lt;br&gt;user to enter the key and a list of numbers.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;4.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Using Regular Expressions, develop a Python program to&lt;br&gt;    a) Identify a word with a sequence of one upper case letter followed by lower case letters.&lt;br&gt;    b) Find all the patterns of “1(0+)1” in a given string.&lt;br&gt;    c) Match a word containing ‘z’ followed by one or more o’s.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;5.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Write a Python program to plot the Line chart in &lt;span class="caps"&gt;MS&lt;/span&gt; Excel Sheet using XlsxWriter module to display the annual net income &lt;br&gt;of the companies mentioned below.&lt;br&gt;&lt;br&gt;&lt;a href="../images/article_14_image_1.jpg"&gt;&lt;span class="caps"&gt;MS&lt;/span&gt; Excel Data&lt;/a&gt;&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-hgcj"&gt;6.&lt;/td&gt;
+    &lt;td class="tg-s268"&gt;Design a Python program to implement the Hangman Game.&lt;br&gt;&lt;br&gt;Solution&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-7in8{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-2g82{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
+.tg .tg-prof{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+&lt;/style&gt;
+
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-7in8"&gt;COs&lt;/th&gt;
+    &lt;th class="tg-7in8"&gt;Statements&lt;/th&gt;
+    &lt;th class="tg-7in8"&gt;Blooms Level&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-prof"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-2g82"&gt;Describe the Python language syntax including control statements, loops and functions to write programs for a wide variety problem in mathematics, science, and games.&lt;/td&gt;
+    &lt;td class="tg-prof"&gt;L2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-prof"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-2g82"&gt;Examine the core data structures like lists, dictionaries, tuples and sets in Python to store, process and sort the data.&lt;/td&gt;
+    &lt;td class="tg-prof"&gt;L3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-prof"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-2g82"&gt;Interpret the concepts of Object-oriented programming as used in Python using encapsulation, polymorphism and inheritance.&lt;/td&gt;
+    &lt;td class="tg-prof"&gt;L3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-prof"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-2g82"&gt;Discover the capabilities of Python regular expression for data verification and utilize matrices for building performance efficient Python programs.&lt;/td&gt;
+    &lt;td class="tg-prof"&gt;L2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-prof"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-2g82"&gt;Identify the external modules for creating and writing data to excel files and inspect the file operations to navigate the file systems.&lt;/td&gt;
+    &lt;td class="tg-prof"&gt;L2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course Articulation Matrix (&lt;span class="caps"&gt;CO&lt;/span&gt;-&lt;span class="caps"&gt;PO&lt;/span&gt;&amp;nbsp;Mapping)&lt;/strong&gt;&lt;/p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-v08z{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-2oic{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
+.tg .tg-htlq{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
+.tg .tg-nxv2{font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center;vertical-align:top}
+&lt;/style&gt;
+
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-2oic" rowspan="2"&gt;COs&lt;/th&gt;
+    &lt;th class="tg-htlq" colspan="12"&gt;POs&lt;/th&gt;
+    &lt;th class="tg-htlq" colspan="3"&gt;PSOs&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO1&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO2&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO3&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO4&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO5&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO6&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO7&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO8&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO9&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO10&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO11&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PO12&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PSO1&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PSO2&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;PSO3&lt;/span&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;CO1&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;CO2&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;CO3&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;CO4&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v08z"&gt;&lt;span class="caps"&gt;CO5&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;2&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;3&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</content><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry></feed>
