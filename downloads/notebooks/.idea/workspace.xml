@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d53bdb-9379-4bb7-a780-674e3eeaba85" name="Default Changelist" comment="" />
+    <list default="true" id="20d53bdb-9379-4bb7-a780-674e3eeaba85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../articles/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../articles/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../articles/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_1_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_1_Part_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_2_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_2_Part_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_3_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_3_Part_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_4_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_4_Part_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_5_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_5_Part_B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_6_Part_A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program_6_Part_B.ipynb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,43 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_1_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_2_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_3_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_4_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_5_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program_6_Part_B.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Program_1_Part_A.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,25 +72,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Programming/Python_Work/Dr.AIT_Python_Lab_2019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -141,16 +111,18 @@
       <workItem from="1558274392692" duration="824000" />
       <workItem from="1558340688292" duration="716000" />
       <workItem from="1558929319433" duration="591000" />
+      <workItem from="1558982477973" duration="66000" />
+      <workItem from="1558982669745" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2339000" />
+    <option name="totallyTimeSpent" value="2434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,12 +169,10 @@
     <entry file="file://$PROJECT_DIR$/Program_6_Part_A.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program_7_Part_A.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program_8_Part_A.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Program_7_Part_A.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Program_8_Part_A.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Program_7_Part_B.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Program_8_Part_B.ipynb" />
     <entry file="file://$PROJECT_DIR$/Program_1_Part_B.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
@@ -219,12 +189,6 @@
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Program_6_Part_B.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program_7_Part_B.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program_8_Part_B.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Program_1_Part_A.ipynb">
