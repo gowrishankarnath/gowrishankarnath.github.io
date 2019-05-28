@@ -291,11 +291,11 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-jlrw{font-size:20px;text-align:center}
-.tg .tg-hgcj{font-weight:bold;text-align:center}
-.tg .tg-9dqs{font-weight:bold;font-size:15px;text-align:center}
-.tg .tg-sogj{font-size:18px;text-align:left}
-.tg .tg-cbs6{font-size:18px;text-align:left;vertical-align:top}
+.tg .tg-jlrw{font-size:20px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tg .tg-hgcj{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tg .tg-9dqs{font-weight:bold;font-size:15px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tg .tg-sogj{font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
+.tg .tg-cbs6{font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:left;vertical-align:top}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
@@ -337,9 +337,9 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-qnmb{font-weight:bold;font-size:20px;text-align:center}
-.tg .tg-9dqs{font-weight:bold;font-size:18px;text-align:center}
-.tg .tg-sogj{font-size:18px;text-align:left}
+.tg .tg-qnmb{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;font-size:20px;text-align:center}
+.tg .tg-9dqs{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tg .tg-sogj{font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
@@ -352,7 +352,7 @@ students to be served, the academic environment and primary focus of the curricu
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;1.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-sogj"&gt;Design a Python program to implement the Rock-Paper-Scissor game.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_1_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Devise a Python program to implement the Rock-Paper-Scissor game.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_1_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;2.&lt;/span&gt;&lt;/td&gt;
@@ -360,7 +360,7 @@ students to be served, the academic environment and primary focus of the curricu
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;3.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-sogj"&gt;Design a Python program to perform Jump Search for a given key and report success or failure. Prompt the user to enter the key and a list of numbers.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_3_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to perform Jump Search for a given key and report success or failure. Prompt the user to enter the key and a list of numbers.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_3_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;4.&lt;/span&gt;&lt;/td&gt;
@@ -372,7 +372,7 @@ students to be served, the academic environment and primary focus of the curricu
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-sogj"&gt;Design a Python program to implement the Hangman Game.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_6_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Devise a Python program to implement the Hangman Game.&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_6_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -382,9 +382,9 @@ students to be served, the academic environment and primary focus of the curricu
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-dbbi{font-weight:bold;font-size:18px;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-gvzw{font-size:18px;border-color:inherit;text-align:left}
-.tg .tg-w6fb{font-weight:bold;font-size:18px;border-color:inherit;text-align:center}
+.tg .tg-dbbi{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;font-size:18px;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-gvzw{font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
+.tg .tg-w6fb{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
