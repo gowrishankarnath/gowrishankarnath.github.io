@@ -112,7 +112,7 @@
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;5.&lt;/span&gt;&lt;/td&gt;
-    &lt;td class="tg-sogj"&gt;Write a Python program to plot the Line chart in &lt;span class="caps"&gt;MS&lt;/span&gt; Excel Sheet using XlsxWriter module to display the annual net income of the companies mentioned below.&lt;br&gt;&lt;br&gt;&lt;a href="../images/article_14_image_1.jpg"&gt;&lt;span class="caps"&gt;MS&lt;/span&gt; Excel Data&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_5_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td class="tg-sogj"&gt;Write a Python program to plot the Line chart in &lt;span class="caps"&gt;MS&lt;/span&gt; Excel Sheet using XlsxWriter module to display the annual net income of the companies mentioned below.&lt;br&gt;&lt;br&gt;&lt;a href="../images/article_14_image_1.jpg" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;&lt;span class="caps"&gt;MS&lt;/span&gt; Excel Data&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://nbviewer.jupyter.org/github/gowrishankarnath/Dr.AIT_Python_Lab_2019/blob/master/Program_5_Part_B.ipynb" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Solution&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-9dqs"&gt;&lt;span style="font-weight:bold"&gt;6.&lt;/span&gt;&lt;/td&gt;
@@ -416,8 +416,8 @@
 &lt;p&gt;​                                           &lt;strong&gt;Course Articulation Matrix (&lt;span class="caps"&gt;CO&lt;/span&gt;-&lt;span class="caps"&gt;PO&lt;/span&gt;&amp;nbsp;Mapping)&lt;/strong&gt;&lt;/p&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:"Times New Roman", Times;font-size:18px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:"Times New Roman", Times;font-size:18px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-bobw{font-weight:bold;text-align:center;vertical-align:bottom}
 .tg .tg-baqh{text-align:center;vertical-align:top}
