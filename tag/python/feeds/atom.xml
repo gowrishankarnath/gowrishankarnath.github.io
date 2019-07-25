@@ -33,11 +33,11 @@
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:18px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-3f9k{font-weight:bold;font-size:22px;font-family:Arial, Helvetica, sans-serif !important;;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-dbbi{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;font-size:18px;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-gvzw{font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
+.tg .tg-w6fb{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
