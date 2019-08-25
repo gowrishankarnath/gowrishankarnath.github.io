@@ -1113,7 +1113,7 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;You can find the model question papers and question bank for Python programming course prescribed for third semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
+&lt;p&gt;You will find the model question papers and question bank for the Python programming course prescribed for third semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1122,7 +1122,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Model-Question-Paper-1"&gt;Model Question Paper 1&lt;a class="anchor-link" href="#Model-Question-Paper-1"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.nbaind.org/" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/blob/master/Python_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1131,7 +1131,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Model-Question-Paper-2"&gt;Model Question Paper 2&lt;a class="anchor-link" href="#Model-Question-Paper-2"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.nbaind.org/" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/blob/master/Python_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1146,14 +1146,7 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-1."&gt;Unit 1.&lt;a class="anchor-link" href="#Unit-1."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Explain the different string formats available in Python with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="Unit-1."&gt;Unit 1.&lt;a class="anchor-link" href="#Unit-1."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Explain the different string formats available in Python with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Discuss the int(), float(), str(), chr() and complex() type conversion functions with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Discuss the ord(), hex(), oct(), complex() and float() type conversion functions with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Describe the &lt;strong&gt;is&lt;/strong&gt; and &lt;strong&gt;is not&lt;/strong&gt; operators and type() function. Also, discuss why Python is called as dynamic and strongly typed language. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1195,6 +1188,11 @@ h6:hover .anchor-link {
 &lt;p&gt;&lt;strong&gt;11.&lt;/strong&gt; Describe the need for catching exceptions using try and except statements. &lt;code&gt;10 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;12.&lt;/strong&gt; Describe the syntax for the following functions and explain with an example.&lt;br&gt;
 a) abs() b) max() c) divmod() d) pow() e) len()  &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13.&lt;/strong&gt; Write Pythonic code to solve the quadratic equation ax**2 + bx + c = 0 by getting input for coefficients from the user. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14.&lt;/strong&gt; Find the area and perimeter of a circle using functions. Prompt the user for input. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;15.&lt;/strong&gt; Write a Python program using functions to find the value of nPr and nCr without using inbuilt factorial() function. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16.&lt;/strong&gt; Write a program to print the sum of the following series
+1 + 1/2 + 1/3 +. …. + 1/n  &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1202,20 +1200,14 @@ a) abs() b) max() c) divmod() d) pow() e) len()  &lt;code&gt;5 Marks&lt;/code&gt
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-2."&gt;Unit 2.&lt;a class="anchor-link" href="#Unit-2."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to replace comma-separated words with hyphens and print hyphen-separated words in ascending order. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="Unit-2."&gt;Unit 2.&lt;a class="anchor-link" href="#Unit-2."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to replace comma-separated words with hyphens and print hyphen-separated words in ascending order. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Explain the need for Unicodes. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Discuss the following list functions&lt;br&gt;
 a) len() b) sum() c) any() d) all() e) sorted()  &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Explain the following list methods with an example.
 a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Check if the items in the list are sorted in ascending or descending order and print suitable messages accordingly. Otherwise, print &amp;#8220;Items in list are not sorted&amp;#8221; &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Write Pythonic code to multiply two matrices using nested loops and also perform transpose of the resultant matrix. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1223,15 +1215,11 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-3."&gt;Unit 3.&lt;a class="anchor-link" href="#Unit-3."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to sort words in a sentence in decreasing order of their length. Display the sorted words along with their length. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="Unit-3."&gt;Unit 3.&lt;a class="anchor-link" href="#Unit-3."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to sort words in a sentence in decreasing order of their length. Display the sorted words along with their length. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Write a function which receives a variable number of strings as arguments. Find unique characters in each string. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Write Pythonic code to create a function called most_frequent that takes a string and prints the letters in decreasing order of frequency. Use dictionaries. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Consider the string &amp;#8216;brontosaurus&amp;#8217;. Write Pythonic code that implements and returns the functionality of histogram using dictionaries for the given string. Also, write the function &lt;strong&gt;print_hist()&lt;/strong&gt; to print the keys and their values in alphabetical order from the values returned by the histogram function. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Write Pythonic code that implements and returns the functionality of histogram using dictionaries. Also, write the function print_hist to print the keys and their values in alphabetical order from the values returned by the histogram function. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1239,14 +1227,21 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-4."&gt;Unit 4.&lt;a class="anchor-link" href="#Unit-4."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="Unit-4."&gt;Unit 4.&lt;a class="anchor-link" href="#Unit-4."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Describe the different access modes of the files with an example. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Discuss the following methods associated with the file object&lt;br&gt;
+a) read() b) readline() c) readlines() d) tell() e) seek() f) write() &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Write Python Program to Reverse Each Word in &amp;#8220;secret_societies.txt&amp;#8221; file. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Write Python Program to Count the Occurrences of Each Word and Also Count the Number of Words in a &amp;#8220;quotes.txt&amp;#8221; File. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Write Python Program to Find the Longest Word in a File. Get the File Name from User. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Consider a File Called &amp;#8220;workfile&amp;#8221;. Write Python Program to Read and Print Each Byte in the Binary File. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Write Python program to demonstrate the writing of data to a &lt;span class="caps"&gt;CSV&lt;/span&gt; file using DictWriter class. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; Discuss the following methods supported by compiled regular expression objects.&lt;br&gt;
+a) search() b) match() c) findall() &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; Why do you need regular expressions in Python? Consider a file “ait.txt”. Write a Python program to read the file and look for lines of the form 
+X-&lt;span class="caps"&gt;DSPAM&lt;/span&gt;-Confidence: 0.8475
+X-&lt;span class="caps"&gt;DSPAM&lt;/span&gt;-Probability: 0.458
+Extract the number from each of the lines using a regular expression. Compute the average of the numbers and print out the average. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; Consider a line &amp;#8220;From stephen.marquard\@uct.ac.za Sat Jan 5 09:14:16 2008&amp;#8221; in the file email.txt. Write Pythonic code to read the file and extract email address from the lines starting from the word &amp;#8220;From&amp;#8221;. Use regular expressions to match email address. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1254,14 +1249,16 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-5."&gt;Unit 5.&lt;a class="anchor-link" href="#Unit-5."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="Unit-5."&gt;Unit 5.&lt;a class="anchor-link" href="#Unit-5."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to calculate the Arc Length of an Angle by assigning values to the radius and angle data attributes of the class ArcLength. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Write Python Program to simulate a Bank Account with support for depositMoney, withdrawMoney and showBalance Operations. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Given three Points (x1, y1), (x2, y2) and (x3, y3), write a Python program to check if they are Collinear. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Discuss inheritance in Python programming language. Write a Python program to demonstrate the use of super() function. &lt;code&gt;10 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Program to demonstrate the Overriding of the Base Class method in the Derived Class. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Write Python program to demonstrate Multiple Inheritance. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Given the Coordinates (x, y) of a center of a Circle and its radius, write Python program to determine whether the Point lies inside the Circle, on the Circle or outside the Circle. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; Write Python Program to Demonstrate Multiple Inheritance with Method Overriding. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; Write Pythonic code to overload &amp;#8220;+&amp;#8221;, &amp;#8220;-&amp;#8221; and &amp;#8220;*&amp;#8221; operators by providing the methods __add__, __sub__ and __mul__. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; Write Pythonic code to create a function named &lt;strong&gt;move_rectangle()&lt;/strong&gt; that takes an object of &lt;strong&gt;Rectangle&lt;/strong&gt; class and two numbers named &lt;strong&gt;dx&lt;/strong&gt; and &lt;strong&gt;dy&lt;/strong&gt;. It should change the location of the Rectangle by adding dx to the x coordinate of corner and adding dy to the y coordinate of corner. &lt;code&gt;10 Marks&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1269,7 +1266,7 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;NOTE:  Marks allocated to all the questions are tentative. It may vary.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;NOTE: Marks allocated to all the questions are tentative. It may vary.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
