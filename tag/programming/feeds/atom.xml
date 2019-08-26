@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-08-24T22:28:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-24T22:28:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-08-26T17:06:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1122,7 +1122,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Model-Question-Paper-1"&gt;Model Question Paper 1&lt;a class="anchor-link" href="#Model-Question-Paper-1"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/blob/master/Python_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/raw/master/Python_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1131,7 +1131,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Model-Question-Paper-2"&gt;Model Question Paper 2&lt;a class="anchor-link" href="#Model-Question-Paper-2"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/blob/master/Python_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/raw/master/Python_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
