@@ -1110,7 +1110,45 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
+.ansi-black-bg { background-color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
+.ansi-red-bg { background-color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
+.ansi-red-intense-fg { color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
+.ansi-red-intense-bg { background-color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
+.ansi-yellow-bg { background-color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
+.ansi-yellow-intense-fg { color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
+.ansi-yellow-intense-bg { background-color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
+.ansi-blue-fg { color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
+.ansi-blue-bg { background-color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
+.ansi-blue-intense-fg { color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
+.ansi-blue-intense-bg { background-color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
+.ansi-magenta-fg { color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
+.ansi-magenta-bg { background-color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
+.ansi-cyan-bg { background-color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
+.ansi-cyan-intense-fg { color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
+.ansi-cyan-intense-bg { background-color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
+.ansi-white-fg { color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
+.ansi-white-bg { background-color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
+.ansi-white-intense-fg { color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
+.ansi-white-intense-bg { background-color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;You will find the model question papers and question bank for the Python programming course prescribed for third semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
@@ -1153,35 +1191,31 @@ h6:hover .anchor-link {
 &lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Illustrate the different types of control flow statements available in Python with flowcharts. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Write a Program to Prompt for a Score between 0.0 and 1.0. If the Score is out of range, print an error. If the score is between 0.0 and 1.0, print a grade using the following table   &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th&gt;Score&lt;/th&gt;
-&lt;th&gt;Grade&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;gt;= 0.9&lt;/td&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;gt;= 0.8&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;gt;= 0.7&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;gt;= 0.6&lt;/td&gt;
-&lt;td&gt;D&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;lt; 0.6&lt;/td&gt;
-&lt;td&gt;F&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Write a program to display the fibonacci sequences up to nth term where n is provided by the user. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Score&lt;/th&gt;
+    &lt;th&gt;Grade&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&amp;gt;= 0.9&lt;/td&gt;
+    &lt;td&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&amp;gt;= 0.8&lt;/td&gt;
+    &lt;td&gt;B&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&amp;gt;= 0.7&lt;/td&gt;
+    &lt;td&gt;C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&amp;gt;= 0.6&lt;/td&gt;
+    &lt;td&gt;D&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&amp;lt; 0.6&lt;/td&gt;
+    &lt;td&gt;F&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Write a program to display the fibonacci sequences up to nth term where n is provided by the user. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; Write a program to repeatedly check for the largest number until the user enters &lt;strong&gt;&amp;#8220;done&amp;#8221;&lt;/strong&gt;. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; Write a program to find the sum of all Odd and Even numbers up to a number specified by the user. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; Explain the need for &lt;strong&gt;continue&lt;/strong&gt; and &lt;strong&gt;break&lt;/strong&gt; statements. Write a program to check whether a number is prime or not. Prompt the user for input. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1907,13 +1941,14 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;li&gt;Wesley J Chun, &lt;strong&gt;&amp;#8220;Core Python Applications Programming&amp;#8221;,&lt;/strong&gt; 3rd Edition, Pearson Education India, 2015. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-9332555365&lt;/li&gt;
 &lt;li&gt;Miguel Grinberg, &lt;strong&gt;&amp;#8220;Flask Web Development: Developing Web Applications with Python&amp;#8221;,&lt;/strong&gt; 2nd Edition, O&amp;#39;Reilly Media, 2018. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-1491991732.&lt;/li&gt;
 &lt;/ol&gt;</content><category term="Python"></category><category term="Programming"></category><category term="Syllabus"></category><category term="Course"></category><category term="Programme"></category><category term="Dr.AIT"></category></entry><entry><title>Introduction to Python Programming</title><link href="https://www.gowrishankarnath.com/introduction-to-python-programming.html" rel="alternate"></link><published>2019-01-07T02:30:00+05:30</published><updated>2019-05-26T16:49:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-01-07:/introduction-to-python-programming.html</id><summary type="html">&lt;p&gt;Introduction to Python Programming authored by Gowrishankar S., and Veena A., and published by &lt;span class="caps"&gt;CRC&lt;/span&gt;&amp;nbsp;Press&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction to Python&amp;nbsp;Programming&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Introduction_to_Python_Programming" src="../images/article_1_image_1.jpg"&gt;.  &lt;/p&gt;
-&lt;p&gt;The Git repository for the book containing the code examples from the book &lt;strong&gt;“Introduction to Python Programming”&lt;/strong&gt;, authored by &lt;em&gt;Gowrishankar S.&lt;/em&gt; and &lt;em&gt;Veena A.&lt;/em&gt; and published by &lt;span class="caps"&gt;CRC&lt;/span&gt; Press can be found &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;here&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src="../images/article_1_image_1.jpg" alt="Authored Book" align="middle" height = 350, width = 250&gt;&lt;/center&gt;  &lt;/p&gt;
+&lt;p&gt;The Git repository for the book containing the code examples from the book &lt;strong&gt;“Introduction to Python Programming”&lt;/strong&gt;, authored by &lt;em&gt;Gowrishankar S.&lt;/em&gt; and &lt;em&gt;Veena A.&lt;/em&gt; and published by &lt;span class="caps"&gt;CRC&lt;/span&gt; Press/Taylor and Francis, Boca Raton, &lt;span class="caps"&gt;USA&lt;/span&gt; can be found &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;here&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Book&amp;nbsp;Purchase&lt;/h3&gt;
-&lt;p&gt;You can purchase the book at following sources &lt;br&gt;
-&lt;a href="http://www.amazon.com/dp/0815394373"&gt;&lt;img alt="Introduction to Python Programming" src="../images/article_1_image_2.jpg"&gt;&lt;/a&gt; &lt;br&gt;
-​  &lt;br&gt;
-&lt;a href="https://www.crcpress.com/Introduction-to-Python-Programming/S-A/p/book/9780815394372"&gt;&lt;img alt="Introduction to Python Programming" src="../images/article_1_image_3.jpg"&gt;&lt;/a&gt;    &lt;/p&gt;
+&lt;p&gt;You can purchase the book at following sources. &lt;strong&gt;(Click on the image to&amp;nbsp;buy)&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="http://www.amazon.com/dp/0815394373" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_2.jpg" width="300" height="100" alt="amazon india"&gt;&lt;/a&gt;&lt;/center&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="https://www.crcpress.com/Introduction-to-Python-Programming/S-A/p/book/9780815394372" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_3.jpg" width="300" height="100" alt="flipkart"&gt;&lt;/a&gt;&lt;/center&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="http://www.amazon.com/dp/0815394373" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_4.jpg" width="300" height="100" alt="amazon usa" align = "middle"&gt;&lt;/a&gt;&lt;/center&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="https://www.crcpress.com/Introduction-to-Python-Programming/S-A/p/book/9780815394372" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_5.jpg" width="300" height="100" alt="crcpress" align = "middle"&gt;&lt;/a&gt;&lt;/center&gt;  &lt;/p&gt;
 &lt;h3&gt;Book&amp;nbsp;Details&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Hardcover:&lt;/strong&gt; 464 pages&lt;br&gt;
 &lt;strong&gt;Publisher:&lt;/strong&gt; Chapman and Hall/&lt;span class="caps"&gt;CRC&lt;/span&gt; Press; 1 edition (November 7, 2018)  &lt;br&gt;
@@ -1941,7 +1976,7 @@ S, Gowrishankar, and A, Veena. Introduction to Python Programming. Chapman &lt;s
 &lt;h3&gt;Contributing to the&amp;nbsp;book&lt;/h3&gt;
 &lt;p&gt;Please don&amp;#8217;t make pull requests here. I don&amp;#8217;t accept pull requests on this repository. If you notice an issue, please file an &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming/issues" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;issue&lt;/font&gt;&lt;/a&gt;&amp;nbsp;instead.  &lt;/p&gt;
 &lt;h3&gt;Errata&lt;/h3&gt;
-&lt;p&gt;We hope to improve this book continually. If you have any suggestions for improving this text or if an error should be found, the authors would be grateful if notification were sent by e-mail to &lt;strong&gt;gowrishankarnath@acm.org&lt;/strong&gt;. To ensure your messages do not end up in our junk mail folder, please include subject as “Introduction to Python Programming.” You can see a list of known issues that have been found in each chapter by looking at &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming/tree/master/Errata" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Errata&lt;/font&gt;&lt;/a&gt; and the corresponding corrections. If you found a mistake and don&amp;#8217;t see it listed there, please create a new &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming/issues" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;issue&lt;/font&gt;&lt;/a&gt;. Thank you for your&amp;nbsp;help!  &lt;/p&gt;
+&lt;p&gt;We hope to improve this book continually. If you have any suggestions for improving this text or if an error should be found, the authors would be grateful if notification were sent by e-mail to &lt;strong&gt;gowrishankarnath@acm.org&lt;/strong&gt;. To ensure your messages do not end up in our junk mail folder, please include subject as “Introduction to Python Programming.” You can see a list of known issues that have been found in each chapter by looking at &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming/tree/master/Errata" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;Errata&lt;/font&gt;&lt;/a&gt; and the corresponding corrections. If you have found a mistake and don&amp;#8217;t see it listed there, please create a new &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming/issues" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;issue.&lt;/font&gt;&lt;/a&gt; Thank you for your&amp;nbsp;help!  &lt;/p&gt;
 &lt;h3&gt;Contact&lt;/h3&gt;
 &lt;p&gt;If you are interested in keeping in touch, I am active on twitter and my id is  &lt;a href="https://twitter.com/g_s_nath" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;@g_s_nath&lt;/font&gt;&lt;/a&gt;.   &lt;/p&gt;
 &lt;h3&gt;Table of&amp;nbsp;Contents&lt;/h3&gt;
@@ -2045,7 +2080,7 @@ Review Questions &lt;br&gt;
 8.10.1 Traversing of Sets&lt;br&gt;
 8.11 Frozenset &lt;br&gt;
 8.12 Summary &lt;br&gt;
-Multiple Choice&lt;br&gt;
+Multiple Choice Questions&lt;br&gt;
 Review Questions &lt;br&gt;
 &lt;strong&gt;9. Files&lt;/strong&gt; &lt;br&gt;
 9.1 Types of Files &lt;br&gt;
