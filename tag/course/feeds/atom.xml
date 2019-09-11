@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - course</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/course/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-08-26T17:06:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - course</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/course/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-09-11T12:01:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1159,7 +1159,8 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Model-Question-Paper-1"&gt;Model Question Paper 1&lt;a class="anchor-link" href="#Model-Question-Paper-1"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt;Model Question Paper 1  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/raw/master/Python_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1168,7 +1169,8 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Model-Question-Paper-2"&gt;Model Question Paper 2&lt;a class="anchor-link" href="#Model-Question-Paper-2"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 2  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Python_MQPs/raw/master/Python_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1177,14 +1179,16 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Question-Bank"&gt;Question Bank&lt;a class="anchor-link" href="#Question-Bank"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Question Bank  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-1."&gt;Unit 1.&lt;a class="anchor-link" href="#Unit-1."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Explain the different string formats available in Python with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt; Unit 1.  &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Explain the different string formats available in Python with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Discuss the int(), float(), str(), chr() and complex() type conversion functions with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Discuss the ord(), hex(), oct(), complex() and float() type conversion functions with examples. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Describe the &lt;strong&gt;is&lt;/strong&gt; and &lt;strong&gt;is not&lt;/strong&gt; operators and type() function. Also, discuss why Python is called as dynamic and strongly typed language. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1209,7 +1213,8 @@ a) abs() b) max() c) divmod() d) pow() e) len()  &lt;code&gt;5 Marks&lt;/code&gt
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-2."&gt;Unit 2.&lt;a class="anchor-link" href="#Unit-2."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to replace comma-separated words with hyphens and print hyphen-separated words in ascending order. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt; Unit 2.  &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to replace comma-separated words with hyphens and print hyphen-separated words in ascending order. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Explain the need for Unicodes. &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Discuss the following list functions&lt;br&gt;
 a) len() b) sum() c) any() d) all() e) sorted()  &lt;code&gt;5 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1224,7 +1229,8 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-3."&gt;Unit 3.&lt;a class="anchor-link" href="#Unit-3."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to sort words in a sentence in decreasing order of their length. Display the sorted words along with their length. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt;Unit 3.  &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to sort words in a sentence in decreasing order of their length. Display the sorted words along with their length. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Write a function which receives a variable number of strings as arguments. Find unique characters in each string. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Write Pythonic code to create a function called most_frequent that takes a string and prints the letters in decreasing order of frequency. Use dictionaries. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Consider the string &amp;#8216;brontosaurus&amp;#8217;. Write Pythonic code that implements and returns the functionality of histogram using dictionaries for the given string. Also, write the function &lt;strong&gt;print_hist()&lt;/strong&gt; to print the keys and their values in alphabetical order from the values returned by the histogram function. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1236,7 +1242,8 @@ a) append() b) extend() c) insert() d) index() e) sort() &lt;code&gt;5 Marks&lt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-4."&gt;Unit 4.&lt;a class="anchor-link" href="#Unit-4."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Describe the different access modes of the files with an example. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt;Unit 4.  &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Describe the different access modes of the files with an example. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Discuss the following methods associated with the file object&lt;br&gt;
 a) read() b) readline() c) readlines() d) tell() e) seek() f) write() &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Write Python Program to Reverse Each Word in &amp;#8220;secret_societies.txt&amp;#8221; file. &lt;code&gt;6 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1258,7 +1265,8 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Unit-5."&gt;Unit 5.&lt;a class="anchor-link" href="#Unit-5."&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to calculate the Arc Length of an Angle by assigning values to the radius and angle data attributes of the class ArcLength. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt;Unit 5.  &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Write Python program to calculate the Arc Length of an Angle by assigning values to the radius and angle data attributes of the class ArcLength. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Write Python Program to simulate a Bank Account with support for depositMoney, withdrawMoney and showBalance Operations. &lt;code&gt;8 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Given three Points (x1, y1), (x2, y2) and (x3, y3), write a Python program to check if they are Collinear. &lt;code&gt;7 Marks&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Discuss inheritance in Python programming language. Write a Python program to demonstrate the use of super() function. &lt;code&gt;10 Marks&lt;/code&gt;&lt;/p&gt;
@@ -1311,10 +1319,10 @@ Extract the number from each of the lines using a regular expression. Compute th
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-  &lt;/p&gt;</content><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Process involved in writing Course Outcomes (COs) and mapping of Course Outcomes with Program Outcomes (POs) for Course Articulation Matrix</title><link href="https://www.gowrishankarnath.com/process-involved-in-writing-course-outcomes-(co)-and-mapping-of-course-outcomes-with-program-outcomes-(po)-for-course-articulation-matrix.html" rel="alternate"></link><published>2019-05-26T12:20:00+05:30</published><updated>2019-05-26T17:27:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-26:/process-involved-in-writing-course-outcomes-(co)-and-mapping-of-course-outcomes-with-program-outcomes-(po)-for-course-articulation-matrix.html</id><summary type="html">&lt;p&gt;Writing COs and mapping of COs with POs for Course Articulation&amp;nbsp;Matrix&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently, me along with my colleagues Prof. Veena A. (Dept. of &lt;span class="caps"&gt;CSE&lt;/span&gt;, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;) and Prof. Pushpaveni H (Dept. of &lt;span class="caps"&gt;CSE&lt;/span&gt;, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), were assigned with the task to come up with a process for writing the Course Outcomes (COs) for a course and the mapping of the Course Outcomes with Program Outcomes (POs) for Course Articulation&amp;nbsp;Matrix. &lt;/p&gt;
+  &lt;/p&gt;</content><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Process involved in writing Course Outcomes (COs) and mapping of Course Outcomes with Program Outcomes (POs) for Course Articulation Matrix</title><link href="https://www.gowrishankarnath.com/process-involved-in-writing-course-outcomes-(co)-and-mapping-of-course-outcomes-with-program-outcomes-(po)-for-course-articulation-matrix.html" rel="alternate"></link><published>2019-05-26T12:20:00+05:30</published><updated>2019-09-11T12:01:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-26:/process-involved-in-writing-course-outcomes-(co)-and-mapping-of-course-outcomes-with-program-outcomes-(po)-for-course-articulation-matrix.html</id><summary type="html">&lt;p&gt;Writing COs and mapping of COs with POs for Course Articulation&amp;nbsp;Matrix&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently, me along with my colleagues Prof. Veena A. (Dept. of &lt;span class="caps"&gt;CSE&lt;/span&gt;, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;) and Prof. Pushpaveni H (Dept. of &lt;span class="caps"&gt;CSE&lt;/span&gt;, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), were assigned with the task to come up with a process for writing the Course Outcomes (COs) for a course and the mapping of the Course Outcomes with Program Outcomes (POs) for Course Articulation&amp;nbsp;Matrix. &lt;/p&gt;
 &lt;p&gt;Along with listing the process of writing the COs and mapping of &lt;span class="caps"&gt;CO&lt;/span&gt;-&lt;span class="caps"&gt;PO&lt;/span&gt; course articulation matrix, this article starts by giving the background information regarding &lt;span class="caps"&gt;NBA&lt;/span&gt;, Vision and Mission statements, the need for &lt;span class="caps"&gt;OBE&lt;/span&gt; and&amp;nbsp;Rubrics. &lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;h4&gt;National Board of&amp;nbsp;Accreditation&lt;/h4&gt;
+&lt;h4&gt;&lt;font color = black&gt; &lt;strong&gt; National Board of Accreditation  &lt;/strong&gt; &lt;/font&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://www.nbaind.org/" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; National Board of Accreditation (&lt;span class="caps"&gt;NBA&lt;/span&gt;)&lt;/font&gt;&lt;/a&gt; is responsible for the accreditation of higher education institutions in India. &lt;span class="caps"&gt;NBA&lt;/span&gt; is also a full member of the &lt;a href="https://en.wikipedia.org/wiki/Washington_Accord" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; Washington Accord&lt;/font&gt;&lt;/a&gt;. &lt;span class="caps"&gt;NBA&lt;/span&gt; accredits programmes and not the&amp;nbsp;institutions.  &lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;If an institution is planning to apply for &lt;span class="caps"&gt;NBA&lt;/span&gt; accreditation for a department, then in Criterion 3.1 of Self Assessment Report (&lt;span class="caps"&gt;SAR&lt;/span&gt;) of &lt;span class="caps"&gt;NBA&lt;/span&gt; document, you are explicitly asked to mention the &lt;span class="caps"&gt;CO&lt;/span&gt; - &lt;span class="caps"&gt;PO&lt;/span&gt; mapping for a minimum of 8 core&amp;nbsp;courses. &lt;/p&gt;
@@ -1340,7 +1348,7 @@ Extract the number from each of the lines using a regular expression. Compute th
 students to be served, the academic environment and primary focus of the curriculum, faculty roles, outreach to the community and the role of&amp;nbsp;research.&lt;/p&gt;
 &lt;p&gt;A senior professor who has undergone &lt;span class="caps"&gt;NBA&lt;/span&gt; training should be designated as &lt;span class="caps"&gt;NBA&lt;/span&gt; coordinator for a&amp;nbsp;programme.&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;h4&gt;What is Outcome Based Education (&lt;span class="caps"&gt;OBE&lt;/span&gt;)?&lt;/h4&gt;
+&lt;h4&gt;&lt;font color = black&gt; &lt;strong&gt; What is Outcome Based Education (&lt;span class="caps"&gt;OBE&lt;/span&gt;)?  &lt;/strong&gt; &lt;/font&gt;&lt;/h4&gt;
 &lt;p&gt;Institutions adopting &lt;span class="caps"&gt;OBE&lt;/span&gt; try to bring changes to the curriculum by dynamically adapting to the requirements of the different stakeholders like Students, Parents, Industry Personnel and Recruiters. &lt;span class="caps"&gt;OBE&lt;/span&gt; is all about feedback and&amp;nbsp;outcomes. &lt;/p&gt;
 &lt;p&gt;Four levels of outcomes from &lt;span class="caps"&gt;OBE&lt;/span&gt;&amp;nbsp;are:&lt;/p&gt;
 &lt;ol&gt;
@@ -3331,7 +3339,8 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Model-Question-Paper-1"&gt;Model Question Paper 1&lt;a class="anchor-link" href="#Model-Question-Paper-1"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 1  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -3340,7 +3349,8 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Model-Question-Paper-2"&gt;Model Question Paper 2&lt;a class="anchor-link" href="#Model-Question-Paper-2"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 2  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -3349,7 +3359,8 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Model-Question-Paper-3"&gt;Model Question Paper 3&lt;a class="anchor-link" href="#Model-Question-Paper-3"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;3.&lt;/p&gt;
+&lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 3  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;3.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_3.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 3&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
