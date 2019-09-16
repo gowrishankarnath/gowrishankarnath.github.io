@@ -109,8 +109,16 @@ h2{
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.1;
-    color: #e40d26;
+    color: #0d57e4;
+	a:link {color:#0d57e4};
+	a:link:hover {background-color:red};
+	a:visited:hover {background-color:blue};
 }
+
+a:link {color:#0d57e4;}
+a:link:hover {background-color:red;}
+a:visited:hover {background-color:green;}
+	
 
 h3{
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -127,13 +135,22 @@ h4{
 }
 
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h3, .h4, .h5, .h6 {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.1;
     color: #e40d26;
 }
 
+
+.h2 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #0d57e4;
+}
+
+	
 {
     max-width: 700px;
 }
@@ -180,4 +197,13 @@ table.dataframe th, td {
 
 pre code {
     background-color: inherit;
+}
+
+.table {
+
+    width: inherit;
+    max-width: 100%;
+    margin-bottom: 21px;
+    padding: 6px 13px;    
+
 }
