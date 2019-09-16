@@ -110,14 +110,10 @@ h2{
     font-weight: 300;
     line-height: 1.1;
     color: #0d57e4;
-	a:link {color:#0d57e4};
-	a:link:hover {background-color:red};
-	a:visited:hover {background-color:blue};
 }
 
 a:link {color:#0d57e4;}
-a:link:hover {background-color:red;}
-a:visited:hover {background-color:green;}
+a:visited {color:#e40d26;}
 	
 
 h3{
