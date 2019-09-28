@@ -1928,8 +1928,8 @@ Extract the number from each of the lines using a regular expression. Compute th
 The Git repository for the book containing the code examples from the book &lt;strong&gt;“Introduction to Python Programming”&lt;/strong&gt;, authored by &lt;em&gt;Gowrishankar S.&lt;/em&gt; and &lt;em&gt;Veena A.&lt;/em&gt; and published by &lt;span class="caps"&gt;CRC&lt;/span&gt; Press/Taylor and Francis, Boca Raton, &lt;span class="caps"&gt;USA&lt;/span&gt; can be found &lt;a href="https://github.com/gowrishankarnath/Introduction_To_Python_Programming" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;here&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt;Book Purchase &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
 &lt;p&gt;You can purchase the book at following sources. &lt;strong&gt;(Click on the image to&amp;nbsp;buy)&lt;/strong&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;a href="http://www.amazon.com/dp/0815394373" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_2.jpg" width="300" height="100" alt="amazon india"&gt;&lt;/a&gt;&lt;/center&gt;&lt;br&gt;
-&lt;center&gt;&lt;a href="https://www.crcpress.com/Introduction-to-Python-Programming/S-A/p/book/9780815394372" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_3.jpg" width="300" height="100" alt="flipkart"&gt;&lt;/a&gt;&lt;/center&gt;&lt;br&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="https://tinyurl.com/yxhe2nev" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_2.jpg" width="300" height="100" alt="amazon india"&gt;&lt;/a&gt;&lt;/center&gt;&lt;br&gt;
+&lt;center&gt;&lt;a href="https://tinyurl.com/yxhe2nev" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_3.jpg" width="300" height="100" alt="flipkart"&gt;&lt;/a&gt;&lt;/center&gt;&lt;br&gt;
 &lt;center&gt;&lt;a href="http://www.amazon.com/dp/0815394373" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_4.jpg" width="300" height="100" alt="amazon usa" align = "middle"&gt;&lt;/a&gt;&lt;/center&gt;&lt;br&gt;
 &lt;center&gt;&lt;a href="https://www.crcpress.com/Introduction-to-Python-Programming/S-A/p/book/9780815394372" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;img src="../images/article_1_image_5.jpg" width="300" height="100" alt="crcpress" align = "middle"&gt;&lt;/a&gt;&lt;/center&gt;  &lt;/p&gt;
 &lt;h3&gt;&lt;font color = black&gt; &lt;strong&gt; Book Details &lt;/strong&gt; &lt;/font&gt;&lt;/h3&gt;
@@ -4726,7 +4726,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[4]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[5]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
@@ -4748,7 +4748,7 @@ h6:hover .anchor-link {
 
 
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;&lt;span class="code-line"&gt;Kathryn Rice&lt;/span&gt;
+&lt;pre&gt;&lt;span class="code-line"&gt;Susan Craig&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
