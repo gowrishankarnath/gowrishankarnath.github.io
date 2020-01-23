@@ -11,4 +11,4 @@
 &lt;p&gt;&lt;code&gt;copy /b *.txt mergedFile.txt&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;To merge multiple java files into a single document file the command used is given&amp;nbsp;below.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;copy /b *.java mergedFile.doc&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code shown here is tested on Windows 7/8/10&amp;nbsp;machine.&lt;/p&gt;</content><category term="Coding-Gems"></category></entry></feed>
+&lt;p&gt;Code shown here is tested on Windows 7/8/10&amp;nbsp;machine.&lt;/p&gt;</content><category term="Articles"></category><category term="Coding-Gems"></category></entry></feed>

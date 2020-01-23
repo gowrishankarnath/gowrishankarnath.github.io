@@ -1110,45 +1110,7 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
-&lt;style type="text/css"&gt;
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-bg { background-color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-bg { background-color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-intense-fg { color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-red-intense-bg { background-color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-bg { background-color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-intense-fg { color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-yellow-intense-bg { background-color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-blue-fg { color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-bg { background-color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-intense-fg { color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-blue-intense-bg { background-color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-magenta-fg { color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-bg { background-color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-bg { background-color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-intense-fg { color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-cyan-intense-bg { background-color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-white-fg { color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-bg { background-color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-intense-fg { color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-.ansi-white-intense-bg { background-color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-
-.ansi-bold { font-weight: bold; }
-&lt;/style&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;You will find the model question papers and question bank for the Python programming course prescribed for third semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
@@ -1319,7 +1281,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-  &lt;/p&gt;</content><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Model question papers for Internet of Things (IoT) course as prescribed for 8th semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2017-02-12T20:29:00+05:30</published><updated>2017-02-12T20:29:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2017-02-12:/model-question-papers-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers Internet of Things (IoT) course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
+  &lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Model question papers for Internet of Things (IoT) course as prescribed for 8th semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2017-02-12T20:29:00+05:30</published><updated>2017-02-12T20:29:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2017-02-12:/model-question-papers-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers Internet of Things (IoT) course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -2430,45 +2392,7 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
-&lt;style type="text/css"&gt;
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-bg { background-color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-bg { background-color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-intense-fg { color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-red-intense-bg { background-color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-bg { background-color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-intense-fg { color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-yellow-intense-bg { background-color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-blue-fg { color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-bg { background-color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-intense-fg { color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-blue-intense-bg { background-color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-magenta-fg { color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-bg { background-color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-bg { background-color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-intense-fg { color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-cyan-intense-bg { background-color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-white-fg { color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-bg { background-color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-intense-fg { color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-.ansi-white-intense-bg { background-color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-
-.ansi-bold { font-weight: bold; }
-&lt;/style&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;You will find the model question papers for the Internet of Things (IoT) course prescribed for eighth semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
@@ -2481,7 +2405,7 @@ h6:hover .anchor-link {
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 1  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
 &lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_1.docx" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2491,7 +2415,7 @@ h6:hover .anchor-link {
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 2  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
 &lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;2.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_2.docx" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 2&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2501,7 +2425,7 @@ h6:hover .anchor-link {
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt; Model Question Paper 3  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
 &lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;3.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_3.doc" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 3&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/IoT_MQPs/raw/master/IoT_ELE_Model_Question_Paper_3.docx" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 3&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2545,4 +2469,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-  &lt;/p&gt;</content><category term="IoT"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry></feed>
+  &lt;/p&gt;</content><category term="Articles"></category><category term="IoT"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry></feed>

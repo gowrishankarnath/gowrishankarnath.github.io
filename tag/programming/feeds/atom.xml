@@ -1110,45 +1110,7 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
-&lt;style type="text/css"&gt;
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-bg { background-color: #&lt;span class="caps"&gt;3E424D&lt;/span&gt;; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-bg { background-color: #&lt;span class="caps"&gt;E75C58&lt;/span&gt;; }
-.ansi-red-intense-fg { color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-red-intense-bg { background-color: #&lt;span class="caps"&gt;B22B31&lt;/span&gt;; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-bg { background-color: #&lt;span class="caps"&gt;DDB62B&lt;/span&gt;; }
-.ansi-yellow-intense-fg { color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-yellow-intense-bg { background-color: #&lt;span class="caps"&gt;B27D12&lt;/span&gt;; }
-.ansi-blue-fg { color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-bg { background-color: #&lt;span class="caps"&gt;208FFB&lt;/span&gt;; }
-.ansi-blue-intense-fg { color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-blue-intense-bg { background-color: #&lt;span class="caps"&gt;0065CA&lt;/span&gt;; }
-.ansi-magenta-fg { color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-bg { background-color: #&lt;span class="caps"&gt;D160C4&lt;/span&gt;; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-bg { background-color: #&lt;span class="caps"&gt;60C6C8&lt;/span&gt;; }
-.ansi-cyan-intense-fg { color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-cyan-intense-bg { background-color: #&lt;span class="caps"&gt;258F8F&lt;/span&gt;; }
-.ansi-white-fg { color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-bg { background-color: #&lt;span class="caps"&gt;C5C1B4&lt;/span&gt;; }
-.ansi-white-intense-fg { color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-.ansi-white-intense-bg { background-color: #&lt;span class="caps"&gt;A1A6B2&lt;/span&gt;; }
-
-.ansi-bold { font-weight: bold; }
-&lt;/style&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;You will find the model question papers and question bank for the Python programming course prescribed for third semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
@@ -1319,7 +1281,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-  &lt;/p&gt;</content><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
+  &lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1661,7 +1623,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
     &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</content><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the Python Programming syllabus prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
+&lt;/table&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the Python Programming syllabus prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1923,4 +1885,4 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;li&gt;Aurelien Geron, &lt;strong&gt;Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems&amp;#8221;,&lt;/strong&gt; 1st Edition,O&amp;#39;Reilly Media, 2017. &lt;span class="caps"&gt;ISBN&lt;/span&gt; – 13:&amp;nbsp;978-1491962299.&lt;/li&gt;
 &lt;li&gt;Wesley J Chun, &lt;strong&gt;&amp;#8220;Core Python Applications Programming&amp;#8221;,&lt;/strong&gt; 3rd Edition, Pearson Education India, 2015. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-9332555365&lt;/li&gt;
 &lt;li&gt;Miguel Grinberg, &lt;strong&gt;&amp;#8220;Flask Web Development: Developing Web Applications with Python&amp;#8221;,&lt;/strong&gt; 2nd Edition, O&amp;#39;Reilly Media, 2018. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-1491991732.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="Python"></category><category term="Programming"></category><category term="Syllabus"></category><category term="Course"></category><category term="Programme"></category><category term="Dr.AIT"></category></entry></feed>
+&lt;/ol&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Syllabus"></category><category term="Course"></category><category term="Programme"></category><category term="Dr.AIT"></category></entry></feed>
