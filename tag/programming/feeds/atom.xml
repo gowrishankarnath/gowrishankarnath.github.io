@@ -1623,7 +1623,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
     &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2020-08-23T16:52:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the &lt;strong&gt;Python Programming&lt;/strong&gt; syllabus prescribed for the 3rd Semester Undergraduate students of Computer Science and Engineering department and also offered as InterDepartmental Elective (&lt;span class="caps"&gt;IDE&lt;/span&gt;) for 5th Semester students starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
+&lt;/table&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2020-08-23T16:52:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the &lt;strong&gt;Python Programming&lt;/strong&gt; syllabus prescribed for the 3rd Semester Undergraduate students of Computer Science and Engineering department and also offered as InterDepartmental Elective (&lt;span class="caps"&gt;IDE&lt;/span&gt;) for the 5th Semester students starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1661,45 +1661,51 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-7in8{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
-.tg .tg-l9i5{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-fcjq{font-weight:bold;font-size:20px;font-family:"Times New Roman", Times, serif !important;;text-align:center}
-.tg .tg-uyrh{font-size:18px;font-family:"Times New Roman", Times, serif !important;;text-align:left;vertical-align:top}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fzq1{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;font-size:16px;text-align:left;
+  vertical-align:top}
+.tg .tg-288q{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;font-size:16px;font-weight:bold;
+  text-align:center;vertical-align:top}
 &lt;/style&gt;
 
 &lt;table class="tg"&gt;
+&lt;thead&gt;
   &lt;tr&gt;
-    &lt;th class="tg-l9i5"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;UNIT&lt;/span&gt; No&lt;/span&gt;&lt;/th&gt;
-    &lt;th class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;Syllabus Content&lt;/span&gt;&lt;/th&gt;
-    &lt;th class="tg-fcjq"&gt;No. of Hours&lt;/th&gt;
+    &lt;th class="tg-288q"&gt;   &lt;br&gt;Unit &lt;br&gt;No   &lt;/th&gt;
+    &lt;th class="tg-288q"&gt;   &lt;br&gt;Syllabus Content   &lt;/th&gt;
+    &lt;th class="tg-288q"&gt;   &lt;br&gt;No of &lt;br&gt;Hours   &lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td class="tg-fzq1"&gt;   &lt;br&gt;&lt;span style="font-weight:bold"&gt;Parts of Python Programming Language,&lt;/span&gt; Identifiers, Keywords, Statements and Expressions, Variables, Operators, Precedence and Associativity, Data Types, Indentation, Comments, Reading Input, Print Output, Type Conversions, The type() Function and Is Operator, Dynamic and Strongly Typed Language, &lt;span style="font-weight:bold"&gt;Control Flow Statements,&lt;/span&gt; The if  Decision Control Flow Statement, The if…else Decision Control Flow Statement, The if…elif…else Decision Control Statement, Nested if Statement, The while Loop, The for Loop, The continue and break Statements, Catching Exceptions Using try and except Statement, &lt;span style="font-weight:bold"&gt;Functions,&lt;/span&gt; Built-In Functions, Commonly Used Modules, Function Definition and Calling the Function, The return Statement and void Function, Scope and Lifetime of   Variables, Default Parameters, Keyword Arguments, *args and **kwargs, Command Line Arguments. &lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;09&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;1&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Parts of Python Programming Language,&lt;/span&gt; Identifiers, Keywords, Statements and Expressions, Variables, Operators, Precedence and Associativity, Data Types, Indentation, Comments, Reading Input, Print Output, Type Conversions, The type() Function and Is Operator, Dynamic and Strongly Typed Language, &lt;span style="font-weight:bold"&gt;Control Flow Statements,&lt;/span&gt; The if&amp;nbsp;&amp;nbsp;Decision Control Flow Statement, The if…else Decision Control Flow Statement, The if…elif…else Decision Control Statement, Nested if Statement, The while Loop, The for Loop, The continue and break Statements, Catching Exceptions Using try and except Statement, &lt;span style="font-weight:bold"&gt;Functions,&lt;/span&gt; Built-In Functions, Commonly Used Modules, Function Definition and Calling the Function, The return Statement and void Function, Scope and Lifetime of Variables, Default Parameters, Keyword Arguments, *args and **kwargs, Command Line Arguments.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;09&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td class="tg-fzq1"&gt;&lt;span style="font-weight:bold"&gt;Strings,&lt;/span&gt; Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number, String Slicing and Joining, String Methods, Formatting Strings, &lt;span style="font-weight:bold"&gt;Lists,&lt;/span&gt; Creating Lists, Basic List Operations, Indexing and Slicing in Lists, Built-In Functions Used on Lists, List Methods, The del Statement.&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;08&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;2&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Strings,&lt;/span&gt; Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number, String Slicing and Joining, String Methods, Formatting Strings, &lt;span style="font-weight:bold"&gt;Lists,&lt;/span&gt; Creating Lists, Basic List Operations, Indexing and Slicing in Lists, Built-In Functions Used on Lists, List Methods, The del Statement.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;08&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td class="tg-fzq1"&gt;&lt;span style="font-weight:bold"&gt;&lt;span class="caps"&gt;SELF&lt;/span&gt;-&lt;span class="caps"&gt;STUDY&lt;/span&gt;  &lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style="font-weight:bold"&gt;Dictionaries&lt;/span&gt;, Creating Dictionary, Accessing and Modifying key:value Pairs in Dictionaries, Built-In Functions Used on Dictionaries, Dictionary Methods, The del Statement, &lt;span style="font-weight:bold"&gt;Tuples and Sets,&lt;/span&gt; Creating Tuples, Basic Tuple Operations, Indexing and Slicing in Tuples, Built-In Functions Used on Tuples, Relation between Tuples and Lists, Relation between Tuples and Dictionaries, Tuple Methods, Using zip() Function, Sets, Set Methods, Traversing of Sets, Frozenset.&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;   &lt;br&gt;08   &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;3&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Dictionaries,&lt;/span&gt; Creating Dictionary, Accessing and Modifying key:value Pairs in Dictionaries, Built-In Functions Used on Dictionaries, Dictionary Methods, The del Statement, &lt;span style="font-weight:bold"&gt;Tuples and Sets,&lt;/span&gt; Creating Tuples, Basic Tuple Operations, Indexing and Slicing in Tuples, Built-In Functions Used on Tuples, Relation between Tuples and Lists, Relation between Tuples and Dictionaries, Tuple Methods, Using zip() Function, Sets, Set Methods, Traversing of Sets, Frozenset.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;08&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;4&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td class="tg-fzq1"&gt;   &lt;br&gt;&lt;span style="font-weight:bold"&gt;Files,&lt;/span&gt; Types of Files, Creating and Reading Text Data, File Methods to Read and Write Data, Reading and Writing Binary Files, The Pickle Module, Reading and Writing &lt;span class="caps"&gt;CSV&lt;/span&gt; Files, Python os and os.path Modules, &lt;span style="font-weight:bold"&gt;Regular Expression Operations,&lt;/span&gt; Using Special Characters, Regular Expression Methods, Named Groups in Python Regular Expressions, Regular Expression with glob Module. &lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;08&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;4&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Files,&lt;/span&gt; Types of Files, Creating and Reading Text Data, File Methods to Read and Write Data, Reading and Writing Binary Files, The Pickle Module, Reading and Writing &lt;span class="caps"&gt;CSV&lt;/span&gt; Files, Python os and os.path Modules, &lt;span style="font-weight:bold"&gt;Regular Expression Operations,&lt;/span&gt; Using Special Characters, Regular Expression Methods, Named Groups in Python Regular Expressions, Regular Expression with glob Module.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;08&lt;/span&gt;&lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;5&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td class="tg-fzq1"&gt;   &lt;br&gt;&lt;span style="font-weight:bold"&gt;Object-Oriented Programming,&lt;/span&gt; Classes and Objects, Creating Classes in Python, Creating Objects in Python, The Constructor Method, Classes with Multiple Objects, Class Attributes versus Data Attributes, Encapsulation, Inheritance, The Polymorphism.  &lt;/td&gt;
+    &lt;td class="tg-288q"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;09&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
-  &lt;tr&gt;
-      &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;5&lt;/span&gt;&lt;/td&gt;
-      &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Object-Oriented Programming,&lt;/span&gt; Classes and Objects, Creating Classes in Python, Creating Objects in Python, The Constructor Method, Classes with Multiple Objects, Class Attributes versus Data Attributes, Encapsulation, Inheritance, The Polymorphism&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;09&lt;/span&gt;&lt;/td&gt;
-  &lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
@@ -1868,4 +1874,11 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;li&gt;Aurelien Geron, &lt;strong&gt;&amp;#8220;Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems&amp;#8221;,&lt;/strong&gt; 2nd Edition, O’Reilly Media, 2019. &lt;span class="caps"&gt;ISBN&lt;/span&gt; – 13:&amp;nbsp;978-9352139057.  &lt;/li&gt;
 &lt;li&gt;Wesley J Chun, &lt;strong&gt;&amp;#8220;Core Python Applications Programming&amp;#8221;,&lt;/strong&gt; 3rd Edition, Pearson Education India, 2015. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-9332555365  &lt;/li&gt;
 &lt;li&gt;Miguel Grinberg, &lt;strong&gt;&amp;#8220;Flask Web Development: Developing Web Applications with Python&amp;#8221;,&lt;/strong&gt; 2nd Edition, O&amp;#39;Reilly Media, 2018. &lt;span class="caps"&gt;ISBN&lt;/span&gt;-13:&amp;nbsp;978-1491991732.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;SELF&lt;/span&gt;-&lt;span class="caps"&gt;STUDY&lt;/span&gt; &lt;span class="caps"&gt;REFERENCES&lt;/span&gt;/&lt;span class="caps"&gt;WEBLINKS&lt;/span&gt;:&lt;/h3&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dictionaries&lt;br&gt;&amp;nbsp;https://www.youtube.com/watch?v=daefaLgNkw0  &lt;/li&gt;
+&lt;li&gt;Tuples and Sets&lt;br&gt;&amp;nbsp;https://www.youtube.com/watch?v=W8KRzm-HUcc  &lt;/li&gt;
 &lt;/ol&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Syllabus"></category><category term="Course"></category><category term="Programme"></category><category term="Dr.AIT"></category></entry></feed>
