@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2019-09-13T11:47:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2020-08-23T14:16:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1281,7 +1281,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-  &lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
+  &lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2020-08-23T14:16:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1290,7 +1290,7 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Course Code: &lt;span class="caps"&gt;18CSL37&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Course Code: &lt;span class="caps"&gt;18CSL38&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Exam Duration: 3 Hours&lt;/strong&gt;&lt;/td&gt;
@@ -1623,7 +1623,7 @@ Extract the number from each of the lines using a regular expression. Compute th
     &lt;td class="tg-nxv2"&gt;1&lt;/td&gt;
     &lt;td class="tg-nxv2"&gt;-&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2019-09-13T11:47:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the Python Programming syllabus prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
+&lt;/table&gt;</content><category term="Articles"></category><category term="Python"></category><category term="Programming"></category><category term="Laboratory"></category><category term="Course"></category><category term="Syllabus"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus for Python Programming Course as Prescribed for 3rd Semester Computer Science and Engineering Programme Starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-14T14:36:00+05:30</published><updated>2020-08-18T10:58:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-14:/syllabus-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Python Programming syllabus prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the Python Programming syllabus prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India. &lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1633,19 +1633,19 @@ Extract the number from each of the lines using a regular expression. Compute th
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Course Code: &lt;span class="caps"&gt;18CS35&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Course Code: &lt;span class="caps"&gt;18CS34&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Exam Duration: 3 hours&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;No. of Credits: 4= 4: 0: 0 (L: T: P)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;No. of Credits: 3= 3: 0: 0 (L: T: P)&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;No. of lecture hours/week: 4 Hours&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;No. of lecture hours/week: 3 Hours&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Total No. of Contact Hours: 52 Hours&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Total No. of Contact Hours: 42 Hours&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1678,12 +1678,12 @@ Extract the number from each of the lines using a regular expression. Compute th
   &lt;tr&gt;
       &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;1&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Parts of Python Programming Language,&lt;/span&gt; Identifiers, Keywords, Statements and Expressions, Variables, Operators, Precedence and Associativity, Data Types, Indentation, Comments, Reading Input, Print Output, Type Conversions, The type() Function and Is Operator, Dynamic and Strongly Typed Language, &lt;span style="font-weight:bold"&gt;Control Flow Statements,&lt;/span&gt; The if&amp;nbsp;&amp;nbsp;Decision Control Flow Statement, The if…else Decision Control Flow Statement, The if…elif…else Decision Control Statement, Nested if Statement, The while Loop, The for Loop, The continue and break Statements, Catching Exceptions Using try and except Statement, &lt;span style="font-weight:bold"&gt;Functions,&lt;/span&gt; Built-In Functions, Commonly Used Modules, Function Definition and Calling the Function, The return Statement and void Function, Scope and Lifetime of Variables, Default Parameters, Keyword Arguments, *args and **kwargs, Command Line Arguments.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;11&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;09&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;2&lt;/span&gt;&lt;/td&gt;
       &lt;td class="tg-uyrh"&gt;&lt;span style="font-weight:bold"&gt;Strings,&lt;/span&gt; Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number, String Slicing and Joining, String Methods, Formatting Strings, &lt;span style="font-weight:bold"&gt;Lists,&lt;/span&gt; Creating Lists, Basic List Operations, Indexing and Slicing in Lists, Built-In Functions Used on Lists, List Methods, The del Statement.&lt;/td&gt;
-      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;10&lt;/span&gt;&lt;/td&gt;
+      &lt;td class="tg-7in8"&gt;&lt;span style="font-weight:bold"&gt;08&lt;/span&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
       &lt;td class="tg-fcjq"&gt;&lt;span style="font-weight:bold"&gt;3&lt;/span&gt;&lt;/td&gt;
