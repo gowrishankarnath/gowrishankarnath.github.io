@@ -155,7 +155,7 @@
 <p>In line 1, we import mysql.connector module. In line 2 we also import the errorcode class which can be used to various errors related to Database&nbsp;query.  </p>
 <p>In line 3-4 we import faker module and create fake object. The reason for using this awesome module is I wanted to have some real world values generated for me instead of writing the values manually. You can read more about <strong>faker</strong> module <a href="https://gowrishankarnath.github.io/generate-fake-data-programmatically-using-faker-with-python.html" target="_blank" style="color: rgb(6,69,173)"><font color="#0066CC">here</font></a>.  </p>
 <p>You need to declare and provide values for <em>user</em>, <em>password</em>, <em>host</em>, <em>database</em> and <em>raise_on_warnings</em>. Here, <em>config</em> is declared as a dictionary. You need to pass this config dictionary to connect method as an argument (see <strong>**</strong> in the connect method). In line 21 we create cursor object which can be used to execute the Database query. We write a query to insert a row to the <em>contactperson</em> table. The query is stored in the variable <em>addContactPerson</em> which is passed to the execute method as an argument.  In this program we will use an for loop to insert ten rows. Once we have performed our operation we need to close the <em>cnx</em> and <em>cursor</em>&nbsp;objects.  </p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
 <span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">()</span></span>
@@ -165,7 +165,7 @@
 <span class="code-line"><span class="s1">&#39;password&#39;</span><span class="p">:</span> <span class="s1">&#39;mysql123&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="s1">&#39;localhost&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;database&#39;</span><span class="p">:</span> <span class="s1">&#39;contactmanagerapplication&#39;</span><span class="p">,</span></span>
-<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span></span>
+<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span></span>
 <span class="code-line"><span class="p">}</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="c1">#This is the most efficient way of toggling between the values</span></span>
@@ -189,26 +189,25 @@
 <span class="code-line">        <span class="c1">#I&#39;m providing the same by explicity specifying double quotes and removing it&#39;s special meaning</span></span>
 <span class="code-line">        <span class="n">addContactPerson</span> <span class="o">=</span> <span class="s2">&quot;INSERT INTO contactmanagerapplication.contactperson(&quot;</span> \</span>
 <span class="code-line">                           <span class="s2">&quot;ContactPersonID, FirstName, MiddleName, LastName, DateOfBirth,&quot;</span> \</span>
-<span class="code-line">                           <span class="s2">&quot;ContactPersonType)VALUES({},</span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2">)&quot;</span><span class="o">.</span>\</span>
-<span class="code-line">            <span class="n">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">,</span><span class="n">firstName</span><span class="p">,</span><span class="n">lastName</span><span class="p">,</span><span class="n">middleName</span><span class="p">,</span><span class="n">dateOfBirth</span><span class="p">,</span><span class="n">contactPersonType</span><span class="p">)</span></span>
+<span class="code-line">                           <span class="s2">&quot;ContactPersonType)VALUES(</span><span class="si">{}</span><span class="s2">,</span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2">,</span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2">)&quot;</span><span class="o">.</span>\</span>
+<span class="code-line">            <span class="nb">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">,</span><span class="n">firstName</span><span class="p">,</span><span class="n">lastName</span><span class="p">,</span><span class="n">middleName</span><span class="p">,</span><span class="n">dateOfBirth</span><span class="p">,</span><span class="n">contactPersonType</span><span class="p">)</span></span>
 <span class="code-line">        <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">addContactPerson</span><span class="p">)</span></span>
 <span class="code-line">        <span class="n">cnx</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span></span>
 <span class="code-line"><span class="k">except</span> <span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span></span>
 <span class="code-line">    <span class="k">if</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_ACCESS_DENIED_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">elif</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_BAD_DB_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">else</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
 <span class="code-line"><span class="k">else</span><span class="p">:</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
-</pre></div>
-
+<span class="code-line"></code></pre></div>
 
 <p>In the below code we select and display all the rows from the <em>contactperson</em> table. Once we have composed and executed the select query, we have to use the cursor object along with for loop to display all the&nbsp;rows.  </p>
 <p>In line 19, we specify variable names that correspond to the attributes in the table <em>contactperson</em>. We then use these variable names to display the&nbsp;values.  </p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="n">config</span> <span class="o">=</span> <span class="p">{</span></span>
@@ -216,7 +215,7 @@
 <span class="code-line"><span class="s1">&#39;password&#39;</span><span class="p">:</span> <span class="s1">&#39;mysql123&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="s1">&#39;localhost&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;database&#39;</span><span class="p">:</span> <span class="s1">&#39;contactmanagerapplication&#39;</span><span class="p">,</span></span>
-<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span></span>
+<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span></span>
 <span class="code-line"><span class="p">}</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="k">try</span><span class="p">:</span></span>
@@ -227,23 +226,22 @@
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">readContactPerson</span><span class="p">)</span></span>
 <span class="code-line">    <span class="c1">#specify the attributes that you want to display</span></span>
 <span class="code-line">    <span class="k">for</span> <span class="p">(</span><span class="n">contactPersonID</span><span class="p">,</span> <span class="n">firstName</span><span class="p">,</span> <span class="n">lastName</span><span class="p">,</span> <span class="n">middleName</span><span class="p">,</span> <span class="n">dateOfBirth</span><span class="p">,</span><span class="n">contactPersonType</span> <span class="p">)</span> <span class="ow">in</span> <span class="n">cursor</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;{}, {}, {}, {}, {}, {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">,</span><span class="n">firstName</span><span class="p">,</span><span class="n">middleName</span><span class="p">,</span><span class="n">lastName</span><span class="p">,</span><span class="n">dateOfBirth</span><span class="p">,</span><span class="n">contactPersonID</span><span class="p">))</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">, </span><span class="si">{}</span><span class="s2">, </span><span class="si">{}</span><span class="s2">, </span><span class="si">{}</span><span class="s2">, </span><span class="si">{}</span><span class="s2">, </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">,</span><span class="n">firstName</span><span class="p">,</span><span class="n">middleName</span><span class="p">,</span><span class="n">lastName</span><span class="p">,</span><span class="n">dateOfBirth</span><span class="p">,</span><span class="n">contactPersonID</span><span class="p">))</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span></span>
 <span class="code-line"><span class="k">except</span> <span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span></span>
 <span class="code-line">    <span class="k">if</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_ACCESS_DENIED_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">elif</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_BAD_DB_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">else</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
 <span class="code-line"><span class="k">else</span><span class="p">:</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span><span class="o">&lt;/</span><span class="n">pre</span><span class="o">&gt;</span></span>
-</pre></div>
-
+<span class="code-line"></code></pre></div>
 
 <p>Below code asks the user to enter the <em>contactPersonID</em> number which needs to be deleted. Based on the value that the user has entered the related row gets deleted in the&nbsp;table.  </p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="n">config</span> <span class="o">=</span> <span class="p">{</span></span>
@@ -251,7 +249,7 @@
 <span class="code-line"><span class="s1">&#39;password&#39;</span><span class="p">:</span> <span class="s1">&#39;mysql123&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="s1">&#39;localhost&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;database&#39;</span><span class="p">:</span> <span class="s1">&#39;contactmanagerapplication&#39;</span><span class="p">,</span></span>
-<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span></span>
+<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span></span>
 <span class="code-line"><span class="p">}</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="k">try</span><span class="p">:</span></span>
@@ -259,24 +257,23 @@
 <span class="code-line">    <span class="n">cursor</span> <span class="o">=</span> <span class="n">cnx</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">contactPersonID</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter the ContactPersonID to be deleted&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="c1">#Let&#39;s remove a row in contactperson table by specifying the contactPersonID</span></span>
-<span class="code-line">    <span class="n">deleteContactPerson</span> <span class="o">=</span> <span class="s2">&quot;DELETE FROM contactmanagerapplication.contactperson where ContactPersonID = {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">)</span></span>
+<span class="code-line">    <span class="n">deleteContactPerson</span> <span class="o">=</span> <span class="s2">&quot;DELETE FROM contactmanagerapplication.contactperson where ContactPersonID = </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">contactPersonID</span><span class="p">)</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">deleteContactPerson</span><span class="p">)</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span></span>
 <span class="code-line"><span class="k">except</span> <span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span></span>
 <span class="code-line">    <span class="k">if</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_ACCESS_DENIED_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">elif</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_BAD_DB_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">else</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
 <span class="code-line"><span class="k">else</span><span class="p">:</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
-</pre></div>
-
+<span class="code-line"></code></pre></div>
 
 <p>Below code is used to update an attribute of a particular row based on user&nbsp;input.  </p>
-<div class="highlight"><pre><span class="code-line"><span></span><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
+<div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">faker</span> <span class="kn">import</span> <span class="n">Factory</span></span>
 <span class="code-line"><span class="n">fake</span> <span class="o">=</span> <span class="n">Factory</span><span class="o">.</span><span class="n">create</span><span class="p">()</span></span>
@@ -286,7 +283,7 @@
 <span class="code-line"><span class="s1">&#39;password&#39;</span><span class="p">:</span> <span class="s1">&#39;mysql123&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="s1">&#39;localhost&#39;</span><span class="p">,</span></span>
 <span class="code-line"><span class="s1">&#39;database&#39;</span><span class="p">:</span> <span class="s1">&#39;contactmanagerapplication&#39;</span><span class="p">,</span></span>
-<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span></span>
+<span class="code-line"><span class="s1">&#39;raise_on_warnings&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span></span>
 <span class="code-line"><span class="p">}</span></span>
 <span class="code-line"></span>
 <span class="code-line"><span class="k">try</span><span class="p">:</span></span>
@@ -295,21 +292,20 @@
 <span class="code-line">    <span class="n">contactPersonID</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter the Contact Person ID whose records needs to be updated&#39;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="n">firstName</span> <span class="o">=</span> <span class="n">fake</span><span class="o">.</span><span class="n">first_name_male</span><span class="p">()</span> <span class="c1">#generate fake first name</span></span>
 <span class="code-line">    <span class="c1">#Let&#39;s update a row in contactperson table by specifying the contactPersonID</span></span>
-<span class="code-line">    <span class="n">updateContactPerson</span> <span class="o">=</span> <span class="s2">&quot;UPDATE contactmanagerapplication.contactperson SET FirstName = </span><span class="se">\&quot;</span><span class="s2">{}</span><span class="se">\&quot;</span><span class="s2"> WHERE ContactPersonID = {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">firstName</span><span class="p">,</span> <span class="n">contactPersonID</span><span class="p">)</span></span>
+<span class="code-line">    <span class="n">updateContactPerson</span> <span class="o">=</span> <span class="s2">&quot;UPDATE contactmanagerapplication.contactperson SET FirstName = </span><span class="se">\&quot;</span><span class="si">{}</span><span class="se">\&quot;</span><span class="s2"> WHERE ContactPersonID = </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">firstName</span><span class="p">,</span> <span class="n">contactPersonID</span><span class="p">)</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">updateContactPerson</span><span class="p">)</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span></span>
 <span class="code-line"><span class="k">except</span> <span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span></span>
 <span class="code-line">    <span class="k">if</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_ACCESS_DENIED_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something is wrong with your user name or password&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">elif</span> <span class="n">err</span><span class="o">.</span><span class="n">errno</span> <span class="o">==</span> <span class="n">errorcode</span><span class="o">.</span><span class="n">ER_BAD_DB_ERROR</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Database does not exist&quot;</span><span class="p">)</span></span>
 <span class="code-line">    <span class="k">else</span><span class="p">:</span></span>
-<span class="code-line">        <span class="k">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
+<span class="code-line">        <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span></span>
 <span class="code-line"><span class="k">else</span><span class="p">:</span></span>
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
-</pre></div>
-
+<span class="code-line"></code></pre></div>
 
 <h3><font color = black> <strong> Conclusion  </strong> </font></h3>
 <p>As you can see with few lines of Python code we can perform various database&nbsp;operations.  </p>

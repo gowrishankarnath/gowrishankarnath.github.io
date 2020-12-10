@@ -17,7 +17,7 @@
 &lt;td&gt;&lt;strong&gt;No. of Credits: 1 = 0: 0: 1 (L: T: P)&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;No. of Lecture Hours/Week: 2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;No. of Laboratory Hours/Week: 2&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -182,7 +182,6 @@
 .tg .tg-gvzw{font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
 .tg .tg-w6fb{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 &lt;/style&gt;
-
 &lt;table class="tg"&gt;
   &lt;tr&gt;
       &lt;th class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
@@ -227,7 +226,6 @@
 .tg .tg-htlq{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 .tg .tg-nxv2{font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center;vertical-align:top}
 &lt;/style&gt;
-
 &lt;table class="tg"&gt;
   &lt;tr&gt;
     &lt;th class="tg-2oic" rowspan="2"&gt;COs&lt;/th&gt;
