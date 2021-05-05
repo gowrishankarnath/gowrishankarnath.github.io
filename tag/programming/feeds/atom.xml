@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2020-08-23T16:52:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2020-08-23T14:16:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - programming</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/tag/programming/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2020-08-23T16:52:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for Python Programming course as prescribed for 3rd semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2019-08-24T22:28:00+05:30</published><updated>2019-08-26T17:06:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-08-24:/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers and question bank for Python programming course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;{% notebook downloads/notebooks/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.ipynb&amp;nbsp;%}  &lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="programming"></category><category term="course"></category><category term="questions"></category><category term="Dr.AIT"></category></entry><entry><title>Syllabus and Solutions for Python Programming laboratory course as prescribed for 3rd semester Computer Science and Engineering programme starting from the year 2019</title><link href="https://www.gowrishankarnath.com/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html" rel="alternate"></link><published>2019-05-20T18:38:00+05:30</published><updated>2020-08-23T14:16:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2019-05-20:/syllabus-and-solutions-for-python-programming-laboratory-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme-starting-from-the-year-2019.html</id><summary type="html">&lt;p&gt;Syllabus and Solutions for the Python Programming laboratory prescribed for &lt;span class="caps"&gt;CSE&lt;/span&gt; department starting from the year 2019, Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the syllabus and solutions for Python Programming Laboratory course prescribed for 3rd Semester Undergraduate Computer Science and Engineering Programme starting from the year 2019 at Dr.Ambedkar Institute of Technology (Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt;), Bengaluru, Karnataka,&amp;nbsp;India.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -182,6 +182,7 @@
 .tg .tg-gvzw{font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
 .tg .tg-w6fb{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 &lt;/style&gt;
+
 &lt;table class="tg"&gt;
   &lt;tr&gt;
       &lt;th class="tg-w6fb"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
@@ -226,6 +227,7 @@
 .tg .tg-htlq{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 .tg .tg-nxv2{font-size:16px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center;vertical-align:top}
 &lt;/style&gt;
+
 &lt;table class="tg"&gt;
   &lt;tr&gt;
     &lt;th class="tg-2oic" rowspan="2"&gt;COs&lt;/th&gt;
@@ -386,6 +388,7 @@
 .tg .tg-288q{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;font-size:16px;font-weight:bold;
   text-align:center;vertical-align:top}
 &lt;/style&gt;
+
 &lt;table class="tg"&gt;
 &lt;thead&gt;
   &lt;tr&gt;
@@ -433,6 +436,7 @@
 .tg .tg-gvzw{font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:left}
 .tg .tg-w6fb{font-weight:bold;font-size:18px;font-family:"Times New Roman", Times, serif !important;;border-color:inherit;text-align:center}
 &lt;/style&gt;
+
 &lt;table class="tg"&gt;
   &lt;tr&gt;
       &lt;th class="tg-1syg"&gt;&lt;span style="font-weight:bold"&gt;COs&lt;/span&gt;&lt;/th&gt;
@@ -478,6 +482,7 @@
   vertical-align:top}
 .tg .tg-106g{font-family:"Times New Roman", Times, serif !important;;font-size:15px;text-align:center;vertical-align:top}
 &lt;/style&gt;
+
 &lt;table class="tg"&gt;
 &lt;thead&gt;
   &lt;tr&gt;
@@ -574,6 +579,7 @@
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TEXT&lt;/span&gt; &lt;span class="caps"&gt;BOOK&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;

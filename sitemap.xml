@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tags.html</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/categories.html</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/authors.html</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/archives.html</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com//search</loc>
-<lastmod>2021-04-18T23:26:55-00:00</lastmod>
+<lastmod>2021-05-05T20:45:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -48,6 +48,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/about.html</loc>
 <lastmod>2019-01-08T10:30:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/books.html</loc>
+<lastmod>2019-12-14T10:50:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,6 +116,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.gowrishankarnath.com/model-question-papers-for-python-programming-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html</loc>
+<lastmod>2019-08-26T17:06:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.gowrishankarnath.com/process-involved-in-writing-course-outcomes-(co)-and-mapping-of-course-outcomes-with-program-outcomes-(po)-for-course-articulation-matrix.html</loc>
 <lastmod>2019-12-12T13:51:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
@@ -151,6 +165,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.gowrishankarnath.com/model-question-papers-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html</loc>
+<lastmod>2017-02-12T20:29:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.gowrishankarnath.com/syllabus-for-internet-of-things-course-as-prescribed-for-8th-semester-computer-science-and-engineering-programme.html</loc>
 <lastmod>2019-08-13T11:46:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
@@ -172,6 +193,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.gowrishankarnath.com/traverse-and-rename-files-in-folder.html</loc>
+<lastmod>2019-09-16T03:30:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/copy-the-contents-of-multiple-files-into-single-file-or-merge-multiple-files-into-single-file.html</loc>
+<lastmod>2020-08-23T13:21:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.gowrishankarnath.com/mysql-programming-with-python-using-mysql-python-connector.html</loc>
 <lastmod>2019-05-26T17:05:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
@@ -181,6 +216,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/designing-database-schema-using-mysql-workbench.html</loc>
 <lastmod>2019-09-11T11:50:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/generate-fake-data-programmatically-using-faker-with-python.html</loc>
+<lastmod>2019-09-16T03:20:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -417,6 +459,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.gowrishankarnath.com/tag/python.html</loc>
+<lastmod>2020-08-23T16:52:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/programming.html</loc>
+<lastmod>2020-08-23T16:52:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/questions.html</loc>
+<lastmod>2019-08-26T17:06:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.gowrishankarnath.com/tag/course-outcomes.html</loc>
 <lastmod>2019-12-12T13:51:00+05:53</lastmod>
 <changefreq>daily</changefreq>
@@ -468,20 +531,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/tag/obe.html</loc>
 <lastmod>2019-12-12T13:51:00+05:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.gowrishankarnath.com/tag/python.html</loc>
-<lastmod>2020-08-23T16:52:00+05:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.gowrishankarnath.com/tag/programming.html</loc>
-<lastmod>2020-08-23T16:52:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -564,6 +613,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.gowrishankarnath.com/tag/files.html</loc>
+<lastmod>2019-09-16T03:30:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/folders.html</loc>
+<lastmod>2019-09-16T03:30:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/coding-gems.html</loc>
+<lastmod>2020-08-23T13:21:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.gowrishankarnath.com/tag/mysql.html</loc>
 <lastmod>2019-09-11T11:50:00+05:53</lastmod>
 <changefreq>daily</changefreq>
@@ -580,6 +650,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/tag/mysql-workbench.html</loc>
 <lastmod>2019-09-11T11:50:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/faker.html</loc>
+<lastmod>2019-09-16T03:20:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
