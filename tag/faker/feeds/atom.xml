@@ -44,16 +44,16 @@
 
 &lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class="caps"&gt;IDR&lt;/span&gt;
-&lt;span class="caps"&gt;TZS&lt;/span&gt;
-&lt;span class="caps"&gt;SZL&lt;/span&gt;
-&lt;span class="caps"&gt;TZS&lt;/span&gt;
-&lt;span class="caps"&gt;JOD&lt;/span&gt;
-&lt;span class="caps"&gt;MZN&lt;/span&gt;
-&lt;span class="caps"&gt;RSD&lt;/span&gt;
-&lt;span class="caps"&gt;HUF&lt;/span&gt;
-&lt;span class="caps"&gt;SZL&lt;/span&gt;
-&lt;span class="caps"&gt;USD&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;IDR&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;TZS&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;SZL&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;TZS&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;JOD&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;MZN&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;RSD&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;HUF&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;SZL&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;USD&lt;/span&gt;  &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;You can randomly generate addresses using address() method. Below code is localized for &lt;code&gt;“en_US”&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
@@ -65,26 +65,26 @@
 
 &lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;84510 Cindy Trail Suite 830
-South Jennifer, &lt;span class="caps"&gt;NC&lt;/span&gt; 08359
-Unit 7559 Box 9529
-&lt;span class="caps"&gt;DPO&lt;/span&gt; &lt;span class="caps"&gt;AE&lt;/span&gt; 67015
-502 Thomas Points Apt. 560
-Villarrealfurt, &lt;span class="caps"&gt;KY&lt;/span&gt; 87444
-31098 Davis Road Suite 959
-Conniemouth, &lt;span class="caps"&gt;NV&lt;/span&gt; 35490
-918 Mark Lakes
-East Amyborough, &lt;span class="caps"&gt;IN&lt;/span&gt; 18369
-4382 Shelly Run Suite 212
-South Stevenmouth, &lt;span class="caps"&gt;OH&lt;/span&gt; 60501
-29782 Karen Turnpike Apt. 373
-Underwoodside, &lt;span class="caps"&gt;PA&lt;/span&gt; 50883
-415 Andrews Canyon
-Kerrstad, &lt;span class="caps"&gt;AK&lt;/span&gt; 38784
-5889 Michael Prairie Apt. 678
-Masonchester, &lt;span class="caps"&gt;TX&lt;/span&gt; 67688
-0629 Warren Islands
-Fullerburgh, &lt;span class="caps"&gt;DE&lt;/span&gt;&amp;nbsp;75136&lt;/p&gt;
+&lt;p&gt;84510 Cindy Trail Suite 830&lt;br&gt;
+South Jennifer, &lt;span class="caps"&gt;NC&lt;/span&gt; 08359&lt;br&gt;
+Unit 7559 Box 9529&lt;br&gt;
+&lt;span class="caps"&gt;DPO&lt;/span&gt; &lt;span class="caps"&gt;AE&lt;/span&gt; 67015&lt;br&gt;
+502 Thomas Points Apt. 560&lt;br&gt;
+Villarrealfurt, &lt;span class="caps"&gt;KY&lt;/span&gt; 87444&lt;br&gt;
+31098 Davis Road Suite 959&lt;br&gt;
+Conniemouth, &lt;span class="caps"&gt;NV&lt;/span&gt; 35490&lt;br&gt;
+918 Mark Lakes&lt;br&gt;
+East Amyborough, &lt;span class="caps"&gt;IN&lt;/span&gt; 18369&lt;br&gt;
+4382 Shelly Run Suite 212&lt;br&gt;
+South Stevenmouth, &lt;span class="caps"&gt;OH&lt;/span&gt; 60501&lt;br&gt;
+29782 Karen Turnpike Apt. 373&lt;br&gt;
+Underwoodside, &lt;span class="caps"&gt;PA&lt;/span&gt; 50883&lt;br&gt;
+415 Andrews Canyon&lt;br&gt;
+Kerrstad, &lt;span class="caps"&gt;AK&lt;/span&gt; 38784&lt;br&gt;
+5889 Michael Prairie Apt. 678&lt;br&gt;
+Masonchester, &lt;span class="caps"&gt;TX&lt;/span&gt; 67688&lt;br&gt;
+0629 Warren Islands&lt;br&gt;
+Fullerburgh, &lt;span class="caps"&gt;DE&lt;/span&gt;&amp;nbsp;75136  &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;You can generate various information about a person using different methods as shown&amp;nbsp;below.  &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="code-line"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;faker&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Factory&lt;/span&gt;&lt;/span&gt;
@@ -123,20 +123,20 @@ Fullerburgh, &lt;span class="caps"&gt;DE&lt;/span&gt;&amp;nbsp;75136&lt;/p&gt;
 
 
 &lt;blockquote&gt;
-&lt;p&gt;King
-Natasha Oliver
-Mr.
-Mr.
-Michael Conley
-&lt;span class="caps"&gt;MD&lt;/span&gt;
-James Ferrell
-Stacy
-&lt;span class="caps"&gt;DVM&lt;/span&gt;
-&lt;span class="caps"&gt;MD&lt;/span&gt;
-Paul
-Danielle
-Cook
-Taylor&amp;nbsp;Dr.&lt;/p&gt;
+&lt;p&gt;King&lt;br&gt;
+Natasha Oliver&lt;br&gt;
+Mr.&lt;br&gt;
+Mr.&lt;br&gt;
+Michael Conley&lt;br&gt;
+&lt;span class="caps"&gt;MD&lt;/span&gt;&lt;br&gt;
+James Ferrell&lt;br&gt;
+Stacy&lt;br&gt;
+&lt;span class="caps"&gt;DVM&lt;/span&gt;&lt;br&gt;
+&lt;span class="caps"&gt;MD&lt;/span&gt;&lt;br&gt;
+Paul&lt;br&gt;
+Danielle&lt;br&gt;
+Cook&lt;br&gt;
+Taylor&lt;br&gt;&amp;nbsp;Dr.  &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;You can read various methods available in Faker Module in detail&amp;nbsp;@  &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://faker.readthedocs.io/en/master/#" target="_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt;https://faker.readthedocs.io/en/master/#&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
