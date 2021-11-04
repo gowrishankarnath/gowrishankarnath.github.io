@@ -375,7 +375,6 @@ init_mathjax();
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line"></code></pre></div>
 
-
 <p>In the below code we select and display all the rows from the <em>contactperson</em> table. Once we have composed and executed the select query, we have to use the cursor object along with for loop to display all the&nbsp;rows.  </p>
 <p>In line 19, we specify variable names that correspond to the attributes in the table <em>contactperson</em>. We then use these variable names to display the&nbsp;values.  </p>
 <div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
@@ -411,7 +410,6 @@ init_mathjax();
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span><span class="o">&lt;/</span><span class="n">pre</span><span class="o">&gt;</span></span>
 <span class="code-line"></code></pre></div>
 
-
 <p>Below code asks the user to enter the <em>contactPersonID</em> number which needs to be deleted. Based on the value that the user has entered the related row gets deleted in the&nbsp;table.  </p>
 <div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
 <span class="code-line"><span class="kn">from</span> <span class="nn">mysql.connector</span> <span class="kn">import</span> <span class="n">errorcode</span></span>
@@ -443,7 +441,6 @@ init_mathjax();
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line"></code></pre></div>
-
 
 <p>Below code is used to update an attribute of a particular row based on user&nbsp;input.  </p>
 <div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">import</span> <span class="nn">mysql.connector</span></span>
@@ -479,7 +476,6 @@ init_mathjax();
 <span class="code-line">    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line">    <span class="n">cnx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></span>
 <span class="code-line"></code></pre></div>
-
 
 <h3><font color = black> <strong> Conclusion  </strong> </font></h3>
 <p>As you can see with few lines of Python code we can perform various database&nbsp;operations.  </p>
