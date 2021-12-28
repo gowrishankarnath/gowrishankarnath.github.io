@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Articles</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/category/articles/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2021-12-04T20:01:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Model question papers for the Principles of Economics course as prescribed for 6th semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-the-principles-of-economics-course-as-prescribed-for-6th-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2021-05-11T20:12:00+05:30</published><updated>2021-05-11T20:20:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2021-05-11:/model-question-papers-for-the-principles-of-economics-course-as-prescribed-for-6th-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers for the Principles of Economics course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;You will find the model question papers for the Principles of Economics course prescribed for sixth semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist - Articles</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/category/articles/feeds/atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2021-12-28T14:20:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>VS Code Python Environment Setup for Students</title><link href="https://www.gowrishankarnath.com/vscode-python-environment-setup-for-students.html" rel="alternate"></link><published>2021-12-28T13:52:00+05:30</published><updated>2021-12-28T14:20:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2021-12-28:/vscode-python-environment-setup-for-students.html</id><summary type="html">&lt;p&gt;This article is about adopting &lt;span class="caps"&gt;VS&lt;/span&gt; Code in an Education&amp;nbsp;Environment&lt;/p&gt;</summary><content type="html">&lt;p&gt;Me along with my colleagues Prof.Veena and Prof.Asha Rani were discussing which &lt;span class="caps"&gt;IDE&lt;/span&gt; (Integrated Development Environment) has to be recommended for students to code their Python&amp;nbsp;projects.    &lt;/p&gt;
+&lt;p&gt;We had two challengers in front of&amp;nbsp;us.    &lt;/p&gt;
+&lt;p&gt;First is the PyCharm Professional edition which is available for free to the students if they are able to provide their institutional email&amp;nbsp;address.    &lt;/p&gt;
+&lt;p&gt;Second is the &lt;span class="caps"&gt;VS&lt;/span&gt; Code which is open source and available for&amp;nbsp;everyone.&lt;/p&gt;
+&lt;p&gt;After lot of deliberation, we thought of recommending the &lt;span class="caps"&gt;VS&lt;/span&gt; Code to&amp;nbsp;students. &lt;/p&gt;
+&lt;p&gt;The advantages that tilted towards the adaptation of &lt;span class="caps"&gt;VS&lt;/span&gt; Code are&amp;nbsp;below&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="caps"&gt;VS&lt;/span&gt; Code is used by huge pool of&amp;nbsp;developers.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One editor for all development environments including Python Programming, Web Programming, Java Programming and&amp;nbsp;others.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Availability of a number of extensions that can extend the functionality of &lt;span class="caps"&gt;VS&lt;/span&gt; Code. Extensions for customizing &lt;span class="caps"&gt;VS&lt;/span&gt; Code, remote development, linting, and&amp;nbsp;debugging.     &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="caps"&gt;VS&lt;/span&gt; Code is lightweight and open&amp;nbsp;source.    &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="caps"&gt;VS&lt;/span&gt; Code is industry standard. The knowledge of using &lt;span class="caps"&gt;VS&lt;/span&gt; Code can be carried from academia to the industry by the&amp;nbsp;students.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Students are highly recommended to install the following packages to setup a Python Development&amp;nbsp;Environement.&lt;/p&gt;
+&lt;p&gt;Pylance
+Python extension for Visual Studio Code
+Python Indent
+Remote-&lt;span class="caps"&gt;SSH&lt;/span&gt;
+Visual Studio Code Remote - &lt;span class="caps"&gt;SSH&lt;/span&gt;: Editing Configuration Files
+Spell Right
+Visual Studio IntelliCode
+Visual Studio Keymap for Visual Studio Code
+vscode-icons
+vscode-pdf
+emojisense
+CodeSnap
+GitHub Copilot
+GitHub Pull Requests and Issues
+GitLens
+indent-rainbow
+Jupyter
+Jupyter Keymap
+Jupyter Notebook Renderer
+Live Share
+Live Share Audio
+Live Share Extension Pack
+Markdown All in One
+Markdown &lt;span class="caps"&gt;PDF&lt;/span&gt;
+markdownlint
+Night Owl
+open in browser
+Paste Image
+Project&amp;nbsp;Manager&lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="VS Code"></category></entry><entry><title>Model question papers for the Principles of Economics course as prescribed for 6th semester Computer Science and Engineering programme</title><link href="https://www.gowrishankarnath.com/model-question-papers-for-the-principles-of-economics-course-as-prescribed-for-6th-semester-computer-science-and-engineering-programme.html" rel="alternate"></link><published>2021-05-11T20:12:00+05:30</published><updated>2021-05-11T20:20:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2021-05-11:/model-question-papers-for-the-principles-of-economics-course-as-prescribed-for-6th-semester-computer-science-and-engineering-programme.html</id><summary type="html">&lt;p&gt;Model question papers for the Principles of Economics course prescribed at Dr.&lt;span class="caps"&gt;AIT&lt;/span&gt; for the department of Computer Science and&amp;nbsp;Engineering.&lt;/p&gt;</summary><content type="html">&lt;p&gt;You will find the model question papers for the Principles of Economics course prescribed for sixth semester at the department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&amp;nbsp;Bengaluru.&lt;/p&gt;
 &lt;h2&gt;&lt;font color = black&gt; &lt;strong&gt;Model Question Paper 1  &lt;/strong&gt; &lt;/font&gt;&lt;/h2&gt;
 &lt;p&gt;Click on the link below to view or download the model question paper&amp;nbsp;1.  &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gowrishankarnath/Principles-of-Economics-Model-Question-Papers/raw/main/PoE_ELE_Model_Question_Paper_1.docx" target = "_blank" style="color: rgb(6,69,173)"&gt;&lt;font color="#0066CC"&gt; &lt;span class="caps"&gt;MQP&lt;/span&gt; - 1&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
