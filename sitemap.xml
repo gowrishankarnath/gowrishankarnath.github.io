@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tags.html</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/categories.html</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/authors.html</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/archives.html</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com//search</loc>
-<lastmod>2022-05-24T13:54:50-00:00</lastmod>
+<lastmod>2022-06-16T14:44:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -90,6 +90,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.gowrishankarnath.com/patents.html</loc>
 <lastmod>2022-05-24T13:47:00+05:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/Call-for-Chapters-for-a-Book-titled-DATA-SCIENCE-FOR-AGRICULTURE-INNOVATION-AND-PRODUCTIVITY-with-Bentham-Science-Publishers.html</loc>
+<lastmod>2022-06-16T14:12:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -292,7 +299,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/category/articles.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -313,76 +320,132 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/book.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/bookchapter.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/callforbookchapters.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/machinelearning.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/deeplearning.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/artificialintelligence.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/datascience.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/dataanalytics.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.gowrishankarnath.com/tag/healthcare.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<loc>https://www.gowrishankarnath.com/tag/agriculture.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/scopusindexed.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/scopus.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/research.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/editedbook.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/livestock.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/biosystems.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/precisionagriculture.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/plants.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/soil.html</loc>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.gowrishankarnath.com/tag/healthcare.html</loc>
 <lastmod>2022-05-24T13:46:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -397,20 +460,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/tag/blockchain.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.gowrishankarnath.com/tag/research.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.gowrishankarnath.com/tag/editedbook.html</loc>
 <lastmod>2022-05-24T13:46:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -824,7 +873,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.gowrishankarnath.com/author/gowrishankar-s.html</loc>
-<lastmod>2022-05-24T13:46:00+05:53</lastmod>
+<lastmod>2022-06-16T14:12:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
