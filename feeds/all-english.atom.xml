@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Software Artist</title><link href="https://www.gowrishankarnath.com/" rel="alternate"></link><link href="https://www.gowrishankarnath.com/feeds/all-english.atom.xml" rel="self"></link><id>https://www.gowrishankarnath.com/</id><updated>2023-02-16T13:40:00+05:30</updated><subtitle>My Throughts, My Learning</subtitle><entry><title>Endless Python Tricks</title><link href="https://www.gowrishankarnath.com/endless-python-tricks.html" rel="alternate"></link><published>2023-01-23T12:30:00+05:30</published><updated>2023-02-16T13:40:00+05:30</updated><author><name>Gowrishankar S.</name></author><id>tag:www.gowrishankarnath.com,2023-01-23:/endless-python-tricks.html</id><summary type="html">&lt;p&gt;This article is a collection of beautiful Python&amp;nbsp;snippets&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Endless Python&amp;nbsp;Tricks&lt;/h2&gt;
-&lt;p&gt;These are a collection of some of the beautiful Python snippets I discovered as part of my professional&amp;nbsp;work. &lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;
+These are a collection of some of the beautiful Python snippets I discovered as part of my professional work. 
+&lt;/br&gt;&lt;/p&gt;
+&lt;h3&gt;Trick&amp;nbsp;1&lt;/h3&gt;
 &lt;p&gt;You can access/display both index and value by using &lt;strong&gt;&lt;em&gt;enumerate()&lt;/em&gt;&lt;/strong&gt; function.
-In the code, we are specifying two iterating variables, &lt;strong&gt;each_value&lt;/strong&gt; and &lt;strong&gt;each_index&lt;/strong&gt; to hold the individual items in the list and to hold the index number of each&amp;nbsp;value.  &lt;/p&gt;
+In the code, we are specifying two iterating variables, &lt;strong&gt;each_value&lt;/strong&gt; and &lt;strong&gt;each_index&lt;/strong&gt; to hold the individual items in the list and to hold the index number of each item in the&amp;nbsp;list.    &lt;/p&gt;
 &lt;p&gt;&lt;img alt="ET" src="../images/article_29_image_1.png"&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The value a is stored at the index 0&lt;br&gt;
 The value b is stored at the index 1&lt;br&gt;
