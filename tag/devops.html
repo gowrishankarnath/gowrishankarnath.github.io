@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Devops - Software Artist</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<style type="text/css">
+
+/*some stuff for output/input prompts*/
+div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.cell.selected{border-radius:4px;border:thin #ababab solid}
+div.cell.edit_mode{border-radius:4px;border:thin #008000 solid}
+div.cell{width:100%;padding:5px 5px 5px 0;margin:0;outline:none}
+div.prompt{min-width:11ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}
+@media (max-width:480px){div.prompt{text-align:left}}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;line-height:1.21429em}
+div.prompt:empty{padding-top:0;padding-bottom:0}
+div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:horizontal;-moz-box-align:stretch;display:box;box-orient:horizontal;box-align:stretch;}
+div.inner_cell{width:90%;}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;}
+div.input_prompt{color:navy;border-top:1px solid transparent;}
+div.output_wrapper{margin-top:5px;position:relative;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:4px;-webkit-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);-moz-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);}
+div.output_collapsed{margin:0px;padding:0px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.out_prompt_overlay{height:100%;padding:0px 0.4em;position:absolute;border-radius:4px;}
+div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000000;-moz-box-shadow:inset 0 0 1px #000000;box-shadow:inset 0 0 1px #000000;background:rgba(240, 240, 240, 0.5);}
+div.output_prompt{color:darkred;}
+
+a.anchor-link:link{text-decoration:none;padding:0px 20px;visibility:hidden;}
+h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible;}
+/* end stuff for output/input prompts*/
+
+
+.highlight-ipynb .hll { background-color: #ffffcc }
+.highlight-ipynb  { background: #f8f8f8; }
+.highlight-ipynb .c { color: #408080; font-style: italic } /* Comment */
+.highlight-ipynb .err { border: 1px solid #FF0000 } /* Error */
+.highlight-ipynb .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight-ipynb .o { color: #666666 } /* Operator */
+.highlight-ipynb .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight-ipynb .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight-ipynb .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight-ipynb .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight-ipynb .gd { color: #A00000 } /* Generic.Deleted */
+.highlight-ipynb .ge { font-style: italic } /* Generic.Emph */
+.highlight-ipynb .gr { color: #FF0000 } /* Generic.Error */
+.highlight-ipynb .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight-ipynb .gi { color: #00A000 } /* Generic.Inserted */
+.highlight-ipynb .go { color: #888888 } /* Generic.Output */
+.highlight-ipynb .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight-ipynb .gs { font-weight: bold } /* Generic.Strong */
+.highlight-ipynb .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight-ipynb .gt { color: #0044DD } /* Generic.Traceback */
+.highlight-ipynb .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight-ipynb .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight-ipynb .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight-ipynb .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight-ipynb .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight-ipynb .kt { color: #B00040 } /* Keyword.Type */
+.highlight-ipynb .m { color: #666666 } /* Literal.Number */
+.highlight-ipynb .s { color: #BA2121 } /* Literal.String */
+.highlight-ipynb .na { color: #7D9029 } /* Name.Attribute */
+.highlight-ipynb .nb { color: #008000 } /* Name.Builtin */
+.highlight-ipynb .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight-ipynb .no { color: #880000 } /* Name.Constant */
+.highlight-ipynb .nd { color: #AA22FF } /* Name.Decorator */
+.highlight-ipynb .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight-ipynb .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight-ipynb .nf { color: #0000FF } /* Name.Function */
+.highlight-ipynb .nl { color: #A0A000 } /* Name.Label */
+.highlight-ipynb .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight-ipynb .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight-ipynb .nv { color: #19177C } /* Name.Variable */
+.highlight-ipynb .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight-ipynb .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight-ipynb .mf { color: #666666 } /* Literal.Number.Float */
+.highlight-ipynb .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight-ipynb .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight-ipynb .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight-ipynb .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight-ipynb .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight-ipynb .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight-ipynb .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight-ipynb .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight-ipynb .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight-ipynb .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight-ipynb .sx { color: #008000 } /* Literal.String.Other */
+.highlight-ipynb .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight-ipynb .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight-ipynb .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight-ipynb .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight-ipynb .vc { color: #19177C } /* Name.Variable.Class */
+.highlight-ipynb .vg { color: #19177C } /* Name.Variable.Global */
+.highlight-ipynb .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight-ipynb .il { color: #666666 } /* Literal.Number.Integer.Long */
+</style>
+
+<style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+
+div.collapseheader {
+    width=100%;
+    padding: 2px;
+    cursor: pointer;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+
+    <meta name="author" content="Gowrishankar S" />
+    <meta name="keywords" content="Devops" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Software Artist" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Software Artist"/>
+        <meta property="og:url" content="https://www.gowrishankarnath.com"/>
+        <meta property="og:description" content="Software Artist"/>
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://www.gowrishankarnath.com/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="https://www.gowrishankarnath.com/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://www.gowrishankarnath.com/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://www.gowrishankarnath.com/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+        <link href="https://www.gowrishankarnath.com/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.gowrishankarnath.com/theme/css/style.css" type="text/css"/>
+        <link href="https://www.gowrishankarnath.com/static/custom.css" rel="stylesheet">
+
+        <link href="https://www.gowrishankarnath.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Software Artist ATOM Feed"/>
+
+        <link href="https://www.gowrishankarnath.com/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+              title="Software Artist RSS Feed"/>
+
+        <link href="https://www.gowrishankarnath.com/tag/{slug}/feeds/atom.xml" type="application/atom+xml" rel="alternate"
+              title="Software Artist Devops ATOM Feed"/>
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://www.gowrishankarnath.com/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="https://www.gowrishankarnath.com/images/logo.jpg" width=""/> Software Artist            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://www.gowrishankarnath.com/about.html">
+                             About
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/awards.html">
+                             Awards
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/books.html">
+                             Books
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/consultancy.html">
+                             Consultancy
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/contact.html">
+                             Contact
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/disclaimer.html">
+                             Disclaimer
+                          </a></li>
+                         <li><a href="https://www.gowrishankarnath.com/patents.html">
+                             Patents
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("https://www.gowrishankarnath.com/images/banner.jpg");
+	}
+</style>
+
+<div id="banner">
+	<div class="container-fluid">
+		<div class="copy">
+			<h1>Software Artist</h1>
+				<p class="intro">My Thoughts, My Learning</p>
+		</div>
+	</div>
+</div><!-- End Banner -->
+
+<!-- Content Container -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://www.gowrishankarnath.com/syllabus-for-foundations-of-devops-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html">Syllabus for Foundations of Devops course as prescribed for 3rd semester Computer Science and Engineering&nbsp;programme</a></h2>
+                <div class="summary"><p>Syllabus for <strong>&#8220;Foundations of Devops&#8221;</strong> course offered to the 3rd Semester Undergraduate students of the Department of Computer Science and Engineering at Dr.Ambedkar Institute of Technology (Dr.<span class="caps">AIT</span>), Bengaluru, Karnataka,&nbsp;India.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.gowrishankarnath.com/syllabus-for-foundations-of-devops-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="http://twitter.com/g_s_nath"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="http://www.linkedin.com/in/gowrishankarnath"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
+    <li class="list-group-item"><a href="http://github.com/gowrishankarnath"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+    <li class="list-group-item"><a href="http://gowrishankarnath.com/feeds/all.rss.xml"><i class="fa fa-rss-square fa-lg"></i> RSS</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Recent Posts -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+  <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="https://www.gowrishankarnath.com/syllabus-for-foundations-of-devops-course-as-prescribed-for-3rd-semester-computer-science-and-engineering-programme.html">Syllabus for Foundations of Devops course as prescribed for 3rd semester Computer Science and Engineering&nbsp;programme</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Recent Posts -->
+
+<!-- Sidebar/Categories -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4>
+  <ul class="list-group" id="categories">
+    <li class="list-group-item">
+      <a href="https://www.gowrishankarnath.com/category/article.html"><i class="fa fa-folder-open fa-lg"></i>Article</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://www.gowrishankarnath.com/category/articles.html"><i class="fa fa-folder-open fa-lg"></i>Articles</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://www.gowrishankarnath.com/category/book.html"><i class="fa fa-folder-open fa-lg"></i>Book</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://www.gowrishankarnath.com/category/webinar.html"><i class="fa fa-folder-open fa-lg"></i>Webinar</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Categories -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="https://www.gowrishankarnath.com/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group list-inline tagcloud" id="tags">
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/accreditation.html">Accreditation</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/agriculture.html">agriculture</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/aicte.html">aicte</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/analysis.html">analysis</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/artificialintelligence.html">artificialintelligence</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/biosystems.html">biosystems</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/blockchain.html">blockchain</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/book.html">book</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/bookchapter.html">bookchapter</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/callforbookchapters.html">callforbookchapters</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/certification.html">certification</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/co.html">CO</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/coding-gems.html">Coding-Gems</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://www.gowrishankarnath.com/tag/course.html">Course</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/course-outcomes.html">Course Outcomes</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/crc-press.html">CRC Press</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/data.html">data</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/data-science.html">Data Science</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/dataanalytics.html">dataanalytics</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/database.html">Database</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/datascience.html">datascience</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/deep-learning.html">Deep Learning</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/deeplearning.html">deeplearning</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/devops.html">Devops</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://www.gowrishankarnath.com/tag/drait.html">Dr.AIT</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/economics.html">Economics</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/editedbook.html">editedbook</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/education.html">Education</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/faker.html">Faker</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/files.html">Files</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/folders.html">Folders</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/healthanalytics.html">healthanalytics</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/healthcare.html">healthcare</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/industry.html">industry</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/innovation.html">innovation</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/iot.html">iot</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/laboratory.html">Laboratory</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/livestock.html">livestock</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/machine-learning.html">Machine Learning</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/machinelearning.html">machinelearning</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/macroeconomics.html">Macroeconomics</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/mhrd.html">mhrd</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/microeconomics.html">Microeconomics</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/moocs.html">moocs</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/mysql.html">MySQL</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/mysql-workbench.html">MySQL Workbench</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/nba.html">NBA</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/nptel.html">nptel</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/obe.html">OBE</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/online.html">online</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/openstax.html">OpenStax</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/papers.html">Papers</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/patents.html">patents</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/plants.html">plants</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/po.html">PO</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/precisionagriculture.html">precisionagriculture</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/program-outcomes.html">Program Outcomes</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/programme.html">Programme</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/programming.html">programming</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/pycharm.html">PyCharm</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/pytest.html">pytest</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://www.gowrishankarnath.com/tag/python.html">Python</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/questions.html">questions</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/raspberry-pi.html">Raspberry Pi</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/remote-programming.html">Remote Programming</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/research.html">research</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/sar.html">SAR</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/scopus.html">scopus</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/scopusindexed.html">scopusindexed</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/soil.html">soil</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/startups.html">startups</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="https://www.gowrishankarnath.com/tag/swayam.html">swayam</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://www.gowrishankarnath.com/tag/syllabus.html">Syllabus</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/testing.html">Testing</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/topological.html">topological</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/traditional.html">traditional</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/ugc.html">ugc</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/vs-code.html">VS Code</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://www.gowrishankarnath.com/tag/vtu.html">VTU</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="https://www.gowrishankarnath.com/tag/webinar.html">webinar</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
+
+<!-- Sidebar/Images -->
+<li class="list-group-item">
+  <ul class="list-group" id="links">
+    <img width="100%" class="img-thumbnail" src="/images/Front_Image.jpg"/>
+  </ul>
+</li>
+<!-- End Sidebar/Images -->
+
+<!-- Sidebar/Archive -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Archive</span></h4>
+  <ul class="list-group" id="archive">
+        <li class="list-group-item">
+          <a href="https://www.gowrishankarnath.com/2023/Nov/index.html"><i class="fa fa-calendar fa-lg"></i>November 2023 (1)
+          </a>
+        </li>
+  </ul>
+</li>
+<!-- End Sidebar/Archive -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container-fluid">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2023 Gowrishankar S
+            &middot; Powered by <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.english">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://www.gowrishankarnath.com/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://www.gowrishankarnath.com/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://www.gowrishankarnath.com/theme/js/respond.min.js"></script>
+
+
+    <script src="https://www.gowrishankarnath.com/theme/js/bodypadding.js"></script>
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'https-gowrishankarnath-github-io-2'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-131471615-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $("div.collapseheader").click(function () {
+    $header = $(this).children("span").first();
+    $codearea = $(this).children(".input_area");
+    console.log($(this).children());
+    $codearea.slideToggle(500, function () {
+        $header.text(function () {
+            return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+        });
+    });
+});
+});
+</script>
+</body>
+</html>
