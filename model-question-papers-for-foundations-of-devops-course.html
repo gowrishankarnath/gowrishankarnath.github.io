@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Traverse and Rename files in folder - Software Artist</title>
+    <title>Model Question Papers for Foundations of DevOps Course - Software Artist</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -173,22 +173,23 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="https://www.gowrishankarnath.com/traverse-and-rename-files-in-folder.html">
+<link rel="canonical" href="https://www.gowrishankarnath.com/model-question-papers-for-foundations-of-devops-course.html">
 
         <meta name="author" content="Gowrishankar S." />
-        <meta name="keywords" content="Python,Files,Folders" />
-        <meta name="description" content="This article is about traversing and renaming of files in a folder" />
+        <meta name="keywords" content="Devops,course,questions,Dr.AIT" />
+        <meta name="description" content="Model question papers and question bank for Data Science course prescribed at Dr.AIT by the department of Computer Science and Engineering." />
 
         <meta property="og:site_name" content="Software Artist" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Traverse and Rename files in folder"/>
-        <meta property="og:url" content="https://www.gowrishankarnath.com/traverse-and-rename-files-in-folder.html"/>
-        <meta property="og:description" content="This article is about traversing and renaming of files in a folder"/>
-        <meta property="article:published_time" content="2016-05-11" />
+        <meta property="og:title" content="Model Question Papers for Foundations of DevOps Course"/>
+        <meta property="og:url" content="https://www.gowrishankarnath.com/model-question-papers-for-foundations-of-devops-course.html"/>
+        <meta property="og:description" content="Model question papers and question bank for Data Science course prescribed at Dr.AIT by the department of Computer Science and Engineering."/>
+        <meta property="article:published_time" content="2023-12-06" />
             <meta property="article:section" content="Articles" />
-            <meta property="article:tag" content="Python" />
-            <meta property="article:tag" content="Files" />
-            <meta property="article:tag" content="Folders" />
+            <meta property="article:tag" content="Devops" />
+            <meta property="article:tag" content="course" />
+            <meta property="article:tag" content="questions" />
+            <meta property="article:tag" content="Dr.AIT" />
             <meta property="article:author" content="Gowrishankar S." />
 
 
@@ -288,10 +289,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://www.gowrishankarnath.com/traverse-and-rename-files-in-folder.html"
+                    <a href="https://www.gowrishankarnath.com/model-question-papers-for-foundations-of-devops-course.html"
                        rel="bookmark"
-                       title="Permalink to Traverse and Rename files in folder">
-                        Traverse and Rename files in&nbsp;folder
+                       title="Permalink to Model Question Papers for Foundations of DevOps Course">
+                        Model Question Papers for Foundations of DevOps&nbsp;Course
                     </a>
                 </h1>
             </header>
@@ -301,7 +302,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-05-11T23:30:00+05:30"> Wed 11 May 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2023-12-06T11:31:00+05:30"> Wed 06 December 2023</time>
     </span>
 
 
@@ -309,40 +310,33 @@ init_mathjax();
 
 
 <span class="label label-default">Tags</span>
-	<a href="https://www.gowrishankarnath.com/tag/python.html">Python</a>
+	<a href="https://www.gowrishankarnath.com/tag/devops.html">Devops</a>
         /
-	<a href="https://www.gowrishankarnath.com/tag/files.html">Files</a>
+	<a href="https://www.gowrishankarnath.com/tag/course.html">course</a>
         /
-	<a href="https://www.gowrishankarnath.com/tag/folders.html">Folders</a>
+	<a href="https://www.gowrishankarnath.com/tag/questions.html">questions</a>
+        /
+	<a href="https://www.gowrishankarnath.com/tag/drait.html">Dr.AIT</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>I recently encountered a problem wherein I had to traverse through all the files in a folder and rename each&nbsp;file.    </p>
-<p>The original files is as shown below having a set of characters and the number separated by an &#8220;-&#8221; (hyphen) with jpg&nbsp;extension.   </p>
-<p><strong>d6445cef9361a2bf-1.jpg</strong>  </p>
-<p><strong>d6445cef9361a2bf-2.jpg</strong>  </p>
-<p><strong>d6445cef9361a2bf-3.jpg and so&nbsp;on.</strong>  </p>
-<p>Here, the requirement was to remove the left part of the “-” (hyphen) and retain only the number and the&nbsp;extension.  </p>
-<p>So, here is my&nbsp;approach.  </p>
-<div class="highlight"><pre><span class="code-line"><span></span><code><span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span></span>
-<span class="code-line"><span class="kn">import</span> <span class="nn">os</span></span>
-<span class="code-line"></span>
-<span class="code-line"><span class="n">pathFromUser</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter the Path: &quot;</span><span class="p">)</span></span>
-<span class="code-line"><span class="n">files_list</span> <span class="o">=</span> <span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pathFromUser</span><span class="p">,</span> <span class="s1">&#39;*.jpg&#39;</span><span class="p">))</span></span>
-<span class="code-line"><span class="k">for</span> <span class="n">each_file</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span></span>
-<span class="code-line">    <span class="n">number</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">each_file</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span></span>
-<span class="code-line">    <span class="n">os</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">each_file</span><span class="p">,</span> <span class="n">number</span> <span class="o">+</span> <span class="s2">&quot;.jpg&quot;</span><span class="p">)</span></span>
-<span class="code-line"></code></pre></div>
-
-<p><em>Output</em></p>
-<blockquote>
-<p>Enter the Path:&nbsp;C:\Test_Data\Images</p>
-</blockquote>
-<p>In line 4, we ask the user to enter the path for the folder which contains all the&nbsp;files.</p>
-<p>In line 5, a list of all the files in the folder is assigned to the list called <em>files_list</em>. One should be aware that it’s not only the filename but a combination of both path and filename i.e.,&nbsp;C:\foldername\d6445cef9361a2bf-1.jpg.</p>
-<p>In line 6, we loop through each file in the&nbsp;list.</p>
-<p>In line 7, the <em>basename()</em> method is used to obtain the name of the file from the path and then we split the filename based on &#8220;-&#8221; (hyphen) and we again split the resultant value based on &#8220;.&#8221; (dot). This line results in a number present in the file and is assigned to the variable&nbsp;number.</p>
-<p>Then we use the method <em>rename()</em> to rename each file to the value that is present in the&nbsp;number.</p>
+                <p>You will find the model question papers for the Foundations of DevOps course prescribed for the Third semester as an Elective course by the Department of Computer Science and Engineering, Dr.Ambedkar Institute of Technology,&nbsp;Bengaluru.  </p>
+<hr>
+<h2><font color = black> <strong>Model Question Paper 1  </strong> </font></h2>
+<p>Click on the link below to view or download the model question paper&nbsp;1.  </p>
+<p><a href="https://github.com/gowrishankarnath/model-question-papers-for-foundations-of-devops-course/raw/main/Foundations_of_Devops_Model_Question_Paper_1.doc" target = "_blank" style="color: rgb(6,69,173)"><font color="#0066CC"> <span class="caps">MQP</span> - 1</font></a></p>
+<h2><font color = black> <strong> Model Question Paper 2  </strong> </font></h2>
+<p>Click on the link below to view or download the model question paper&nbsp;2.  </p>
+<p><a href="https://github.com/gowrishankarnath/model-question-papers-for-foundations-of-devops-course/raw/main/Foundations_of_Devops_Model_Question_Paper_2.doc" target = "_blank" style="color: rgb(6,69,173)"><font color="#0066CC"> <span class="caps">MQP</span> - 2</font></a></p>
+<h2><font color = black> <strong> Model Question Paper 3  </strong> </font></h2>
+<p>Click on the link below to view or download the model question paper&nbsp;3.  </p>
+<p><a href="https://github.com/gowrishankarnath/model-question-papers-for-foundations-of-devops-course/raw/main/Foundations_of_Devops_Model_Question_Paper_3.doc" target = "_blank" style="color: rgb(6,69,173)"><font color="#0066CC"> <span class="caps">MQP</span> - 3</font></a></p>
+<h2><font color = black> <strong> Model Question Paper 4  </strong> </font></h2>
+<p>Click on the link below to view or download the model question paper&nbsp;4.  </p>
+<p><a href="https://github.com/gowrishankarnath/model-question-papers-for-foundations-of-devops-course/raw/main/Foundations_of_Devops_Model_Question_Paper_4.doc" target = "_blank" style="color: rgb(6,69,173)"><font color="#0066CC"> <span class="caps">MQP</span> - 4</font></a></p>
+<hr>
+<p></br>  </p>
+<p><strong><code>NOTE: Marks allocated to all the questions are tentative. It may vary.</code></strong>  </p>
             </div>
             <!-- /.entry-content -->
     <hr/>
@@ -357,8 +351,8 @@ init_mathjax();
             var disqus_config = function () {
                 this.language = "english";
 
-                        this.page.identifier = '2016-05-11-traverse-and-rename-files-in-folder';
-                        this.page.url = 'https://www.gowrishankarnath.com/traverse-and-rename-files-in-folder.html';
+                        this.page.identifier = '2023-12-06-model-question-papers-for-foundations-of-devops-course';
+                        this.page.url = 'https://www.gowrishankarnath.com/model-question-papers-for-foundations-of-devops-course.html';
             };
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
